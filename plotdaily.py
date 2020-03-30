@@ -17,7 +17,7 @@ def get_data(url, local, default_encoding='utf-8', max_time=2 * 3600):
         with urllib.request.urlopen(url) as response:
             encoding = response.headers.get_content_charset()
             if encoding is None:
-                encoding = default_encoding
+                encoding = default_encoding 
             contents = response.read().decode(encoding)
         # we don't want to leave a half written file, so remove it
         # if write was interrupted.
@@ -25,7 +25,8 @@ def get_data(url, local, default_encoding='utf-8', max_time=2 * 3600):
         try:
             with open(local, 'w') as fh:
                 fh.write(contents)
-        except KeyboardInterrupt as e:
+        except KeyboardInterrupt as e: 
+            # disk full also, but then it's the least of your worries ^^
             os.remove(local)
             raise e
     print('Read data from', local)
@@ -92,15 +93,19 @@ if __name__ == "__main__":
         default=7,
         help='number of days binned together'
     )
-    parser.add_argument('-o', '--origin', type=int, 
+    parser.add_argument('-o', '--origin', type=int, dest='origin', 
         default=50,
         help='given number of cases/deaths from which days are counted'
+    )
+    parser.add_argument('-f', '--format', dest='fmt', 
+        default='pdf',  choices=['png', 'pdf'],
+        help='plot format (pdf or png)',
     )
     arg = parser.parse_args()
     url = 'https://opendata.ecdc.europa.eu/covid19/casedistribution/csv'
     csvname = 'covid-19.csv'
-    pdfname = 'covid-19-{}s.pdf'.format(arg.variable)
+    pdfname = 'covid-19-{}s.{}'.format(arg.variable, arg.fmt)
     tab = get_data(url, csvname, default_encoding='latin-1', max_time=7200)
-    fig = plot_countries(tab, arg.countries, arg.variable, date_origin=50)
+    fig = plot_countries(tab, arg.countries, arg.variable, 
+            date_origin=arg.origin)
     fig.savefig(pdfname)
-  
