@@ -43,6 +43,8 @@ def get_country_data(tab, country, variable):
         if len(country) != 3:
             country_col = 'geoId'
     tab = tab[tab[country_col] == country]
+    if not len(tab):
+        raise RuntimeError('no data for country ' + country)
     # why is dealing with dates such a pain?
     tab_date = [datetime.datetime.strptime(d, '%d/%m/%Y').timestamp() / 86_400
                  for d in tab['dateRep']]
@@ -55,6 +57,8 @@ def get_country_data(tab, country, variable):
 def bin_data(date, value, date_origin=50, nbin=7):
     nbin = 7
     total = np.cumsum(value)
+    if max(total) < date_origin:
+        return np.array([]), np.array([])
     start = (len(value) + nbin - 1) % nbin
     binned = total[nbin:] - total[:-nbin]
     # we estimate when there was date_origin number of cases and
@@ -64,16 +68,16 @@ def bin_data(date, value, date_origin=50, nbin=7):
     return date, binned
 
 def plot_countries(tab, countries, variable, 
-        date_origin=200, nbin=7, logy=False, bw=False):
+        date_origin=200, nbin=7, logy=False, bw=False, trend=False):
     print('Plotting {} for {}'.format(variable + 's', ', '.join(countries)))
-    mycycler = cycler(linestyle=['-', '--', '-.', ':'])
+    mycycler = cycler(linestyle=['-', '--', '-.'])
     if bw:
         mycycler *= cycler(color=[(0, 0, 0), (.25, .25, .25), (.5, .5, .5)])
     else:
         mycycler *= cycler(color=['k', 'r', 'b', 'm']) 
     fig = plt.figure(1)
     fig.clf()
-    fig.subplots_adjust(top=0.99,bottom=0.11, right=0.99)
+    fig.subplots_adjust(top=0.98,bottom=0.11, right=0.99)
     ax = fig.add_subplot(111)
     ax.set_xlabel('days since {}th {}'.format(date_origin, variable))
     ax.set_ylabel('new {}s in the last {} days'.format(variable, nbin))
@@ -83,11 +87,24 @@ def plot_countries(tab, countries, variable,
     for i, country in enumerate(countries):
         date, value = get_country_data(tab, country, variable)
         date, value = bin_data(date, value, date_origin=date_origin)
-        p = ax.plot(date, value, label=country)
+        if not len(date):
+            print('    {} skipped: no enough {}s'.format(country, variable)) 
+            continue
+        p = ax.plot(date, value)
         ax.text(1.01 * date[-1], 1.01 * value[-1], country, 
             color=p[0].get_color(),
             bbox=dict(facecolor='white', alpha=0.5, pad=1, lw=0))
     ax.set_xlim(-7, ax.get_xlim()[1])
+    if logy:
+        ax.set_ylim(1, 10 ** np.ceil(np.log10(ax.get_ylim()[1])))
+    else:
+        ax.set_ylim(*ax.get_ylim())
+    if trend:
+        d = np.linspace(-7, ax.get_xlim()[1])
+        y0 = np.interp(0, date, value)
+        ax.plot(d, y0*2**(d/3), 'c:', label='doubles every 3 days', zorder=-1)
+        ax.plot(d, y0*2**(d/7), 'g:', label='doubles every week', zorder=-1)
+        ax.legend()
     return fig
 
 if __name__ == "__main__":
@@ -113,6 +130,10 @@ if __name__ == "__main__":
         default=False,
         help='semilog plot (by default: linear)'
     )
+    parser.add_argument('-t', '--trend', action='store_true', dest='trend', 
+        default=False,
+        help='plot growth trends for doubling every 2 days/week'
+    )
     parser.add_argument('-f', '--format', dest='fmt', 
         default='pdf',  choices=['png', 'pdf'],
         help='plot format (pdf or png)',
@@ -125,7 +146,11 @@ if __name__ == "__main__":
     url = 'https://opendata.ecdc.europa.eu/covid19/casedistribution/csv'
     csvname = 'covid-19.csv'
     pdfname = 'covid-19-{}s.{}'.format(arg.variable, arg.fmt)
-    tab = get_data(url, csvname, max_time=7200) # encoding changed overnight
-    fig = plot_countries(tab, arg.countries, arg.variable, 
-            date_origin=arg.origin, logy=arg.logy, bw=arg.bw)
-    fig.savefig(pdfname)
+    try:
+        tab = get_data(url, csvname, max_time=7200) # encoding changed overnight
+        fig = plot_countries(tab, arg.countries, arg.variable, 
+                date_origin=arg.origin, logy=arg.logy, bw=arg.bw,
+                trend=arg.trend)
+        fig.savefig(pdfname)
+    except Exception as e:
+        print('error:', e)
