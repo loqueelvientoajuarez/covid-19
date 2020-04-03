@@ -79,6 +79,35 @@ def retrieve_data_set(source='EU', max_time = 2 * 3600):
     tab.write(filename, overwrite=True)
     return tab
 
+def get_country_data(tab, country, variable, region='all', cum=False,
+        nbin=1, date_origin=None):
+    # country names or code?
+    country_col = 'country'
+    if re.match('^[A-Z]{2,3}[0-9]*$', country):
+        country_col = 'country_code_3'
+        if len(country) != 3:
+            country_col = 'country_code_2'
+    is_country = tab[country_col] == country
+    is_region = tab['region'] == region 
+    index = np.logical_and(is_country, is_region)
+    tab = tab[index]
+    if not len(tab):
+        raise RuntimeError('no data for country ' + country)
+    tab_date = [datetime.date.fromisoformat(d).toordinal() for d in tab['date']]
+    tab_value = tab[variable].tolist()
+    cum_value = np.cumsum(tab_value)
+    if date_origin is not None:
+        if max(cum_value) < date_origin:
+            return np.array([]), np.array([])
+        tab_date -= np.interp(date_origin, cum_value, tab_date)
+    if cum:
+        tab_value = cum_value
+    elif nbin > 1:
+        bin_value = cum_value[nbin:] - cum_value[:-nbin]
+        tab_value = np.hstack([tab_value[nbin-1], bin_value])
+        tab_date = tab_date[nbin-1:]
+    return tab_date, tab_value
+
 def _fix_country(tab, source):
     countries = pycountry.countries
     if source == 'JohnHopkins':

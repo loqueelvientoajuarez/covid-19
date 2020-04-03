@@ -1,10 +1,9 @@
 #! /usr/bin/env python3
 
-from datahandling import retrieve_data_set
+from datahandling import retrieve_data_set, get_country_data
 
 import re
 import numpy as np
-from datetime import date
 from matplotlib import pylab as plt
 import argparse 
 from cycler import cycler
@@ -14,36 +13,7 @@ def plural(variable):
         return 'recoveries'
     return variable + 's'
 
-def get_country_data(tab, country, variable, cum=False, 
-        nbin=1, date_origin=None):
-    # country names or code?
-    country_col = 'country'
-    if re.match('^[A-Z]{2,3}[0-9]*$', country):
-        country_col = 'country_code_3'
-        if len(country) != 3:
-            country_col = 'country_code_2'
-    is_country = tab[country_col] == country
-    is_whole = tab['region'] == 'all'
-    index = np.logical_and(is_country, is_whole)
-    tab = tab[index]
-    if not len(tab):
-        raise RuntimeError('no data for country ' + country)
-    tab_date = [date.fromisoformat(d).toordinal() for d in tab['date']]
-    tab_value = tab[plural(variable)].tolist()
-    cum_value = np.cumsum(tab_value)
-    if date_origin is not None:
-        if max(cum_value) < date_origin:
-            return np.array([]), np.array([])
-        tab_date -= np.interp(date_origin, cum_value, tab_date)
-    if cum:
-        tab_value = cum_value
-    elif nbin > 1:
-        bin_value = cum_value[nbin:] - cum_value[:-nbin]
-        tab_value = np.hstack([tab_value[nbin-1], bin_value])
-        tab_date = tab_date[nbin-1:]
-    return tab_date, tab_value
-
-def plot_countries(tab, countries, variable, 
+def country_comparison_plot(tab, countries, variable, 
         date_origin=200, nbin=7, logy=False, trend=False, cum=False):
     variablepl = plural(variable)
     print('Plotting {} for {}'.format(variablepl, ', '.join(countries)))
@@ -62,8 +32,8 @@ def plot_countries(tab, countries, variable,
     if logy:
         ax.set_yscale('symlog', linthreshy=1)
     for i, country in enumerate(countries):
-        date, value = get_country_data(tab, country, variable, cum=cum,
-                        nbin=nbin, date_origin=date_origin)
+        date, value = get_country_data(tab, country, variablepl,    
+                        cum=cum, nbin=nbin, date_origin=date_origin)
         if not len(date):
             print('    {} skipped: no enough {}'.format(country, variablepl)) 
             continue
@@ -86,7 +56,10 @@ def plot_countries(tab, countries, variable,
     return fig
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Plot daily covid-19 statistics')
+    parser = argparse.ArgumentParser(description=
+        'Plot the evolution of daily or total covid-19 statistics for selected'
+        ' countries'
+    )
     parser.add_argument('-c', '--countries', nargs='+',
         default=['ITA', 'ESP', 'FRA', 'USA', 'GBR', 'DEU'],
         help='country names or codes'
@@ -132,7 +105,12 @@ if __name__ == "__main__":
     )
     parser.add_argument('--style',
         default='fivethirtyeight',
-        help='plot style (classic, fivethirtyeight, xkcd, etc.)')
+        help='plot style (classic, fivethirtyeight, xkcd, etc.)'
+    )
+    parser.add_argument('--debug',
+        action='store_true', default=False,
+        help='debug mode (internal error message displayed)'
+    )
     arg = parser.parse_args()
     # output file
     if arg.output is None:
@@ -146,9 +124,11 @@ if __name__ == "__main__":
             plt.xkcd()
         else:
             plt.style.use(arg.style)
-        fig = plot_countries(tab, arg.countries, arg.variable, 
+        fig = country_comparison_plot(tab, arg.countries, arg.variable, 
                 date_origin=arg.origin, logy=arg.logy,  
                 nbin=arg.nbin, cum=arg.cum, trend=arg.trend)
         fig.savefig(pdfname)
     except Exception as e:
         print('error:', e)
+        if arg.debug:
+            raise e
