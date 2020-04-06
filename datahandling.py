@@ -94,7 +94,7 @@ def get_country_data(tab, country, variable, region='all', cum=False,
     if not len(tab):
         raise RuntimeError('no data for country ' + country)
     tab_date = [datetime.date.fromisoformat(d).toordinal() for d in tab['date']]
-    tab_value = tab[variable].tolist()
+    tab_value = np.array(tab[variable].tolist())
     cum_value = np.cumsum(tab_value)
     if date_origin is not None:
         if max(cum_value) < date_origin:
@@ -112,6 +112,10 @@ def _fix_country(tab, source):
     countries = pycountry.countries
     if source == 'JohnHopkins':
         for row in tab:
+            country = row['country']
+            if country == 'US': # Bug in Hopkins data description
+                row['country'] = 'United States'
+                country = 'United States'
             c = countries.get(name=row['country'])
             if c:
                 row['country_code_2'] = c.alpha_2
