@@ -8,27 +8,71 @@ from matplotlib import pylab as plt
 import argparse 
 from cycler import cycler
 
-def plural(variable):
-    if variable == 'recovery':
-        return 'recoveries'
-    return variable + 's'
+TEXT = {
+    'fr': {
+        'death': ('deces', 'deces'),
+        'recovered': ('recupere', 'recupes'),
+        'case': ('cas', 'cas'),
+        'duplication': ('double tous les 3 jours',
+                        'double chaque semaine'),
+        'since': 'jours depuis le {}e {}',
+        'total': 'nombre total de {}',
+        'new': 'nouveaux {} en 24h',
+        'newcum': 'nouveaux {}  les {} derniers jours',
+    },
+    'es': {
+        'death': ('muerto', 'muertos'),
+        'recovered': ('recuperado', 'recuperados'),
+        'case': ('caso', 'casos'),
+        'duplication': ('se duplica cada 3 dias',
+                        'se duplica cada semana'),
+        'since': 'dias desde el {}o {}',
+        'total': 'numero total de {}',
+        'new': 'nuevos {} en el ultimo dia',
+        'newcum': 'nuevos {} en los ultimos {} dias',
+    },
+    'en': {
+        'death': ('muerto', 'deaths'),
+        'recovered': ('recupery', 'recoveries'),
+        'case': ('case', 'cases'),
+        'duplication': ('doubles every 3 days',
+                        'doubles every week'),
+        'since': 'days since {}th {}',
+        'total': 'total {}',
+        'new': 'new {} in the last day',
+        'newcum': 'new {} in the last {} days',
+    },
+}
+
+def plural(variable, lang='en'):
+    return TEXT[lang][variable][1]
+
+def singular(variable, lang='en'):
+    return TEXT[lang][variable][0]
 
 def country_comparison_plot(tab, countries, variable, 
-        date_origin=200, nbin=7, logy=False, trend=False, cum=False):
-    variablepl = plural(variable)
-    print('Plotting {} for {}'.format(variablepl, ', '.join(countries)))
+        date_origin=200, nbin=7, logy=False, trend=False, cum=False,
+        lang='es'):
+    plur = plural(variable, lang)
+    sing = singular(variable, lang)
+    variablepl = plural(variable, 'en')
+    print('Plotting {} for {}'.format(variable, ', '.join(countries)))
     fig = plt.figure(1)
     fig.clf()
     # fig.subplots_adjust(top=0.98,bottom=0.11, right=0.98)
     ax = fig.add_subplot(111)
-    ax.set_xlabel('days since {}th {}'.format(date_origin, variable))
+    since = TEXT[lang]['since']
+    ax.set_xlabel(since.format(date_origin, sing))
     if nbin == 1:
         if cum:
-            ax.set_ylabel('total {}'.format(variablepl))
+            total = TEXT[lang]['total'] 
+            ax.set_ylabel(total.format(plur))
         else:
-            ax.set_ylabel('new {} in the last day'.format(variablepl))
+            new = TEXT[lang]['new']
+            ax.set_ylabel(new.format(plur))
     else:
-        ax.set_ylabel('new {} in the last {} days'.format(variablepl, nbin))
+        newcum = TEXT[lang]['newcum']
+        ax.set_ylabel(newcum.format(plur, nbin))
     if logy:
         ax.set_yscale('symlog', linthreshy=1)
     for i, country in enumerate(countries):
@@ -42,6 +86,7 @@ def country_comparison_plot(tab, countries, variable,
         ax.text(1.0 * date[-1], 1.01* value[-1], country, 
             color=p[0].get_color(), ha='left', va='bottom',
             bbox=dict(facecolor='white', alpha=0.5, pad=0, lw=0))
+        print('   ', country, value[-1])
     ax.set_xlim(-7, ax.get_xlim()[1])
     if logy:
         ax.set_ylim(1, 10 ** np.ceil(np.log10(ax.get_ylim()[1])))
@@ -49,8 +94,9 @@ def country_comparison_plot(tab, countries, variable,
         ax.set_ylim(*ax.get_ylim())
     if trend:
         d = np.linspace(-7, ax.get_xlim()[1])
-        ax.plot(d, y0*2**(d/3), 'c:', label='doubles every 3 days', zorder=-1)
-        ax.plot(d, y0*2**(d/7), 'g:', label='doubles every week', zorder=-1)
+        dup = TEXT[lang]['duplication']
+        ax.plot(d, y0*2**(d/3), 'c:', label=dup[0], zorder=-1)
+        ax.plot(d, y0*2**(d/7), 'g:', label=dup[1], zorder=-1)
         ax.legend()
     fig.tight_layout()
     return fig
@@ -91,6 +137,10 @@ if __name__ == "__main__":
         default='pdf',  choices=['png', 'pdf'],
         help='plot format (pdf or png)',
     )
+    parser.add_argument('--lang', default='en', 
+        choices=['en', 'es', 'fr'],
+        help='language',
+    )
     parser.add_argument('-l', '--log', action='store_true', dest='logy', 
         default=False,
         help='semilog plot (by default: linear)'
@@ -126,7 +176,8 @@ if __name__ == "__main__":
             plt.style.use(arg.style)
         fig = country_comparison_plot(tab, arg.countries, arg.variable, 
                 date_origin=arg.origin, logy=arg.logy,  
-                nbin=arg.nbin, cum=arg.cum, trend=arg.trend)
+                nbin=arg.nbin, cum=arg.cum, trend=arg.trend,
+                lang=arg.lang)
         fig.savefig(pdfname)
     except Exception as e:
         print('error:', e)
