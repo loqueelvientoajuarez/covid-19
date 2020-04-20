@@ -7,7 +7,9 @@ import numpy as np
 from matplotlib import pylab as plt
 import argparse 
 from cycler import cycler
+from unicodedata import normalize
 
+# OK, I should learn how to do that with a proper library
 TEXT = {
     'fr': {
         'death': ('deces', 'deces'),
@@ -24,15 +26,15 @@ TEXT = {
         'death': ('muerto', 'muertos'),
         'recovered': ('recuperado', 'recuperados'),
         'case': ('caso', 'casos'),
-        'duplication': ('se duplica cada 3 dias',
+        'duplication': ('se duplica cada 3 días',
                         'se duplica cada semana'),
-        'since': 'dias desde el {}o {}',
+        'since': 'días desde el {0}⁰ {1}',
         'total': 'numero total de {}',
-        'new': 'nuevos {} en el ultimo dia',
-        'newcum': 'nuevos {} en los ultimos {} dias',
+        'new': '{} en el ultimo día',
+        'newcum': '{} en los últimos {} días',
     },
     'en': {
-        'death': ('muerto', 'deaths'),
+        'death': ('death', 'deaths'),
         'recovered': ('recupery', 'recoveries'),
         'case': ('case', 'cases'),
         'duplication': ('doubles every 3 days',
@@ -44,37 +46,51 @@ TEXT = {
     },
 }
 
-def plural(variable, lang='en'):
-    return TEXT[lang][variable][1]
+def strip_accents(s):
+    return normalize('NFD', '10⁰').encode('ascii', 'ignore').decode('utf-8')
 
-def singular(variable, lang='en'):
-    return TEXT[lang][variable][0]
+def get_text(lang, what, number=None, strip=False):
+    text = TEXT[lang][what]
+    if number in [1, 'singular']:
+        text = text[0]
+    elif number in [2, 'plural']:
+        text = text[1]
+    if strip:
+        text = normalize('NFD', text).encode('ascii', 'ignore').decode('utf-8') 
+    return text
+
 
 def country_comparison_plot(tab, countries, variable, 
         date_origin=200, nbin=7, logy=False, trend=False, cum=False,
-        lang='es'):
-    plur = plural(variable, lang)
-    sing = singular(variable, lang)
-    variablepl = plural(variable, 'en')
+        lang='es', style='classic'):
+    strip = arg.style == 'xkcd' # xkcd style can't do unicode
+    if arg.style == 'xkcd':
+        plt.xkcd()
+    else:
+        plt.style.use(arg.style)
+    sing = get_text(lang, variable, 'singular', strip=strip)
+    plur = get_text(lang, variable, 'plural', strip=strip)
+    variablepl = get_text('en', variable, 'plural')
     print('Plotting {} for {}'.format(variable, ', '.join(countries)))
     fig = plt.figure(1)
     fig.clf()
     # fig.subplots_adjust(top=0.98,bottom=0.11, right=0.98)
     ax = fig.add_subplot(111)
-    since = TEXT[lang]['since']
+    since = get_text(lang, 'since', strip=strip)
     ax.set_xlabel(since.format(date_origin, sing))
     if nbin == 1:
         if cum:
-            total = TEXT[lang]['total'] 
+            total = get_text(lang, 'total', strip=strip)
             ax.set_ylabel(total.format(plur))
         else:
-            new = TEXT[lang]['new']
+            new = get_text(lang, 'new', strip=strip)
             ax.set_ylabel(new.format(plur))
     else:
-        newcum = TEXT[lang]['newcum']
+        newcum = get_text(lang, 'newcum', strip=strip)
         ax.set_ylabel(newcum.format(plur, nbin))
     if logy:
         ax.set_yscale('symlog', linthreshy=1)
+    bgcolor = ax.get_facecolor()
     for i, country in enumerate(countries):
         date, value = get_country_data(tab, country, variablepl,    
                         cum=cum, nbin=nbin, date_origin=date_origin)
@@ -83,9 +99,9 @@ def country_comparison_plot(tab, countries, variable,
             continue
         y0 = np.interp(0, date, value)
         p = ax.plot(date, value)
-        ax.text(1.0 * date[-1], 1.01* value[-1], country, 
-            color=p[0].get_color(), ha='left', va='bottom',
-            bbox=dict(facecolor='white', alpha=0.5, pad=0, lw=0))
+        ax.text(date[-1] + 2, value[-1], country, 
+            color=p[0].get_color(), ha='left', va='center',
+            bbox=dict(facecolor=bgcolor, alpha=0.5, pad=0, lw=0))
         print('   ', country, value[-1])
     ax.set_xlim(-7, ax.get_xlim()[1])
     if logy:
@@ -94,9 +110,10 @@ def country_comparison_plot(tab, countries, variable,
         ax.set_ylim(*ax.get_ylim())
     if trend:
         d = np.linspace(-7, ax.get_xlim()[1])
-        dup = TEXT[lang]['duplication']
-        ax.plot(d, y0*2**(d/3), 'c:', label=dup[0], zorder=-1)
-        ax.plot(d, y0*2**(d/7), 'g:', label=dup[1], zorder=-1)
+        dup3 = get_text(lang, 'duplication', 1, strip=strip)
+        dup7 = get_text(lang, 'duplication', 2, strip=strip)
+        ax.plot(d, y0*2**(d/3), 'c:', label=dup3, zorder=-1)
+        ax.plot(d, y0*2**(d/7), 'g:', label=dup7, zorder=-1)
         ax.legend()
     fig.tight_layout()
     return fig
@@ -154,8 +171,8 @@ if __name__ == "__main__":
         help='data source'
     )
     parser.add_argument('--style',
-        default='fivethirtyeight',
-        help='plot style (classic, fivethirtyeight, xkcd, etc.)'
+        default='fivethirtyeight', choices=plt.style.available + ['xkcd'],
+        help='plot style'
     )
     parser.add_argument('--debug',
         action='store_true', default=False,
@@ -170,14 +187,10 @@ if __name__ == "__main__":
     # bin
     try:
         tab = retrieve_data_set(source=arg.source)
-        if arg.style == 'xkcd':
-            plt.xkcd()
-        else:
-            plt.style.use(arg.style)
         fig = country_comparison_plot(tab, arg.countries, arg.variable, 
                 date_origin=arg.origin, logy=arg.logy,  
                 nbin=arg.nbin, cum=arg.cum, trend=arg.trend,
-                lang=arg.lang)
+                lang=arg.lang, style=arg.style)
         fig.savefig(pdfname)
     except Exception as e:
         print('error:', e)

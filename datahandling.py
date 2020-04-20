@@ -115,8 +115,14 @@ def _fix_country(tab, source):
             country = row['country']
             if country == 'US': # Bug in Hopkins data description
                 row['country'] = 'United States'
-                country = 'United States'
-            c = countries.get(name=row['country'])
+                country = row['country']
+            elif country == 'Korea, South':
+                row['country'] = 'South Korea'
+                country = 'Korea, Republic of'
+            elif country == 'Taiwan*':
+                row['country'] = 'Taiwan'
+                country = 'Taiwan, Province of China'
+            c = countries.get(name=country)
             if c:
                 row['country_code_2'] = c.alpha_2
                 row['country_code_3'] = c.alpha_3
