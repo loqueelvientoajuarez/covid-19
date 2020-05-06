@@ -13,9 +13,13 @@ import datetime
 # is there a way to define order in group matching?
 _US_DATE_RE = '^([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4})$'
 _EU_DATE_RE = '^([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4})$'
+INPUTDIR = "input"
+OUTPUTDIR = "output"
 
 def retrieve_table(url, local, default_encoding='utf-8-sig', max_time=2 * 3600):
     # read if recent
+    os.makedirs(INPUTDIR, exist_ok=True)
+    local = os.path.join(INPUTDIR, local)
     if (os.path.exists(local) 
             and time.time() - os.path.getmtime(local) < max_time):
         try:
@@ -37,9 +41,11 @@ def retrieve_table(url, local, default_encoding='utf-8-sig', max_time=2 * 3600):
     data = asciitable.read(local)
     return data
 
-def retrieve_data_set(source='EU', max_time = 2 * 3600):
+def build_international_data_set(source='EU', max_time = 2 * 3600):
     # read if recent
-    filename = 'covid-{}.csv'.format(source)
+    os.makedirs(OUTPUTDIR, exist_ok=True)
+    filename = 'covid-international-{}.csv'.format(source)
+    filename = os.path.join(OUPUTDIR, filename)
     if (os.path.exists(filename) 
             and time.time() - os.path.getmtime(filename) < max_time):
         try:
@@ -78,6 +84,22 @@ def retrieve_data_set(source='EU', max_time = 2 * 3600):
     tab = _fix_country(tab, source)
     tab.write(filename, overwrite=True)
     return tab
+
+def retrieve_chilean_data():
+    url = 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/input/InformeEpidemiologico/'
+    for name in ['CasosActivosPorComuna.csv', 'CasosAcumuladosPorComuna.csv']:
+        retrieve_table(url + name, name)
+
+def retrieve_chilean_region(region):
+    retrieve_chilean_data()
+    tabs = []
+    for name in ['CasosAcumuladosPorComuna.csv', 'CasosActivosPorComuna.csv']:
+        filename = os.path.join(INPUTDIR, name)
+        tab = asciitable.read(filename)
+        tab = tab[tab['Codigo region'] == region]
+        tab = tab[tab['Comuna'] != 'Total']
+        tabs.append(tab)
+    return tabs
 
 def get_country_data(tab, country, variable, region='all', cum=False,
         nbin=1, date_origin=None):

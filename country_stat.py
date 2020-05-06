@@ -2,12 +2,14 @@
 
 import argparse
 import numpy as np
+import os
 from matplotlib import pylab as plt
 
 from datahandling import retrieve_data_set, get_country_data
+GRAPHICSDIR = 'graphics'
 
 def plot_country(country, cum=False, logy=False):
-    tab = retrieve_data_set(source='JohnHopkins')
+    tab = build_international_data_set(source='JohnHopkins')
     date, cases = get_country_data(tab, country, 'cases', cum=cum)
     date, deaths = get_country_data(tab, country, 'deaths', cum=cum)
     date, recov = get_country_data(tab, country, 'recoveries', cum=cum)
@@ -82,6 +84,7 @@ if __name__ == "__main__":
             plt.style.use(arg.style)
         fig = plot_country(arg.country, logy=arg.log, cum=arg.cum)
         fig.tight_layout()
+        pdfname = os.path.join(GRAPHICSDIR, pdfname)
         fig.savefig(pdfname)
     except Exception as e:
         print('error:', e)

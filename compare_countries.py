@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from datahandling import retrieve_data_set, get_country_data
+from datahandling import build_international_data_set, get_country_data
 
 import re
 import numpy as np
@@ -8,6 +8,9 @@ from matplotlib import pylab as plt
 import argparse 
 from cycler import cycler
 from unicodedata import normalize
+import os
+
+GRAPHICSDIR = "graphics"
 
 # OK, I should learn how to do that with a proper library
 TEXT = {
@@ -89,7 +92,10 @@ def country_comparison_plot(tab, countries, variable,
         newcum = get_text(lang, 'newcum', strip=strip)
         ax.set_ylabel(newcum.format(plur, nbin))
     if logy:
+        print('Using log scale for y')
         ax.set_yscale('symlog', linthreshy=1)
+    else:
+        ax.set_yscale('linear')
     bgcolor = ax.get_facecolor()
     for i, country in enumerate(countries):
         date, value = get_country_data(tab, country, variablepl,    
@@ -181,16 +187,18 @@ if __name__ == "__main__":
     arg = parser.parse_args()
     # output file
     if arg.output is None:
-        pdfname = 'covid-19-{}s.{}'.format(arg.variable, arg.fmt)
+        pdfname = 'covid-19-international-{}s.{}'.format(arg.variable, arg.fmt)
     else:
         pdfname = arg.output 
     # bin
     try:
-        tab = retrieve_data_set(source=arg.source)
+        tab = build_international_data_set(source=arg.source)
         fig = country_comparison_plot(tab, arg.countries, arg.variable, 
                 date_origin=arg.origin, logy=arg.logy,  
                 nbin=arg.nbin, cum=arg.cum, trend=arg.trend,
                 lang=arg.lang, style=arg.style)
+        os.makedirs(GRAPHICSDIR, exist_ok=True)
+        pdfname = os.path.join(GRAPHICSDIR, pdfname) 
         fig.savefig(pdfname)
     except Exception as e:
         print('error:', e)
