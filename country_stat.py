@@ -5,14 +5,14 @@ import numpy as np
 import os
 from matplotlib import pylab as plt
 
-from datahandling import retrieve_data_set, get_country_data
+from datahandling import build_international_data_set, get_country_data
 GRAPHICSDIR = 'graphics'
 
-def plot_country(country, cum=False, logy=False):
+def plot_country(country, cum=False, logy=False, binsize=None):
     tab = build_international_data_set(source='JohnHopkins')
-    date, cases = get_country_data(tab, country, 'cases', cum=cum)
-    date, deaths = get_country_data(tab, country, 'deaths', cum=cum)
-    date, recov = get_country_data(tab, country, 'recoveries', cum=cum)
+    date, cases = get_country_data(tab, country, 'cases', cum=cum, nbin=binsize)
+    date, deaths = get_country_data(tab, country, 'deaths', cum=cum, nbin=binsize)
+    date, recov = get_country_data(tab, country, 'recoveries', cum=cum, nbin=binsize)
     active = cases - deaths - recov
     fig = plt.figure(1)
     fig.clf()
@@ -42,7 +42,7 @@ if __name__ == "__main__":
         help='country names or codes'
     )
     group = parser.add_mutually_exclusive_group()
-    group.add_argument('--binsize', type=int, dest='nbin',
+    group.add_argument('--binsize', type=int, 
         default=1,
         help='number of days binned together'
     )
@@ -82,7 +82,8 @@ if __name__ == "__main__":
             plt.xkcd()
         else:
             plt.style.use(arg.style)
-        fig = plot_country(arg.country, logy=arg.log, cum=arg.cum)
+        fig = plot_country(arg.country, logy=arg.log, cum=arg.cum,
+            binsize=arg.binsize)
         fig.tight_layout()
         pdfname = os.path.join(GRAPHICSDIR, pdfname)
         fig.savefig(pdfname)

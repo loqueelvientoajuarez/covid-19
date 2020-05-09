@@ -45,7 +45,7 @@ def build_international_data_set(source='EU', max_time = 2 * 3600):
     # read if recent
     os.makedirs(OUTPUTDIR, exist_ok=True)
     filename = 'covid-international-{}.csv'.format(source)
-    filename = os.path.join(OUPUTDIR, filename)
+    filename = os.path.join(OUTPUTDIR, filename)
     if (os.path.exists(filename) 
             and time.time() - os.path.getmtime(filename) < max_time):
         try:
@@ -87,17 +87,25 @@ def build_international_data_set(source='EU', max_time = 2 * 3600):
 
 def retrieve_chilean_data():
     url = 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/input/InformeEpidemiologico/'
-    for name in ['CasosActivosPorComuna.csv', 'CasosAcumuladosPorComuna.csv']:
+    for name in ['CasosActivosPorComuna.csv', 'CasosAcumuladosPorComuna.csv',
+        'FechaInicioSintomas.csv', 'SemanasEpidemiologicas.csv']:
         retrieve_table(url + name, name)
 
 def retrieve_chilean_region(region):
     retrieve_chilean_data()
     tabs = []
-    for name in ['CasosAcumuladosPorComuna.csv', 'CasosActivosPorComuna.csv']:
+    # parse epidemiological weeks 
+    filename = os.path.join(INPUTDIR, 'SemanasEpidemiologicas.csv')
+    weeks = asciitable.read(filename).columns[1:]
+    weeks = {n: v[0] for n, v in weeks.items()}
+    for name in ['CasosAcumuladosPorComuna.csv', 'CasosActivosPorComuna.csv', 'FechaInicioSintomas.csv']:
         filename = os.path.join(INPUTDIR, name)
         tab = asciitable.read(filename)
         tab = tab[tab['Codigo region'] == region]
         tab = tab[tab['Comuna'] != 'Total']
+        if name == 'FechaInicioSintomas.csv':
+            names = [weeks.get(c, c) for c in tab.colnames]
+            tab = Table(rows=tab, names=names)
         tabs.append(tab)
     return tabs
 
