@@ -85,25 +85,36 @@ def build_international_data_set(source='EU', max_time = 2 * 3600):
     tab.write(filename, overwrite=True)
     return tab
 
-def retrieve_chilean_data():
-    url = 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/input/InformeEpidemiologico/'
-    for name in ['CasosActivosPorComuna.csv', 'CasosAcumuladosPorComuna.csv',
-        'FechaInicioSintomas.csv', 'SemanasEpidemiologicas.csv']:
-        retrieve_table(url + name, name)
+def _symptom_filename(date):
+    inicio = 'FechaInicioSintomas.csv'
+    if date is not None:
+        inicio = date + '-' + inicio
+    return inicio
 
-def retrieve_chilean_region(region):
-    retrieve_chilean_data()
+def retrieve_chilean_data(overwrite=False, date=None):
+    url = 'https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/input/InformeEpidemiologico/'
+    inicio = _symptom_filename(date)
+    names =  ['CasosActivosPorComuna.csv', 'CasosAcumuladosPorComuna.csv',
+        inicio, 'SemanasEpidemiologicas.csv']
+    for name in names:
+        retrieve_table(url + name, name, max_time=7200 * (1-overwrite))
+
+
+def retrieve_chilean_region(region, overwrite=False, date=None):
+    retrieve_chilean_data(overwrite=overwrite, date=date)
     tabs = []
     # parse epidemiological weeks 
     filename = os.path.join(INPUTDIR, 'SemanasEpidemiologicas.csv')
     weeks = asciitable.read(filename).columns[1:]
     weeks = {n: v[0] for n, v in weeks.items()}
-    for name in ['CasosAcumuladosPorComuna.csv', 'CasosActivosPorComuna.csv', 'FechaInicioSintomas.csv']:
+    inicio = _symptom_filename(date)
+    names = ['CasosAcumuladosPorComuna.csv', 'CasosActivosPorComuna.csv', inicio]
+    for name in names:
         filename = os.path.join(INPUTDIR, name)
         tab = asciitable.read(filename)
         tab = tab[tab['Codigo region'] == region]
         tab = tab[tab['Comuna'] != 'Total']
-        if name == 'FechaInicioSintomas.csv':
+        if name == inicio:
             names = [weeks.get(c, c) for c in tab.colnames]
             tab = Table(rows=tab, names=names)
         tabs.append(tab)

@@ -16,6 +16,7 @@ DAY = np.timedelta64(1, 'D')
 HOUR = np.timedelta64(1, 'h')
 NOW = np.datetime64('now')
 TOMORROW = np.datetime64('today') + 1
+YESTERDAY = np.datetime64('today') - 1
 
 class PlotStyle(object):
     def __init__(self, style):
@@ -27,6 +28,8 @@ class PlotStyle(object):
         else:
             self._object = plt.style.context(self._style)
         return self._object
+    def __exit__(self, *args):
+        pass
 
 def display_trend(ax, dates, values, threshold=10):
     if min(values) < 1 or max(values) < threshold:
@@ -105,9 +108,9 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
     fig.subplots_adjust(hspace=0, wspace=0)
     return fig
 
-def plot_region(region, filename=None, trend=False):
+def plot_region(region, filename=None, trend=False, overwrite=False, date=None):
     # total and active cases by comuna
-    tabs = retrieve_chilean_region(region)
+    tabs = retrieve_chilean_region(region, overwrite=overwrite, date=date)
     ncomunas = len(tabs[0])
     # plot dimensions 4 x 7 or smaller if fits in one page
     ncols = 2
@@ -144,6 +147,13 @@ if __name__ == "__main__":
             parser.add_argument('--trend', '-t', default=False,
                 action="store_true",
                 help='Determine growth trend from last four reports')
+            parser.add_argument('--date', '-d', default=str(YESTERDAY),
+                help='Date of report'
+            )
+            parser.add_argument('--overwrite', '-o', default=False,
+                action="store_true",
+                help='Overwrite files'
+            )
             parser.add_argument('--style', '-s', default='fivethirtyeight',
                 choices=plt.style.available + ['xkcd'],
                 help='Plotting style'
@@ -153,7 +163,8 @@ if __name__ == "__main__":
                 for r in args.regions:
                     print('Region', r)
                     f = 'covid-by-chilean-comuna-region={}.pdf'.format(r)
-                    figs = plot_region(r, f, trend=args.trend)
+                    figs = plot_region(r, f, trend=args.trend, 
+                        overwrite=args.overwrite, date=args.date)
     except Exception as e:
         print('{}: error: {}'.format(sys.argv[0], e))
         raise e
