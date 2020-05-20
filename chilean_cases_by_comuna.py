@@ -41,11 +41,11 @@ def display_trend(ax, dates, values, threshold=10):
     y = 2**(b + a * (x-x[0]) / DAY)
     ax.plot(x, y, 'k--')
     if  a >= 1/30:
-        return ' ×2 in {:.2g} days'.format(1 / a)
+        return ' ×2 en {:.2g} días'.format(1 / a)
     elif a <= -1/30:
-        return ' /2 in {:.2g} days'.format(-1 / a)
+        return ' /2 en {:.2g} días'.format(-1 / a)
     else:
-        return ' ≃ stable'
+        return ' ≃ estable'
 
 def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
     (tab_t, tab_a, tab_s) = tabs
@@ -67,17 +67,17 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
         comuna = row_t['Comuna']
         cases_t = list(row_t)[5:-1]
         cases_a = list(row_a)[5:]
-        cases_s = np.cumsum(list(row_s)[5:])
+        #cases_s = np.cumsum(list(row_s)[5:])
         pl = {False: '', True: 's'}
-        text_t = '{} total case{}'.format(cases_t[-1], pl[cases_t[-1]>1])
+        text_t = '{0} caso{1} (total)'.format(cases_t[-1], pl[cases_t[-1]>1])
         text_t += display_trend(ax, dates_t[-4:], cases_t[-4:], threshold=10)
-        text_a = '{} active case{}'.format(cases_a[-1], pl[cases_a[-1]>1])
+        text_a = '{0} caso{1} activo{1}'.format(cases_a[-1], pl[cases_a[-1]>1])
         text_a += display_trend(ax, dates_a[-4:], cases_a[-4:], threshold=10)
-        text_s = 'by date of symptoms'
+        #text_s = 'by date of symptoms'
         ax.plot(dates_t, cases_t, 'o', mfc=(.5,.5,.5), mec=(.3,.3,.3), ms=4,
             label=text_t)
-        ax.plot(dates_s, cases_s, 's', mfc=(.2,.2,.2), mec=(.0,.0,.0), ms=3,
-            label=text_s)
+        #ax.plot(dates_s, cases_s, 's', mfc=(.2,.2,.2), mec=(.0,.0,.0), ms=3,
+        #    label=text_s)
         ax.plot(dates_a, cases_a, 'o', mfc=(.5,.5,.9), mec=(.3,.3,.9), ms=4,
             label=text_a)
         ax.legend(fontsize=9, loc=3, fancybox=False, labelspacing=.3,
