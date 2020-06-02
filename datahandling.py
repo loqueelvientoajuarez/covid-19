@@ -6,6 +6,7 @@ import time
 import urllib.request
 from astropy.io import ascii as asciitable
 from astropy.table import Table, Column, MaskedColumn
+from numpy import datetime64, timedelta64
 import numpy as np
 import re
 import datetime
@@ -99,6 +100,27 @@ def retrieve_chilean_data(overwrite=False, date=None):
     for name in names:
         retrieve_table(url + name, name, max_time=7200 * (1-overwrite))
 
+def retrieve_chilean_vitals(year, vital='deaths', date=None, overwrite=False):
+    if vital in ['death', 'deaths', 'defunciones', 'defuncion', 'defunción']:
+        name = 'Defunciones'
+    else:
+        name = 'Nacimientos'
+    if date is None:
+        date = str(datetime64('now') - timedelta64(11, 'h'))
+    yearnow = int(date[0:4])
+    daynow = date[5:10]
+    site = 'https://raw.githubusercontent.com'
+    folder = 'MinCiencia/Datos-COVID19/master/input/RegistroCivil/' + name 
+    start = '{}-01-01'.format(year)
+    if year < yearnow:
+        end = '{}-12-31'.format(year)
+    else:
+        end = '{}-{}'.format(yearnow, daynow)
+    filename = '{}_{}_{}_DO.csv'.format(name, start, end)
+    url = site + '/' + folder + '/' + filename
+    localname = vital + '-' + str(year) + '.csv'
+    tab = retrieve_table(url, localname, max_time=7200 * (1 - overwrite)) 
+    return tab
 
 def retrieve_chilean_region(region, overwrite=False, date=None):
     retrieve_chilean_data(overwrite=overwrite, date=date)
