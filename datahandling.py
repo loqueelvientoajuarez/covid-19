@@ -108,18 +108,22 @@ def retrieve_chilean_vitals(year, vital='deaths', date=None, overwrite=False):
     if date is None:
         date = str(datetime64('now') - timedelta64(11, 'h'))
     yearnow = int(date[0:4])
-    daynow = date[5:10]
+    today = date[5:10]
     site = 'https://raw.githubusercontent.com'
     folder = 'MinCiencia/Datos-COVID19/master/input/RegistroCivil/' + name 
     start = '{}-01-01'.format(year)
     if year < yearnow:
         end = '{}-12-31'.format(year)
     else:
-        end = '{}-{}'.format(yearnow, daynow)
+        end = '{}-{}'.format(yearnow, today)
     filename = '{}_{}_{}_DO.csv'.format(name, start, end)
     url = site + '/' + folder + '/' + filename
     localname = vital + '-' + str(year) + '.csv'
-    tab = retrieve_table(url, localname, max_time=7200 * (1 - overwrite)) 
+    if year < yearnow:
+        max_time = 3e7
+    else:
+        max_time = 7200
+    tab = retrieve_table(url, localname, max_time=max_time * (1 - overwrite)) 
     return tab
 
 def retrieve_chilean_region(region, overwrite=False, date=None):
