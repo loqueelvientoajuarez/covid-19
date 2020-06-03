@@ -95,27 +95,34 @@ def transpose_date(dates):
     dates = np.array([np.datetime64(d) for d in dates])
     return dates
 
-def plot_vital(dates, mortality, past_dates, past_mortality, 
-        plotall=False, fignum=1):
+def plot_vital(past, present,
+        vital='death', plotall=False, plotexcess=False, fignum=1):
     from matplotlib import pylab as plt
     from matplotlib.dates import DateFormatter, MonthLocator
+    dates, binwidths, mortality = present
+    past_dates, past_binwidths, past_mortality = past
     fig = plt.figure(fignum)
     fig.clf()
     ax = fig.add_subplot(111)
+    rfact = 365 / 1000
     if plotall:
         for d, m in zip(past_dates, past_mortality):
             year = d[0].item().year
             plotdates = transpose_date(d)
             ax.plot(plotdates, m * 365/1000, 'k-', label=str(year), lw=1)
     m = np.sort(past_mortality, axis=0)[1:-1]
-    mean = m.mean(axis=0) * 365/1000
-    std = m.std(axis=0,ddof=1) * 365/1000
-    max = m.max(axis=0) * 365/1000 
-    min = m.min(axis=0) * 365/1000
+    mean = m.mean(axis=0)
+    std = m.std(axis=0,ddof=1) 
+    maxi = m.max(axis=0)
+    mini = m.min(axis=0) 
     plotdates = transpose_date(past_dates[0])
-    ax.plot(plotdates, mean, 'k-', label='projection from 2010-2019 data')
-    ax.fill_between(plotdates, min, max, fc=(.4,.4,.4,.5),
+    ax.plot(plotdates, mean * rfact, 'k-', 
+            label='2010-2019 average (detrended)')
+    ax.fill_between(plotdates, mini * rfact, maxi * rfact, fc=(.4,.4,.4,.5),
         label='80% confidence interval')
+    ax.plot(plotdates, rfact * past_mortality.max(axis=0), 'k--', lw=.5)
+    ax.plot(plotdates, rfact * past_mortality.min(axis=0), 'k--', lw=.5, 
+        label='historical extrema (detrended)')
     year = dates[0].item().year
     plotdates = transpose_date(dates)
     ax.plot(plotdates, mortality * 365/1000, 'r-', lw=3, label=str(year))
@@ -128,79 +135,49 @@ def plot_vital(dates, mortality, past_dates, past_mortality,
     ax.set_ylabel('Annulised rate [‰]')
     ax2 = ax.twinx()
     ax2.set_ylim(0, ymax * 1000 / 365 * POPULATION[2020])
-    ax2.set_ylabel('2020 daily deaths')
+    ax2.set_ylabel('2020 daily {}s'.format(vital))
+    ax3 = ax.twiny()
+    ax3.set_xticks([])
+    ax3.set_xlabel('Excess {}s in 2020 in Chile'.format(vital))
+    if plotexcess:
+        keep = np.argwhere(dates >= np.datetime64('2020-04-01'))[:,0]
+        fact = binwidths[keep] * POPULATION[2020]
+        excess = np.sum((mortality[keep] - mean[keep]) * fact)
+        errinf = np.sum((maxi[keep] - mean[keep]) * fact)
+        errsup = np.sum((mean[keep] - mini[keep]) * fact)
+        what = 'excess\\ {}s\\ since\\ April\\ 1st'.format(vital)
+        FMT = '$\\mathrm{{{}}} = {:.0f}^{{{:+.0f}}}_{{{:+.0f}}}$'
+        ax.text(0.01, 0.99, FMT.format(what, excess, errsup, -errinf), va='top',
+            transform=ax.transAxes)
     fig.autofmt_xdate()
     fig.tight_layout()
     fig.show()
+    fig.savefig('graphics/{}-statistics.png'.format(vital))
 
-def load_vital(vital='death', region=None, correction=False):
+def load_vital(vital='death', region=None, correction=False, binsize='month'):
     past_years = np.arange(2010, 2020)
-    past = [get_vital(year, vital=vital) for year in range(2010, 2020)]
+    past = [get_vital(year, vital=vital, binsize=binsize) 
+        for year in range(2010, 2020)]
     past = list(zip(*past))
     past_dates, past_binwidths, past_values = past 
     past_mortality = np.array([v / POPULATION[y] 
                             for y, v in zip(past_years, past_values)])
-    present = get_vital(2020, vital=vital)
+    present = get_vital(2020, vital=vital, binsize=binsize)
     dates, binwidths, values = present
     mortality = values / POPULATION[2020]
     if correction:
         corr = mortality_rate_correction(past_years, past_binwidths, 
             past_values)
         past_mortality *= corr[:,None]
-    return past_dates, past_mortality, dates, mortality
+    past = (past_dates, past_binwidths, past_mortality)
+    present = (dates, binwidths, mortality)
+    return past, present
     
 
-def compare_this_year(vital='death', region=None, plot='all'):
-    past_years = np.arange(2010, 2020)
-    past = [get_vital(year, vital=vital) for year in range(2010, 2020)]
-    past = list(zip(*past))
-    past_dates, past_binwidths, past_values = past 
-    past_mortality = np.array([v / POPULATION[y] 
-                            for y, v in zip(past_years, past_values)])
-    present = get_vital(2020, vital=vital)
-    dates, binwidths, values = present
-    mortality = values / POPULATION[2020]
-    #
-    
-    historical = np.array(historical)
-    htotal = [sum(w * h) for w, h in zip(widths, historical)]
-    
-    centre, width, now = get_vital(2020)
-    hmean = np.mean(historical, axis=0)
-    hstd = np.std(historical, axis=0, ddof=1)
-    excess = now - historical
-    hplot = np.transpose(historical)
-    thisweek = weeknumber()[0]
-    nplot = now[:thisweek-1]
-    nweek = np.arange(1, thisweek)
-    startcovid = 10
-    excess = excess[:,startcovid:thisweek-1] * POPULATION[2020]
-    fig = plt.figure(1)
-    fig.clf()
-    ax = fig.add_subplot(111)
-    week = np.arange(52) + 1
-    if plot == 'all':
-        ax.plot(week, hplot, lw=1, color=(.8,.8,.8), label='años pasados')
-    ax.fill_between(week, hmean-hstd, hmean+hstd, color=(.7,.7,.7),
-        label='dispersión 2010-2019') 
-    ax.plot(week, hmean, color='k', label='promedio 2010-2019')
-    ax.plot(nweek[startcovid:], nplot[startcovid:], 'r-', lw=2, label='2020')
-    ax.plot(nweek[:startcovid+1], nplot[:startcovid+1], 'r:', lw=2)
-    ax.set_xlabel('semana')
-    ax.set_ylabel('fallecidos semanales por millón')
-    ax.set_xlim(1, 52)
-    ax.set_ylim(0, 1.1*max(nplot))
-    ax.legend()
-    ax2 = ax.twiny()
-    ax2.set_xticks([])
-    ax2.set_xlabel('mortalidad semanal en Chile 2010-2020')
-    fig.tight_layout()
-    fig.show()
-    excess = excess.sum(axis=1)
-    txt = 'exceso = {:.0f} ± {:.0f} fallecidos'.format(excess.mean(), excess.std())
-    ax.text(0.02, 0.98, txt, ha='left', va='top', color='r', 
-        transform=ax.transAxes)
-    fig.savefig('graphics/mortalidad.png')
-    return historical, now, excess
+def compare_this_year(vital='death', plot='', correction=True, binsize=14):
+    past, present = load_vital(vital=vital, correction=correction, binsize=binsize)
+    plot_vital(past, present, plotexcess=True, vital=vital, plotall=plot == 'all')
+    return past, present
 
-# excess = compare_vital(plot='mean')
+past, present = compare_this_year(binsize=14)
+
