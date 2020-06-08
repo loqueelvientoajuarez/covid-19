@@ -129,7 +129,8 @@ def plot_vital(past, present,
     ax.xaxis.set_major_formatter(DateFormatter('%d/%m'))
     ax.xaxis.set_major_locator(MonthLocator(bymonthday=15))
     ax.legend(loc='lower left')
-    ax.set_ylim(0, 1.1 * past_mortality.max() * 365/1000)
+    max_mortality = max(past_mortality.max(), mortality.max())
+    ax.set_ylim(0, 1.1 * max_mortality * 365/1000)
     ymax = ax.get_ylim()[1]
     ax.set_xlim(np.datetime64('2020-01-01'), np.datetime64('2021-01-01'))
     ax.set_ylabel('Annulised rate [‰]')
