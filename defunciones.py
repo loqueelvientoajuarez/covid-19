@@ -117,12 +117,12 @@ def plot_vital(past, present,
     mini = m.min(axis=0) 
     plotdates = transpose_date(past_dates[0])
     ax.plot(plotdates, mean * rfact, 'k-', 
-            label='2010-2019 average (detrended)')
+            label='promedio 2010-2019')
     ax.fill_between(plotdates, mini * rfact, maxi * rfact, fc=(.4,.4,.4,.5),
-        label='80% confidence interval')
+        label='intervalo de confianza (80%)')
     ax.plot(plotdates, rfact * past_mortality.max(axis=0), 'k--', lw=.5)
     ax.plot(plotdates, rfact * past_mortality.min(axis=0), 'k--', lw=.5, 
-        label='historical extrema (detrended)')
+        label='extremos 2010-2019')
     year = dates[0].item().year
     plotdates = transpose_date(dates)
     ax.plot(plotdates, mortality * 365/1000, 'r-', lw=3, label=str(year))
@@ -133,21 +133,21 @@ def plot_vital(past, present,
     ax.set_ylim(0, 1.1 * max_mortality * 365/1000)
     ymax = ax.get_ylim()[1]
     ax.set_xlim(np.datetime64('2020-01-01'), np.datetime64('2021-01-01'))
-    ax.set_ylabel('Annulised rate [‰]')
+    ax.set_ylabel('tasa de mortalidad anualizada [‰]')
     ax2 = ax.twinx()
     ax2.set_ylim(0, ymax * 1000 / 365 * POPULATION[2020])
-    ax2.set_ylabel('2020 daily {}s'.format(vital))
+    ax2.set_ylabel('muertes diarias'.format(vital))
     ax3 = ax.twiny()
     ax3.set_xticks([])
-    ax3.set_xlabel('Excess {}s in 2020 in Chile'.format(vital))
+    ax3.set_xlabel('Fallecimientos en Chile. Datos históricos corregidos de la tendencia secular.'.format(vital))
     if plotexcess:
         keep = np.argwhere(dates >= np.datetime64('2020-04-01'))[:,0]
         fact = binwidths[keep] * POPULATION[2020]
         excess = np.sum((mortality[keep] - mean[keep]) * fact)
         errinf = np.sum((maxi[keep] - mean[keep]) * fact)
         errsup = np.sum((mean[keep] - mini[keep]) * fact)
-        what = 'excess\\ {}s\\ since\\ April\\ 1st'.format(vital)
-        FMT = '$\\mathrm{{{}}} = {:.0f}^{{{:+.0f}}}_{{{:+.0f}}}$'
+        what = 'exceso\\ de\\ fallecimientos\\ desde\\ el\\ 1^o\\ de\\ abril'
+        FMT = '$\\mathrm{{{}}}: {:.0f}^{{{:+.0f}}}_{{{:+.0f}}}$'
         ax.text(0.01, 0.99, FMT.format(what, excess, errsup, -errinf), va='top',
             transform=ax.transAxes)
     fig.autofmt_xdate()
