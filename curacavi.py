@@ -12,7 +12,7 @@ from scipy.stats import linregress
 
 def grafica_curacavi(plot_log=False):
 
-    HABITANTES = 32_579 # cifra 2017
+    HABITANTES = 36430 # proyección 2020
     DAY = np.timedelta64(24, 'h')
     tabla = ascii.read('input/curacavi.dat')
     fecha = np.array([np.datetime64(d) for d in tabla['fecha']])
