@@ -25,14 +25,12 @@ def grafica_curacavi(plot_log=False):
     keep = fecha - fecha[-1] > -12 * DAY 
     dia = np.array([(f - fecha[0]).item().days for f in fecha[keep]])
     reg = linregress(dia, np.log(casos[keep]))
-    dia = np.array([(f - fecha[0]).item().days for f in fecha])
     tendencia_casos = np.exp(reg.slope * dia + reg.intercept) 
 
     #keep = ~activos.mask
     keep = fecha - fecha[-1] > -12 * DAY 
     dia = np.array([(f - fecha[0]).item().days for f in fecha[keep]])
     reg = linregress(dia, np.log(activos[keep]))
-    dia = np.array([(f - fecha[0]).item().days for f in fecha])
     tendencia_activos = np.exp(reg.slope * dia + reg.intercept) 
     dias_duplicacion = np.log(2) / reg.slope
 
@@ -43,10 +41,10 @@ def grafica_curacavi(plot_log=False):
     for i in range(nplot):
         ax = fig.add_subplot(nplot, 1, i + 1)
         ax.plot(fecha, casos, 'bo', label='casos totales')
-        ax.plot(fecha, tendencia_casos, '--', color=(0, 0, .5), 
+        ax.plot(fecha[keep], tendencia_casos, '--', color=(0, 0, .5), 
             label='tendencia últimos 12 días' )
         ax.plot(fecha, activos, 'gv', label='casos activos')
-        ax.plot(fecha, tendencia_activos, '--', color=(0, .5, 0), 
+        ax.plot(fecha[keep], tendencia_activos, '--', color=(0, .5, 0), 
             label='tendencia últimos 12 días')
         ax.plot(fecha, hosp, 'r>', label='hospitalizados')
         ax.plot(fecha, muertos, 'ko', label='fallecidos')
