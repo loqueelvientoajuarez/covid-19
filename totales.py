@@ -6,34 +6,8 @@ import numpy as np
 from astropy.io import ascii
 from matplotlib import pylab as plt
 from matplotlib.dates import MO, WeekdayLocator, DateFormatter
+from datahandling import read_time_series
 
-def read_time_series(product_number, header_lines=1, columns=None):
-    
-    subdir = 'producto{}'.format(product_number)
-    path = os.path.join('..', 'Datos-COVID19', 'output', subdir)
-    basenames = [f for f in os.listdir(path) if re.search('_T\.csv$', f)]
-    filename = os.path.join(path, basenames[0])
-
-    if header_lines == 1:
-        
-        tab = ascii.read(filename)
-        
-    else:    
-        
-        with open(filename, 'r') as input:
-            lines = input.read().splitlines()
-
-        names = lines[0].split(',')
-        for line in lines[1:header_lines]:
-            names = [n1 + ' ' + n2 for n1, n2 in zip(names, line.split(','))]
-
-        tab = ascii.read(lines[header_lines:], names=names)
-    
-    if columns is not None:
-        cols = tab.columns
-        return [cols[c].data for c in columns]
-    
-    return tab
 
 def week_average(x, y):
     ndays = 7

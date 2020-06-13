@@ -11,11 +11,56 @@ import numpy as np
 import re
 import datetime
 
+
 # is there a way to define order in group matching?
 _US_DATE_RE = '^([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4})$'
 _EU_DATE_RE = '^([0-9]{1,2})/([0-9]{1,2})/([0-9]{2,4})$'
 INPUTDIR = "input"
 OUTPUTDIR = "output"
+
+def read_time_series(product_number, header_lines=1, columns=None, name=None,
+        transposed=True):
+    
+    subdir = 'producto{}'.format(product_number)
+    path = os.path.join('..', 'Datos-COVID19', 'output', subdir)
+
+    suffix = ''
+    if transposed:
+        suffix = '_T'
+    if name is None:
+        basenames = [f for f in os.listdir(path) 
+            if re.search(suffix  + '\.csv$', f)]
+        basename = basenames[0]
+    else:
+        basename = name + suffix + '.csv'
+    filename = os.path.join(path, basename)
+
+    if transposed:
+        
+        if header_lines == 1:
+            
+            tab = asciitable.read(filename)
+            
+        else:    
+            
+            with open(filename, 'r') as input:
+                lines = input.read().splitlines()
+
+            names = lines[0].split(',')
+            for line in lines[1:header_lines]:
+                names = [n1 + ' ' + n2 for n1, n2 in zip(names, line.split(','))]
+
+            tab = asciitable.read(lines[header_lines:], names=names)
+        
+        if columns is not None:
+            cols = tab.columns
+            return [cols[c].data for c in columns]
+        
+    else:
+        
+        tab = asciitable.read(filename)
+ 
+    return tab
 
 def retrieve_table(url, local, default_encoding='utf-8-sig', max_time=2 * 3600):
     # read if recent
