@@ -52,7 +52,7 @@ def plot_tests(style=None):
     ax2.set_ylim(0, max(pos_n) * 1.1)
     
     ax3 = ax.twiny()
-    ax3.set_xlabel('Casos y testeo en Chile.  Promedio última semana.')
+    ax3.set_xlabel('Casos y testeo en Chile.  Promedio semanal.')
     ax3.set_xticklabels([])
  
     ax.tick_params(axis='x', rotation=30)
