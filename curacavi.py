@@ -26,14 +26,22 @@ def grafica_curacavi(plot_log=False):
     dia = np.array([(f - fecha[0]).item().days for f in fecha[keep]])
     reg = linregress(dia, np.log(casos[keep]))
     tendencia_casos = np.exp(reg.slope * dia + reg.intercept) 
+    dup_casos = np.log(2) / reg.slope
+    if dup_casos < 0:
+        text_casos = 'tendencia ÷2 en {:.0f} días'.format(-dup_casos)
+    else:
+        text_casos = 'tendencia ×2 en {:.0f} días'.format(dup_casos)
 
     #keep = ~activos.mask
     keep = fecha - fecha[-1] > -12 * DAY 
     dia = np.array([(f - fecha[0]).item().days for f in fecha[keep]])
     reg = linregress(dia, np.log(activos[keep]))
     tendencia_activos = np.exp(reg.slope * dia + reg.intercept) 
-    dias_duplicacion = np.log(2) / reg.slope
-
+    dup_activos = np.log(2) / reg.slope
+    if dup_activos < 0:
+        text_activos = 'tendencia ÷2 en {:.0f} días'.format(-dup_activos)
+    else:
+        text_activos = 'tendencia ×2 en {:.0f} días'.format(dup_activos)
 
     nplot = 1 + plot_log
     fig = plt.figure(1, figsize=(6, 2 + 3 * nplot))
@@ -42,10 +50,10 @@ def grafica_curacavi(plot_log=False):
         ax = fig.add_subplot(nplot, 1, i + 1)
         ax.plot(fecha, casos, 'bo', label='casos totales')
         ax.plot(fecha[keep], tendencia_casos, '--', color=(0, 0, .5), 
-            label='tendencia últimos 12 días' )
+            label=text_casos)
         ax.plot(fecha, activos, 'gv', label='casos activos')
         ax.plot(fecha[keep], tendencia_activos, '--', color=(0, .5, 0), 
-            label='tendencia últimos 12 días')
+            label=text_activos)
         ax.plot(fecha, hosp, 'r>', label='hospitalizados')
         ax.plot(fecha, muertos, 'ko', label='fallecidos')
         ax.xaxis.set_major_formatter(DateFormatter('Lun %d/%m'))
@@ -74,11 +82,6 @@ def grafica_curacavi(plot_log=False):
             ax.text(.02, 0.98, 'escala logarítmica', va='top',
                     transform=ax.transAxes)
         else:
-            text = '×2 en {:.0f} días'.format(dias_duplicacion)
-            y_text = 0.8 * min(tendencia_activos[-1], activos[-1])
-            ax.text(fecha[-1], y_text, text,
-                rotation=62, va='top', ha='right', color=(0,.5,0),
-                fontsize=12)
             ax.legend(loc='upper left')
             if nplot == 2:
                 ax.set_xticklabels([])
