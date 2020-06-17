@@ -19,8 +19,9 @@ def plot_tests(style=None):
 
     cols = [0, -2]
     test_d, test_t = read_time_series(17, header_lines=2, columns=cols)
-    cols = ['Fecha', 'Casos totales', 'Fallecidos']
+    cols = ['Fecha', 'Casos nuevos totales', 'Fallecidos']
     case_d, case_t, death_t = read_time_series(5, columns=cols)
+    case_t = case_t.cumsum()
     # weekly average 
     test_n = (test_t[7:] - test_t[:-7]) / 7
     case_n = (case_t[7:] - case_t[:-7]) / 7
