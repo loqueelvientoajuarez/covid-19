@@ -168,6 +168,7 @@ def retrieve_chilean_vitals(year, vital='deaths', date=None, overwrite=False):
         max_time = 3e7
     else:
         max_time = 7200
+    print(localname)
     tab = retrieve_table(url, localname, max_time=max_time * (1 - overwrite)) 
     return tab
 

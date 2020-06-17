@@ -1,5 +1,8 @@
 #! /usr/bin/env python3
 
+import locale
+locale.setlocale(locale.LC_ALL, '')
+
 from astropy.table import Table
 from numpy import datetime64
 import os
@@ -71,7 +74,7 @@ def weeknumber(date=None, binsize=7):
 
 def get_vital(year, vital='death', region=None, binsize='month'):
     CODIGO_REGION = [str(i) for i in range(1, 17)]
-    tab = retrieve_chilean_vitals(year, vital=vital)
+    tab = retrieve_chilean_vitals(year, vital=vital, overwrite=year == 2020)
     if region is not None:
         colname = 'Region'
         if isinstance(region, int) or region in CODIGO_REGION:
@@ -79,7 +82,8 @@ def get_vital(year, vital='death', region=None, binsize='month'):
         tab = tab[tab[colname] == region]
     dates = np.array([np.datetime64(d) for d in tab['Fecha']])
     values = tab.columns[4].data
-    centres, width, binned_values = bin_data(dates, values, binsize=binsize)
+    centres, width, binned_values = bin_data(dates, values, 
+        binsize=binsize)
     return centres, width, binned_values
 
 def mortality_rate_correction(past_years, past_widths, past_values):
@@ -116,6 +120,8 @@ def plot_vital(past, present,
     maxi = m.max(axis=0)
     mini = m.min(axis=0) 
     plotdates = transpose_date(past_dates[0])
+    end = dates[-1] + binwidths[-1] * DAY / 2
+    now = end.item().strftime('%d\\ %b')
     ax.plot(plotdates, mean * rfact, 'k-', 
             label='promedio 2010-2019')
     ax.fill_between(plotdates, mini * rfact, maxi * rfact, fc=(.4,.4,.4,.5),
@@ -136,19 +142,22 @@ def plot_vital(past, present,
     ax.set_ylabel('tasa de mortalidad anualizada [‰]')
     ax2 = ax.twinx()
     ax2.set_ylim(0, ymax * 1000 / 365 * POPULATION[2020])
-    ax2.set_ylabel('muertes diarias'.format(vital))
+    ax2.set_ylabel('muertes diarias (2020)'.format(vital))
     ax3 = ax.twiny()
     ax3.set_xticks([])
     ax3.set_xlabel('Fallecimientos en Chile. Datos históricos corregidos de la tendencia secular.'.format(vital))
     if plotexcess:
         keep = np.argwhere(dates >= np.datetime64('2020-04-01'))[:,0]
         fact = binwidths[keep] * POPULATION[2020]
+        begin = dates[keep][0] - binwidths[keep][0] * DAY / 2
+        begin = begin.item().strftime('%d %b') 
         excess = np.sum((mortality[keep] - mean[keep]) * fact)
         errinf = np.sum((maxi[keep] - mean[keep]) * fact)
         errsup = np.sum((mean[keep] - mini[keep]) * fact)
-        what = 'exceso\\ de\\ fallecimientos\\ desde\\ el\\ 1^o\\ de\\ abril'
+        what = f'exceso\\ de\\ fallecimientos\\ ({begin}-{now})'
         FMT = '$\\mathrm{{{}}}: {:.0f}^{{{:+.0f}}}_{{{:+.0f}}}$'
-        ax.text(0.01, 0.99, FMT.format(what, excess, errsup, -errinf), va='top',
+        txt = FMT.format(what, excess, errsup, -errinf)
+        ax.text(0.01, 0.99, txt, va='top',
             transform=ax.transAxes)
     fig.autofmt_xdate()
     fig.tight_layout()
@@ -176,7 +185,8 @@ def load_vital(vital='death', region=None, correction=False, binsize='month'):
     
 
 def compare_this_year(vital='death', plot='', correction=True, binsize=14):
-    past, present = load_vital(vital=vital, correction=correction, binsize=binsize)
+    past, present = load_vital(vital=vital, correction=correction, 
+            binsize=binsize)
     plot_vital(past, present, plotexcess=True, vital=vital, plotall=plot == 'all')
     return past, present
 
