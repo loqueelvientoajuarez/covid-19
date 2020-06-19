@@ -15,7 +15,7 @@ def plot_date(axis, x, y, label, *a, **ka):
     axis.tick_params(axis='y', colors=color)
     # ax.spines['right'].set_color(color)
 
-def plot_tests(style=None):
+def plot_tests(style=None, show=True, save=True):
 
     cols = [0, -2]
     test_d, test_t = read_time_series(17, header_lines=2, columns=cols)
@@ -75,8 +75,13 @@ def plot_tests(style=None):
         ax.grid(axis='x', which='both')
     #ax.grid(axis='y')
     fig.tight_layout()
-    fig.show()
     
-    fig.savefig('graphics/casos-chile.png')    
+    if show:
+        fig.show()
 
-plot_tests(style='fivethirtyeight')
+    if save:
+        fig.savefig('graphics/casos-chile.png')    
+        fig.savefig('graphics/casos-chile.pdf')    
+
+if __name__ == "__main__":
+    plot_tests(style='fivethirtyeight', show=False, save=True)

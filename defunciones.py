@@ -163,6 +163,7 @@ def plot_vital(past, present,
     fig.tight_layout()
     fig.show()
     fig.savefig('graphics/{}-statistics.png'.format(vital))
+    fig.savefig('graphics/{}-statistics.pdf'.format(vital))
 
 def load_vital(vital='death', region=None, correction=False, binsize='month'):
     past_years = np.arange(2010, 2020)

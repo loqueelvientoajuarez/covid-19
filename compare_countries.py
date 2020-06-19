@@ -130,7 +130,7 @@ if __name__ == "__main__":
         ' countries'
     )
     parser.add_argument('-c', '--countries', nargs='+',
-        default=['ITA', 'ESP', 'FRA', 'USA', 'GBR', 'DEU'],
+        default=['IT', 'ES', 'FR', 'US', 'GB', 'DE', 'BR', 'CL'],
         help='country names or codes'
     )
     parser.add_argument('-s', '--stat', dest='variable',
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     )
     group = parser.add_mutually_exclusive_group()
     group.add_argument('--binsize', type=int, dest='nbin', 
-        default=1,
+        default=7,
         help='number of days binned together'
     )
     group.add_argument('--cumulated', '--total', action='store_true', dest='cum',
@@ -173,7 +173,7 @@ if __name__ == "__main__":
         help='plot growth trends for doubling every 2 days/week'
     )
     parser.add_argument('--source', 
-        default='EU', choices=['EU', 'JohnHopkins'],
+        default='JohnHopkins', choices=['EU', 'JohnHopkins'],
         help='data source'
     )
     parser.add_argument('--style',
@@ -204,3 +204,4 @@ if __name__ == "__main__":
         print('error:', e)
         if arg.debug:
             raise e
+
