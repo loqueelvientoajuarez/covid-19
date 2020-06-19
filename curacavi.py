@@ -10,7 +10,7 @@ from matplotlib.ticker import StrMethodFormatter
 from scipy.stats import linregress
 
 
-def grafica_curacavi(plot_log=False):
+def grafica_curacavi(plot_log=False, show=True):
 
     HABITANTES = 36430 # proyección 2020
     DAY = np.timedelta64(24, 'h')
@@ -91,8 +91,10 @@ def grafica_curacavi(plot_log=False):
         label.set_rotation(30)
         label.set_ha('right')
     fig.savefig('graphics/curacavi.png')
+    fig.savefig('graphics/curacavi.pdf')
     fig.tight_layout()
-    fig.show()
+    if show:
+        fig.show()
 
 if __name__ == "__main__":
-    grafica_curacavi()
+    grafica_curacavi(show=False)
