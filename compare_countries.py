@@ -93,7 +93,7 @@ def country_comparison_plot(tab, countries, variable,
         ax.set_ylabel(newcum.format(plur, nbin))
     if logy:
         print('Using log scale for y')
-        ax.set_yscale('symlog', linthreshy=1)
+        ax.set_yscale('symlog', linthreshy=10)
     else:
         ax.set_yscale('linear')
     bgcolor = ax.get_facecolor()
