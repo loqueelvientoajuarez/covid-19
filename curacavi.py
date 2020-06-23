@@ -51,9 +51,13 @@ def grafica_curacavi(plot_log=False, show=True):
         ax.plot(fecha, casos, 'bo', label='casos totales')
         ax.plot(fecha[keep], tendencia_casos, '--', color=(0, 0, .5), 
             label=text_casos)
-        ax.plot(fecha, activos, 'gv', label='casos activos')
-        ax.plot(fecha[keep], tendencia_activos, '--', color=(0, .5, 0), 
-            label=text_activos)
+        tope = np.datetime64('2020-06-19')
+        old = fecha < tope
+        new = fecha >= tope
+        ax.plot(fecha[old], activos[old], 'gv', label='casos activos')
+        ax.plot(fecha[new], activos[new], 'm<', label='casos activos (nueva fórmula)')
+        #ax.plot(fecha[keep], tendencia_activos, '--', color=(0, .5, 0), 
+        #    label=text_activos)
         ax.plot(fecha, hosp, 'r>', label='hospitalizados')
         ax.plot(fecha, muertos, 'ko', label='fallecidos')
         ax.xaxis.set_major_formatter(DateFormatter('Lun %d/%m'))

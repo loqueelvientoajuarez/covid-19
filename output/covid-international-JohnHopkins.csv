@@ -147,6 +147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,761,7,439,Afghanistan,all,AFG,AF,0
 2020-06-16,783,13,344,Afghanistan,all,AFG,AF,0
 2020-06-17,564,13,650,Afghanistan,all,AFG,AF,0
+2020-06-18,658,42,1502,Afghanistan,all,AFG,AF,0
+2020-06-19,346,2,302,Afghanistan,all,AFG,AF,0
 2020-01-22,0,0,0,Albania,all,ALB,AL,0
 2020-01-23,0,0,0,Albania,all,ALB,AL,0
 2020-01-24,0,0,0,Albania,all,ALB,AL,0
@@ -295,6 +297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,69,0,11,Albania,all,ALB,AL,0
 2020-06-16,82,1,9,Albania,all,ALB,AL,0
 2020-06-17,50,1,13,Albania,all,ALB,AL,0
+2020-06-18,66,1,9,Albania,all,ALB,AL,0
+2020-06-19,50,3,28,Albania,all,ALB,AL,0
 2020-01-22,0,0,0,Algeria,all,DZA,DZ,0
 2020-01-23,0,0,0,Algeria,all,DZA,DZ,0
 2020-01-24,0,0,0,Algeria,all,DZA,DZ,0
@@ -443,6 +447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,112,10,129,Algeria,all,DZA,DZ,0
 2020-06-16,116,11,107,Algeria,all,DZA,DZ,0
 2020-06-17,121,11,101,Algeria,all,DZA,DZ,0
+2020-06-18,117,12,135,Algeria,all,DZA,DZ,0
+2020-06-19,119,14,118,Algeria,all,DZA,DZ,0
 2020-01-22,0,0,0,Andorra,all,AND,AD,0
 2020-01-23,0,0,0,Andorra,all,AND,AD,0
 2020-01-24,0,0,0,Andorra,all,AND,AD,0
@@ -591,6 +597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,8,Andorra,all,AND,AD,0
 2020-06-16,1,1,0,Andorra,all,AND,AD,0
 2020-06-17,0,0,2,Andorra,all,AND,AD,0
+2020-06-18,1,0,1,Andorra,all,AND,AD,0
+2020-06-19,0,0,0,Andorra,all,AND,AD,0
 2020-01-22,0,0,0,Angola,all,AGO,AO,0
 2020-01-23,0,0,0,Angola,all,AGO,AO,0
 2020-01-24,0,0,0,Angola,all,AGO,AO,0
@@ -739,6 +747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,3,Angola,all,AGO,AO,0
 2020-06-16,6,0,0,Angola,all,AGO,AO,0
 2020-06-17,7,1,0,Angola,all,AGO,AO,0
+2020-06-18,11,1,0,Angola,all,AGO,AO,0
+2020-06-19,6,0,2,Angola,all,AGO,AO,0
 2020-01-22,0,0,0,Antigua and Barbuda,all,ATG,AG,0
 2020-01-23,0,0,0,Antigua and Barbuda,all,ATG,AG,0
 2020-01-24,0,0,0,Antigua and Barbuda,all,ATG,AG,0
@@ -887,6 +897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Antigua and Barbuda,all,ATG,AG,0
 2020-06-16,0,0,2,Antigua and Barbuda,all,ATG,AG,0
 2020-06-17,0,0,0,Antigua and Barbuda,all,ATG,AG,0
+2020-06-18,0,0,0,Antigua and Barbuda,all,ATG,AG,0
+2020-06-19,0,0,0,Antigua and Barbuda,all,ATG,AG,0
 2020-01-22,0,0,0,Argentina,all,ARG,AR,0
 2020-01-23,0,0,0,Argentina,all,ARG,AR,0
 2020-01-24,0,0,0,Argentina,all,ARG,AR,0
@@ -1035,6 +1047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1208,21,327,Argentina,all,ARG,AR,0
 2020-06-16,1374,24,283,Argentina,all,ARG,AR,0
 2020-06-17,1393,35,338,Argentina,all,ARG,AR,0
+2020-06-18,1958,35,209,Argentina,all,ARG,AR,0
+2020-06-19,2060,31,1130,Argentina,all,ARG,AR,0
 2020-01-22,0,0,0,Armenia,all,ARM,AM,0
 2020-01-23,0,0,0,Armenia,all,ARM,AM,0
 2020-01-24,0,0,0,Armenia,all,ARM,AM,0
@@ -1183,6 +1197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,397,16,62,Armenia,all,ARM,AM,0
 2020-06-16,425,8,295,Armenia,all,ARM,AM,0
 2020-06-17,544,9,243,Armenia,all,ARM,AM,0
+2020-06-18,665,7,746,Armenia,all,ARM,AM,0
+2020-06-19,459,10,706,Armenia,all,ARM,AM,0
 2020-01-22,0,0,0,Australia,Australian Capital Territory,AUS,AU,0
 2020-01-23,0,0,0,Australia,Australian Capital Territory,AUS,AU,0
 2020-01-24,0,0,0,Australia,Australian Capital Territory,AUS,AU,0
@@ -1331,6 +1347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Australia,Australian Capital Territory,AUS,AU,0
 2020-06-16,0,0,1,Australia,Australian Capital Territory,AUS,AU,0
 2020-06-17,0,0,0,Australia,Australian Capital Territory,AUS,AU,0
+2020-06-18,0,0,0,Australia,Australian Capital Territory,AUS,AU,0
+2020-06-19,0,0,0,Australia,Australian Capital Territory,AUS,AU,0
 2020-01-22,0,0,0,Australia,New South Wales,AUS,AU,0
 2020-01-23,0,0,0,Australia,New South Wales,AUS,AU,0
 2020-01-24,0,0,0,Australia,New South Wales,AUS,AU,0
@@ -1479,6 +1497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3,0,2,Australia,New South Wales,AUS,AU,0
 2020-06-16,1,0,2,Australia,New South Wales,AUS,AU,0
 2020-06-17,2,0,0,Australia,New South Wales,AUS,AU,0
+2020-06-18,6,0,0,Australia,New South Wales,AUS,AU,0
+2020-06-19,1,0,1,Australia,New South Wales,AUS,AU,0
 2020-01-22,0,0,0,Australia,Northern Territory,AUS,AU,0
 2020-01-23,0,0,0,Australia,Northern Territory,AUS,AU,0
 2020-01-24,0,0,0,Australia,Northern Territory,AUS,AU,0
@@ -1627,6 +1647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Australia,Northern Territory,AUS,AU,0
 2020-06-16,0,0,0,Australia,Northern Territory,AUS,AU,0
 2020-06-17,0,0,0,Australia,Northern Territory,AUS,AU,0
+2020-06-18,0,0,0,Australia,Northern Territory,AUS,AU,0
+2020-06-19,0,0,0,Australia,Northern Territory,AUS,AU,0
 2020-01-22,0,0,0,Australia,Queensland,AUS,AU,0
 2020-01-23,0,0,0,Australia,Queensland,AUS,AU,0
 2020-01-24,0,0,0,Australia,Queensland,AUS,AU,0
@@ -1775,6 +1797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Australia,Queensland,AUS,AU,0
 2020-06-16,1,0,1,Australia,Queensland,AUS,AU,0
 2020-06-17,0,0,0,Australia,Queensland,AUS,AU,0
+2020-06-18,0,0,1,Australia,Queensland,AUS,AU,0
+2020-06-19,0,0,0,Australia,Queensland,AUS,AU,0
 2020-01-22,0,0,0,Australia,South Australia,AUS,AU,0
 2020-01-23,0,0,0,Australia,South Australia,AUS,AU,0
 2020-01-24,0,0,0,Australia,South Australia,AUS,AU,0
@@ -1923,6 +1947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Australia,South Australia,AUS,AU,0
 2020-06-16,0,0,0,Australia,South Australia,AUS,AU,0
 2020-06-17,0,0,0,Australia,South Australia,AUS,AU,0
+2020-06-18,0,0,0,Australia,South Australia,AUS,AU,0
+2020-06-19,0,0,0,Australia,South Australia,AUS,AU,0
 2020-01-22,0,0,0,Australia,Tasmania,AUS,AU,0
 2020-01-23,0,0,0,Australia,Tasmania,AUS,AU,0
 2020-01-24,0,0,0,Australia,Tasmania,AUS,AU,0
@@ -2071,6 +2097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Australia,Tasmania,AUS,AU,0
 2020-06-16,0,0,0,Australia,Tasmania,AUS,AU,0
 2020-06-17,0,0,2,Australia,Tasmania,AUS,AU,0
+2020-06-18,0,0,0,Australia,Tasmania,AUS,AU,0
+2020-06-19,0,0,0,Australia,Tasmania,AUS,AU,0
 2020-01-22,0,0,0,Australia,Victoria,AUS,AU,0
 2020-01-23,0,0,0,Australia,Victoria,AUS,AU,0
 2020-01-24,0,0,0,Australia,Victoria,AUS,AU,0
@@ -2219,6 +2247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,9,0,3,Australia,Victoria,AUS,AU,0
 2020-06-16,21,0,0,Australia,Victoria,AUS,AU,0
 2020-06-17,18,0,14,Australia,Victoria,AUS,AU,0
+2020-06-18,12,0,0,Australia,Victoria,AUS,AU,0
+2020-06-19,0,0,2,Australia,Victoria,AUS,AU,0
 2020-01-22,0,0,0,Australia,Western Australia,AUS,AU,0
 2020-01-23,0,0,0,Australia,Western Australia,AUS,AU,0
 2020-01-24,0,0,0,Australia,Western Australia,AUS,AU,0
@@ -2367,6 +2397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Australia,Western Australia,AUS,AU,0
 2020-06-16,0,0,1,Australia,Western Australia,AUS,AU,0
 2020-06-17,1,0,0,Australia,Western Australia,AUS,AU,0
+2020-06-18,0,0,0,Australia,Western Australia,AUS,AU,0
+2020-06-19,1,0,0,Australia,Western Australia,AUS,AU,0
 2020-01-22,0,0,0,Australia,all,AUS,AU,0
 2020-01-23,0,0,0,Australia,all,AUS,AU,0
 2020-01-24,0,0,0,Australia,all,AUS,AU,0
@@ -2515,6 +2547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,12,0,5,Australia,all,AUS,AU,0
 2020-06-16,23,0,5,Australia,all,AUS,AU,0
 2020-06-17,21,0,16,Australia,all,AUS,AU,0
+2020-06-18,18,0,1,Australia,all,AUS,AU,0
+2020-06-19,2,0,3,Australia,all,AUS,AU,0
 2020-01-22,0,0,0,Austria,all,AUT,AT,0
 2020-01-23,0,0,0,Austria,all,AUT,AT,0
 2020-01-24,0,0,0,Austria,all,AUT,AT,0
@@ -2663,6 +2697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,26,1,7,Austria,all,AUT,AT,0
 2020-06-16,54,3,23,Austria,all,AUT,AT,0
 2020-06-17,14,6,10,Austria,all,AUT,AT,0
+2020-06-18,20,1,2,Austria,all,AUT,AT,0
+2020-06-19,48,0,40,Austria,all,AUT,AT,0
 2020-01-22,0,0,0,Azerbaijan,all,AZE,AZ,0
 2020-01-23,0,0,0,Azerbaijan,all,AZE,AZ,0
 2020-01-24,0,0,0,Azerbaijan,all,AZE,AZ,0
@@ -2811,6 +2847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,367,3,156,Azerbaijan,all,AZE,AZ,0
 2020-06-16,338,4,209,Azerbaijan,all,AZE,AZ,0
 2020-06-17,329,7,127,Azerbaijan,all,AZE,AZ,0
+2020-06-18,338,6,117,Azerbaijan,all,AZE,AZ,0
+2020-06-19,438,4,133,Azerbaijan,all,AZE,AZ,0
 2020-01-22,0,0,0,Bahamas,all,BHS,BS,0
 2020-01-23,0,0,0,Bahamas,all,BHS,BS,0
 2020-01-24,0,0,0,Bahamas,all,BHS,BS,0
@@ -2959,6 +2997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Bahamas,all,BHS,BS,0
 2020-06-16,1,0,4,Bahamas,all,BHS,BS,0
 2020-06-17,0,0,0,Bahamas,all,BHS,BS,0
+2020-06-18,0,0,2,Bahamas,all,BHS,BS,0
+2020-06-19,0,0,0,Bahamas,all,BHS,BS,0
 2020-01-22,0,0,0,Bahrain,all,BHR,BH,0
 2020-01-23,0,0,0,Bahrain,all,BHR,BH,0
 2020-01-24,0,0,0,Bahrain,all,BHR,BH,0
@@ -3107,6 +3147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,786,4,449,Bahrain,all,BHR,BH,0
 2020-06-16,540,1,599,Bahrain,all,BHR,BH,0
 2020-06-17,408,2,319,Bahrain,all,BHR,BH,0
+2020-06-18,469,6,511,Bahrain,all,BHR,BH,0
+2020-06-19,486,2,591,Bahrain,all,BHR,BH,0
 2020-01-22,0,0,0,Bangladesh,all,BGD,BD,0
 2020-01-23,0,0,0,Bangladesh,all,BGD,BD,0
 2020-01-24,0,0,0,Bangladesh,all,BGD,BD,0
@@ -3255,6 +3297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3099,38,1,Bangladesh,all,BGD,BD,0
 2020-06-16,3862,53,17533,Bangladesh,all,BGD,BD,0
 2020-06-17,4008,43,1925,Bangladesh,all,BGD,BD,0
+2020-06-18,3803,38,1975,Bangladesh,all,BGD,BD,0
+2020-06-19,3243,45,2781,Bangladesh,all,BGD,BD,0
 2020-01-22,0,0,0,Barbados,all,BRB,BB,0
 2020-01-23,0,0,0,Barbados,all,BRB,BB,0
 2020-01-24,0,0,0,Barbados,all,BRB,BB,0
@@ -3403,6 +3447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,Barbados,all,BRB,BB,0
 2020-06-16,0,0,0,Barbados,all,BRB,BB,0
 2020-06-17,0,0,2,Barbados,all,BRB,BB,0
+2020-06-18,0,0,0,Barbados,all,BRB,BB,0
+2020-06-19,0,0,0,Barbados,all,BRB,BB,0
 2020-01-22,0,0,0,Belarus,all,BLR,BY,0
 2020-01-23,0,0,0,Belarus,all,BLR,BY,0
 2020-01-24,0,0,0,Belarus,all,BLR,BY,0
@@ -3490,9 +3536,9 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-04-15,447,3,0,Belarus,all,BLR,BY,0
 2020-04-16,476,4,0,Belarus,all,BLR,BY,0
 2020-04-17,575,2,139,Belarus,all,BLR,BY,0
-2020-04-18,0,3,0,Belarus,all,BLR,BY,0
-2020-04-19,0,2,152,Belarus,all,BLR,BY,0
-2020-04-20,1485,4,20,Belarus,all,BLR,BY,0
+2020-04-18,518,3,0,Belarus,all,BLR,BY,0
+2020-04-19,510,2,152,Belarus,all,BLR,BY,0
+2020-04-20,457,4,20,Belarus,all,BLR,BY,0
 2020-04-21,459,4,63,Belarus,all,BLR,BY,0
 2020-04-22,558,3,192,Belarus,all,BLR,BY,0
 2020-04-23,741,2,169,Belarus,all,BLR,BY,0
@@ -3551,6 +3597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,707,4,317,Belarus,all,BLR,BY,0
 2020-06-16,689,6,853,Belarus,all,BLR,BY,0
 2020-06-17,663,6,1462,Belarus,all,BLR,BY,0
+2020-06-18,625,7,1288,Belarus,all,BLR,BY,0
+2020-06-19,676,6,1252,Belarus,all,BLR,BY,0
 2020-01-22,0,0,0,Belgium,all,BEL,BE,0
 2020-01-23,0,0,0,Belgium,all,BEL,BE,0
 2020-01-24,0,0,0,Belgium,all,BEL,BE,0
@@ -3699,6 +3747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,71,6,21,Belgium,all,BEL,BE,0
 2020-06-16,55,2,15,Belgium,all,BEL,BE,0
 2020-06-17,89,12,59,Belgium,all,BEL,BE,0
+2020-06-18,104,8,40,Belgium,all,BEL,BE,0
+2020-06-19,128,12,27,Belgium,all,BEL,BE,0
 2020-01-22,0,0,0,Belize,all,BLZ,BZ,0
 2020-01-23,0,0,0,Belize,all,BLZ,BZ,0
 2020-01-24,0,0,0,Belize,all,BLZ,BZ,0
@@ -3847,6 +3897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,Belize,all,BLZ,BZ,0
 2020-06-16,1,0,0,Belize,all,BLZ,BZ,0
 2020-06-17,0,0,0,Belize,all,BLZ,BZ,0
+2020-06-18,0,0,0,Belize,all,BLZ,BZ,0
+2020-06-19,0,0,1,Belize,all,BLZ,BZ,0
 2020-01-22,0,0,0,Benin,all,BEN,BJ,0
 2020-01-23,0,0,0,Benin,all,BEN,BJ,0
 2020-01-24,0,0,0,Benin,all,BEN,BJ,0
@@ -3995,6 +4047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,41,3,4,Benin,all,BEN,BJ,0
 2020-06-16,49,0,4,Benin,all,BEN,BJ,0
 2020-06-17,40,0,1,Benin,all,BEN,BJ,0
+2020-06-18,25,2,1,Benin,all,BEN,BJ,0
+2020-06-19,53,0,9,Benin,all,BEN,BJ,0
 2020-01-22,0,0,0,Bhutan,all,BTN,BT,0
 2020-01-23,0,0,0,Bhutan,all,BTN,BT,0
 2020-01-24,0,0,0,Bhutan,all,BTN,BT,0
@@ -4143,6 +4197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,1,Bhutan,all,BTN,BT,0
 2020-06-16,0,0,2,Bhutan,all,BTN,BT,0
 2020-06-17,0,0,0,Bhutan,all,BTN,BT,0
+2020-06-18,0,0,1,Bhutan,all,BTN,BT,0
+2020-06-19,1,0,3,Bhutan,all,BTN,BT,0
 2020-01-22,0,0,0,Bolivia,all,,,0
 2020-01-23,0,0,0,Bolivia,all,,,0
 2020-01-24,0,0,0,Bolivia,all,,,0
@@ -4291,6 +4347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,614,21,317,Bolivia,all,,,0
 2020-06-16,810,27,322,Bolivia,all,,,0
 2020-06-17,802,20,250,Bolivia,all,,,0
+2020-06-18,814,18,0,Bolivia,all,,,0
+2020-06-19,977,18,668,Bolivia,all,,,0
 2020-01-22,0,0,0,Bosnia and Herzegovina,all,BIH,BA,0
 2020-01-23,0,0,0,Bosnia and Herzegovina,all,BIH,BA,0
 2020-01-24,0,0,0,Bosnia and Herzegovina,all,BIH,BA,0
@@ -4439,6 +4497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,147,2,43,Bosnia and Herzegovina,all,BIH,BA,0
 2020-06-16,45,3,16,Bosnia and Herzegovina,all,BIH,BA,0
 2020-06-17,56,0,19,Bosnia and Herzegovina,all,BIH,BA,0
+2020-06-18,33,0,22,Bosnia and Herzegovina,all,BIH,BA,0
+2020-06-19,99,1,22,Bosnia and Herzegovina,all,BIH,BA,0
 2020-01-22,0,0,0,Botswana,all,BWA,BW,0
 2020-01-23,0,0,0,Botswana,all,BWA,BW,0
 2020-01-24,0,0,0,Botswana,all,BWA,BW,0
@@ -4587,6 +4647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Botswana,all,BWA,BW,0
 2020-06-16,0,0,0,Botswana,all,BWA,BW,0
 2020-06-17,19,0,1,Botswana,all,BWA,BW,0
+2020-06-18,0,0,0,Botswana,all,BWA,BW,0
+2020-06-19,10,0,0,Botswana,all,BWA,BW,0
 2020-01-22,0,0,0,Brazil,all,BRA,BR,0
 2020-01-23,0,0,0,Brazil,all,BRA,BR,0
 2020-01-24,0,0,0,Brazil,all,BRA,BR,0
@@ -4735,6 +4797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,20647,627,8568,Brazil,all,BRA,BR,0
 2020-06-16,34918,1282,12296,Brazil,all,BRA,BR,0
 2020-06-17,32188,1269,31041,Brazil,all,BRA,BR,0
+2020-06-18,22765,1238,13534,Brazil,all,BRA,BR,0
+2020-06-19,54771,1206,17051,Brazil,all,BRA,BR,0
 2020-01-22,0,0,0,Brunei,all,,,0
 2020-01-23,0,0,0,Brunei,all,,,0
 2020-01-24,0,0,0,Brunei,all,,,0
@@ -4883,6 +4947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Brunei,all,,,0
 2020-06-16,0,1,0,Brunei,all,,,0
 2020-06-17,0,0,0,Brunei,all,,,0
+2020-06-18,0,0,0,Brunei,all,,,0
+2020-06-19,0,0,0,Brunei,all,,,0
 2020-01-22,0,0,0,Bulgaria,all,BGR,BG,0
 2020-01-23,0,0,0,Bulgaria,all,BGR,BG,0
 2020-01-24,0,0,0,Bulgaria,all,BGR,BG,0
@@ -5031,6 +5097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,51,2,54,Bulgaria,all,BGR,BG,0
 2020-06-16,112,5,33,Bulgaria,all,BGR,BG,0
 2020-06-17,89,3,63,Bulgaria,all,BGR,BG,0
+2020-06-18,132,6,61,Bulgaria,all,BGR,BG,0
+2020-06-19,81,3,67,Bulgaria,all,BGR,BG,0
 2020-01-22,0,0,0,Burkina Faso,all,BFA,BF,0
 2020-01-23,0,0,0,Burkina Faso,all,BFA,BF,0
 2020-01-24,0,0,0,Burkina Faso,all,BFA,BF,0
@@ -5179,6 +5247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,5,Burkina Faso,all,BFA,BF,0
 2020-06-16,1,0,3,Burkina Faso,all,BFA,BF,0
 2020-06-17,4,0,2,Burkina Faso,all,BFA,BF,0
+2020-06-18,0,0,1,Burkina Faso,all,BFA,BF,0
+2020-06-19,1,0,0,Burkina Faso,all,BFA,BF,0
 2020-01-22,0,0,0,Burma,all,,,0
 2020-01-23,0,0,0,Burma,all,,,0
 2020-01-24,0,0,0,Burma,all,,,0
@@ -5327,6 +5397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,8,Burma,all,,,0
 2020-06-16,0,0,4,Burma,all,,,0
 2020-06-17,0,0,6,Burma,all,,,0
+2020-06-18,24,0,2,Burma,all,,,0
+2020-06-19,0,0,5,Burma,all,,,0
 2020-01-22,0,0,0,Burundi,all,BDI,BI,0
 2020-01-23,0,0,0,Burundi,all,BDI,BI,0
 2020-01-24,0,0,0,Burundi,all,BDI,BI,0
@@ -5475,6 +5547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Burundi,all,BDI,BI,0
 2020-06-16,19,0,30,Burundi,all,BDI,BI,0
 2020-06-17,0,0,0,Burundi,all,BDI,BI,0
+2020-06-18,0,0,0,Burundi,all,BDI,BI,0
+2020-06-19,0,0,0,Burundi,all,BDI,BI,0
 2020-01-22,0,0,0,Cabo Verde,all,CPV,CV,0
 2020-01-23,0,0,0,Cabo Verde,all,CPV,CV,0
 2020-01-24,0,0,0,Cabo Verde,all,CPV,CV,0
@@ -5623,6 +5697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,10,1,39,Cabo Verde,all,CPV,CV,0
 2020-06-16,21,0,14,Cabo Verde,all,CPV,CV,0
 2020-06-17,11,0,23,Cabo Verde,all,CPV,CV,0
+2020-06-18,31,0,0,Cabo Verde,all,CPV,CV,0
+2020-06-19,25,1,0,Cabo Verde,all,CPV,CV,0
 2020-01-22,0,0,0,Cambodia,all,KHM,KH,0
 2020-01-23,0,0,0,Cambodia,all,KHM,KH,0
 2020-01-24,0,0,0,Cambodia,all,KHM,KH,0
@@ -5771,6 +5847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Cambodia,all,KHM,KH,0
 2020-06-16,0,0,1,Cambodia,all,KHM,KH,0
 2020-06-17,0,0,0,Cambodia,all,KHM,KH,0
+2020-06-18,1,0,0,Cambodia,all,KHM,KH,0
+2020-06-19,0,0,0,Cambodia,all,KHM,KH,0
 2020-01-22,0,0,0,Cameroon,all,CMR,CM,0
 2020-01-23,0,0,0,Cameroon,all,CMR,CM,0
 2020-01-24,0,0,0,Cameroon,all,CMR,CM,0
@@ -5919,6 +5997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1183,64,734,Cameroon,all,CMR,CM,0
 2020-06-16,0,0,0,Cameroon,all,CMR,CM,0
 2020-06-17,0,0,0,Cameroon,all,CMR,CM,0
+2020-06-18,0,0,0,Cameroon,all,CMR,CM,0
+2020-06-19,774,6,1978,Cameroon,all,CMR,CM,0
 2020-01-22,0,0,0,Canada,Alberta,CAN,CA,0
 2020-01-23,0,0,0,Canada,Alberta,CAN,CA,0
 2020-01-24,0,0,0,Canada,Alberta,CAN,CA,0
@@ -6067,6 +6147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,20,1,0,Canada,Alberta,CAN,CA,0
 2020-06-16,29,0,0,Canada,Alberta,CAN,CA,0
 2020-06-17,48,0,0,Canada,Alberta,CAN,CA,0
+2020-06-18,49,1,0,Canada,Alberta,CAN,CA,0
+2020-06-19,46,0,0,Canada,Alberta,CAN,CA,0
 2020-01-22,0,0,0,Canada,British Columbia,CAN,CA,0
 2020-01-23,0,0,0,Canada,British Columbia,CAN,CA,0
 2020-01-24,0,0,0,Canada,British Columbia,CAN,CA,0
@@ -6215,6 +6297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,36,0,0,Canada,British Columbia,CAN,CA,0
 2020-06-16,11,0,0,Canada,British Columbia,CAN,CA,0
 2020-06-17,19,0,0,Canada,British Columbia,CAN,CA,0
+2020-06-18,8,0,0,Canada,British Columbia,CAN,CA,0
+2020-06-19,7,0,0,Canada,British Columbia,CAN,CA,0
 2020-01-22,0,0,0,Canada,Diamond Princess,CAN,CA,0
 2020-01-23,0,0,0,Canada,Diamond Princess,CAN,CA,0
 2020-01-24,0,0,0,Canada,Diamond Princess,CAN,CA,0
@@ -6363,6 +6447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Diamond Princess,CAN,CA,0
 2020-06-16,0,0,0,Canada,Diamond Princess,CAN,CA,0
 2020-06-17,0,0,0,Canada,Diamond Princess,CAN,CA,0
+2020-06-18,0,0,0,Canada,Diamond Princess,CAN,CA,0
+2020-06-19,0,0,0,Canada,Diamond Princess,CAN,CA,0
 2020-01-22,0,0,0,Canada,Grand Princess,CAN,CA,0
 2020-01-23,0,0,0,Canada,Grand Princess,CAN,CA,0
 2020-01-24,0,0,0,Canada,Grand Princess,CAN,CA,0
@@ -6511,6 +6597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Grand Princess,CAN,CA,0
 2020-06-16,0,0,0,Canada,Grand Princess,CAN,CA,0
 2020-06-17,0,0,0,Canada,Grand Princess,CAN,CA,0
+2020-06-18,0,0,0,Canada,Grand Princess,CAN,CA,0
+2020-06-19,0,0,0,Canada,Grand Princess,CAN,CA,0
 2020-01-22,0,0,0,Canada,Manitoba,CAN,CA,0
 2020-01-23,0,0,0,Canada,Manitoba,CAN,CA,0
 2020-01-24,0,0,0,Canada,Manitoba,CAN,CA,0
@@ -6659,6 +6747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Manitoba,CAN,CA,0
 2020-06-16,0,0,0,Canada,Manitoba,CAN,CA,0
 2020-06-17,2,0,0,Canada,Manitoba,CAN,CA,0
+2020-06-18,2,0,0,Canada,Manitoba,CAN,CA,0
+2020-06-19,3,0,0,Canada,Manitoba,CAN,CA,0
 2020-01-22,0,0,0,Canada,New Brunswick,CAN,CA,0
 2020-01-23,0,0,0,Canada,New Brunswick,CAN,CA,0
 2020-01-24,0,0,0,Canada,New Brunswick,CAN,CA,0
@@ -6807,6 +6897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3,0,0,Canada,New Brunswick,CAN,CA,0
 2020-06-16,3,0,0,Canada,New Brunswick,CAN,CA,0
 2020-06-17,1,0,0,Canada,New Brunswick,CAN,CA,0
+2020-06-18,0,0,0,Canada,New Brunswick,CAN,CA,0
+2020-06-19,0,0,0,Canada,New Brunswick,CAN,CA,0
 2020-01-22,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
 2020-01-23,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
 2020-01-24,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
@@ -6955,6 +7047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
 2020-06-16,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
 2020-06-17,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
+2020-06-18,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
+2020-06-19,0,0,0,Canada,Newfoundland and Labrador,CAN,CA,0
 2020-01-22,0,0,0,Canada,Northwest Territories,CAN,CA,0
 2020-01-23,0,0,0,Canada,Northwest Territories,CAN,CA,0
 2020-01-24,0,0,0,Canada,Northwest Territories,CAN,CA,0
@@ -7103,6 +7197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Northwest Territories,CAN,CA,0
 2020-06-16,0,0,0,Canada,Northwest Territories,CAN,CA,0
 2020-06-17,0,0,0,Canada,Northwest Territories,CAN,CA,0
+2020-06-18,0,0,0,Canada,Northwest Territories,CAN,CA,0
+2020-06-19,0,0,0,Canada,Northwest Territories,CAN,CA,0
 2020-01-22,0,0,0,Canada,Nova Scotia,CAN,CA,0
 2020-01-23,0,0,0,Canada,Nova Scotia,CAN,CA,0
 2020-01-24,0,0,0,Canada,Nova Scotia,CAN,CA,0
@@ -7251,6 +7347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Nova Scotia,CAN,CA,0
 2020-06-16,0,0,0,Canada,Nova Scotia,CAN,CA,0
 2020-06-17,0,0,0,Canada,Nova Scotia,CAN,CA,0
+2020-06-18,0,0,0,Canada,Nova Scotia,CAN,CA,0
+2020-06-19,0,0,0,Canada,Nova Scotia,CAN,CA,0
 2020-01-22,0,0,0,Canada,Ontario,CAN,CA,0
 2020-01-23,0,0,0,Canada,Ontario,CAN,CA,0
 2020-01-24,0,0,0,Canada,Ontario,CAN,CA,0
@@ -7399,6 +7497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,180,-11,0,Canada,Ontario,CAN,CA,0
 2020-06-16,188,16,0,Canada,Ontario,CAN,CA,0
 2020-06-17,208,12,0,Canada,Ontario,CAN,CA,0
+2020-06-18,192,6,0,Canada,Ontario,CAN,CA,0
+2020-06-19,206,12,0,Canada,Ontario,CAN,CA,0
 2020-01-22,0,0,0,Canada,Prince Edward Island,CAN,CA,0
 2020-01-23,0,0,0,Canada,Prince Edward Island,CAN,CA,0
 2020-01-24,0,0,0,Canada,Prince Edward Island,CAN,CA,0
@@ -7547,6 +7647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Prince Edward Island,CAN,CA,0
 2020-06-16,0,0,0,Canada,Prince Edward Island,CAN,CA,0
 2020-06-17,0,0,0,Canada,Prince Edward Island,CAN,CA,0
+2020-06-18,0,0,0,Canada,Prince Edward Island,CAN,CA,0
+2020-06-19,0,0,0,Canada,Prince Edward Island,CAN,CA,0
 2020-01-22,0,0,0,Canada,Quebec,CAN,CA,0
 2020-01-23,0,0,0,Canada,Quebec,CAN,CA,0
 2020-01-24,0,0,0,Canada,Quebec,CAN,CA,0
@@ -7695,6 +7797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,102,20,0,Canada,Quebec,CAN,CA,0
 2020-06-16,92,27,0,Canada,Quebec,CAN,CA,0
 2020-06-17,117,29,0,Canada,Quebec,CAN,CA,0
+2020-06-18,120,42,0,Canada,Quebec,CAN,CA,0
+2020-06-19,167,35,0,Canada,Quebec,CAN,CA,0
 2020-01-22,0,0,0,Canada,Saskatchewan,CAN,CA,0
 2020-01-23,0,0,0,Canada,Saskatchewan,CAN,CA,0
 2020-01-24,0,0,0,Canada,Saskatchewan,CAN,CA,0
@@ -7843,6 +7947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,18,0,0,Canada,Saskatchewan,CAN,CA,0
 2020-06-16,1,0,0,Canada,Saskatchewan,CAN,CA,0
 2020-06-17,9,0,0,Canada,Saskatchewan,CAN,CA,0
+2020-06-18,15,0,0,Canada,Saskatchewan,CAN,CA,0
+2020-06-19,8,0,0,Canada,Saskatchewan,CAN,CA,0
 2020-01-22,0,0,0,Canada,Yukon,CAN,CA,0
 2020-01-23,0,0,0,Canada,Yukon,CAN,CA,0
 2020-01-24,0,0,0,Canada,Yukon,CAN,CA,0
@@ -7991,6 +8097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Canada,Yukon,CAN,CA,0
 2020-06-16,0,0,0,Canada,Yukon,CAN,CA,0
 2020-06-17,0,0,0,Canada,Yukon,CAN,CA,0
+2020-06-18,0,0,0,Canada,Yukon,CAN,CA,0
+2020-06-19,0,0,0,Canada,Yukon,CAN,CA,0
 2020-01-22,0,0,0,Canada,all,CAN,CA,0
 2020-01-23,0,0,0,Canada,all,CAN,CA,0
 2020-01-24,0,0,0,Canada,all,CAN,CA,0
@@ -8139,6 +8247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,359,10,798,Canada,all,CAN,CA,0
 2020-06-16,324,43,433,Canada,all,CAN,CA,0
 2020-06-17,404,41,1381,Canada,all,CAN,CA,0
+2020-06-18,386,49,502,Canada,all,CAN,CA,0
+2020-06-19,437,47,536,Canada,all,CAN,CA,0
 2020-01-22,0,0,0,Central African Republic,all,CAF,CF,0
 2020-01-23,0,0,0,Central African Republic,all,CAF,CF,0
 2020-01-24,0,0,0,Central African Republic,all,CAF,CF,0
@@ -8287,6 +8397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,165,0,6,Central African Republic,all,CAF,CF,0
 2020-06-16,188,7,27,Central African Republic,all,CAF,CF,0
 2020-06-17,154,4,6,Central African Republic,all,CAF,CF,0
+2020-06-18,41,1,15,Central African Republic,all,CAF,CF,0
+2020-06-19,0,0,0,Central African Republic,all,CAF,CF,0
 2020-01-22,0,0,0,Chad,all,TCD,TD,0
 2020-01-23,0,0,0,Chad,all,TCD,TD,0
 2020-01-24,0,0,0,Chad,all,TCD,TD,0
@@ -8435,6 +8547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Chad,all,TCD,TD,0
 2020-06-16,3,1,0,Chad,all,TCD,TD,0
 2020-06-17,1,0,1,Chad,all,TCD,TD,0
+2020-06-18,0,0,12,Chad,all,TCD,TD,0
+2020-06-19,4,0,9,Chad,all,TCD,TD,0
 2020-01-22,0,0,0,Chile,all,CHL,CL,0
 2020-01-23,0,0,0,Chile,all,CHL,CL,0
 2020-01-24,0,0,0,Chile,all,CHL,CL,0
@@ -8583,6 +8697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,5143,39,5088,Chile,all,CHL,CL,0
 2020-06-16,5013,21,7440,Chile,all,CHL,CL,0
 2020-06-17,36179,232,25699,Chile,all,CHL,CL,0
+2020-06-18,4475,226,4510,Chile,all,CHL,CL,0
+2020-06-19,6290,252,5050,Chile,all,CHL,CL,0
 2020-01-22,1,0,0,China,Anhui,CHN,CN,0
 2020-01-23,9,0,0,China,Anhui,CHN,CN,0
 2020-01-24,6,0,0,China,Anhui,CHN,CN,0
@@ -8731,6 +8847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Anhui,CHN,CN,0
 2020-06-16,0,0,0,China,Anhui,CHN,CN,0
 2020-06-17,0,0,0,China,Anhui,CHN,CN,0
+2020-06-18,0,0,0,China,Anhui,CHN,CN,0
+2020-06-19,0,0,0,China,Anhui,CHN,CN,0
 2020-01-22,14,0,0,China,Beijing,CHN,CN,0
 2020-01-23,22,0,0,China,Beijing,CHN,CN,0
 2020-01-24,14,0,1,China,Beijing,CHN,CN,0
@@ -8879,6 +8997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,27,0,0,China,Beijing,CHN,CN,0
 2020-06-16,31,0,0,China,Beijing,CHN,CN,0
 2020-06-17,21,0,0,China,Beijing,CHN,CN,0
+2020-06-18,25,0,0,China,Beijing,CHN,CN,0
+2020-06-19,0,0,0,China,Beijing,CHN,CN,0
 2020-01-22,6,0,0,China,Chongqing,CHN,CN,0
 2020-01-23,9,0,0,China,Chongqing,CHN,CN,0
 2020-01-24,18,0,0,China,Chongqing,CHN,CN,0
@@ -9027,6 +9147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Chongqing,CHN,CN,0
 2020-06-16,0,0,0,China,Chongqing,CHN,CN,0
 2020-06-17,0,0,0,China,Chongqing,CHN,CN,0
+2020-06-18,0,0,0,China,Chongqing,CHN,CN,0
+2020-06-19,0,0,0,China,Chongqing,CHN,CN,0
 2020-01-22,1,0,0,China,Fujian,CHN,CN,0
 2020-01-23,5,0,0,China,Fujian,CHN,CN,0
 2020-01-24,5,0,0,China,Fujian,CHN,CN,0
@@ -9175,6 +9297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Fujian,CHN,CN,0
 2020-06-16,0,0,0,China,Fujian,CHN,CN,0
 2020-06-17,0,0,0,China,Fujian,CHN,CN,0
+2020-06-18,0,0,1,China,Fujian,CHN,CN,0
+2020-06-19,0,0,0,China,Fujian,CHN,CN,0
 2020-01-22,0,0,0,China,Gansu,CHN,CN,0
 2020-01-23,2,0,0,China,Gansu,CHN,CN,0
 2020-01-24,0,0,0,China,Gansu,CHN,CN,0
@@ -9323,6 +9447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Gansu,CHN,CN,0
 2020-06-16,10,0,0,China,Gansu,CHN,CN,0
 2020-06-17,1,0,0,China,Gansu,CHN,CN,0
+2020-06-18,1,0,0,China,Gansu,CHN,CN,0
+2020-06-19,0,0,0,China,Gansu,CHN,CN,0
 2020-01-22,26,0,0,China,Guangdong,CHN,CN,0
 2020-01-23,32,0,2,China,Guangdong,CHN,CN,0
 2020-01-24,21,0,0,China,Guangdong,CHN,CN,0
@@ -9471,6 +9597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3,0,2,China,Guangdong,CHN,CN,0
 2020-06-16,0,0,1,China,Guangdong,CHN,CN,0
 2020-06-17,0,0,10,China,Guangdong,CHN,CN,0
+2020-06-18,3,0,1,China,Guangdong,CHN,CN,0
+2020-06-19,0,0,0,China,Guangdong,CHN,CN,0
 2020-01-22,2,0,0,China,Guangxi,CHN,CN,0
 2020-01-23,5,0,0,China,Guangxi,CHN,CN,0
 2020-01-24,18,0,0,China,Guangxi,CHN,CN,0
@@ -9619,6 +9747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Guangxi,CHN,CN,0
 2020-06-16,0,0,0,China,Guangxi,CHN,CN,0
 2020-06-17,0,0,0,China,Guangxi,CHN,CN,0
+2020-06-18,0,0,0,China,Guangxi,CHN,CN,0
+2020-06-19,0,0,0,China,Guangxi,CHN,CN,0
 2020-01-22,1,0,0,China,Guizhou,CHN,CN,0
 2020-01-23,3,0,0,China,Guizhou,CHN,CN,0
 2020-01-24,0,0,0,China,Guizhou,CHN,CN,0
@@ -9767,6 +9897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Guizhou,CHN,CN,0
 2020-06-16,0,0,0,China,Guizhou,CHN,CN,0
 2020-06-17,0,0,0,China,Guizhou,CHN,CN,0
+2020-06-18,0,0,0,China,Guizhou,CHN,CN,0
+2020-06-19,0,0,0,China,Guizhou,CHN,CN,0
 2020-01-22,4,0,0,China,Hainan,CHN,CN,0
 2020-01-23,5,0,0,China,Hainan,CHN,CN,0
 2020-01-24,3,0,0,China,Hainan,CHN,CN,0
@@ -9915,6 +10047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,1,China,Hainan,CHN,CN,0
 2020-06-16,0,0,0,China,Hainan,CHN,CN,0
 2020-06-17,0,0,0,China,Hainan,CHN,CN,0
+2020-06-18,0,0,0,China,Hainan,CHN,CN,0
+2020-06-19,0,0,0,China,Hainan,CHN,CN,0
 2020-01-22,1,0,0,China,Hebei,CHN,CN,0
 2020-01-23,1,1,0,China,Hebei,CHN,CN,0
 2020-01-24,1,0,0,China,Hebei,CHN,CN,0
@@ -10063,6 +10197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4,0,0,China,Hebei,CHN,CN,0
 2020-06-16,1,0,0,China,Hebei,CHN,CN,0
 2020-06-17,2,0,0,China,Hebei,CHN,CN,0
+2020-06-18,2,0,0,China,Hebei,CHN,CN,0
+2020-06-19,0,0,0,China,Hebei,CHN,CN,0
 2020-01-22,0,0,0,China,Heilongjiang,CHN,CN,0
 2020-01-23,2,0,0,China,Heilongjiang,CHN,CN,0
 2020-01-24,2,1,0,China,Heilongjiang,CHN,CN,0
@@ -10211,6 +10347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Heilongjiang,CHN,CN,0
 2020-06-16,0,0,0,China,Heilongjiang,CHN,CN,0
 2020-06-17,0,0,0,China,Heilongjiang,CHN,CN,0
+2020-06-18,0,0,0,China,Heilongjiang,CHN,CN,0
+2020-06-19,0,0,0,China,Heilongjiang,CHN,CN,0
 2020-01-22,5,0,0,China,Henan,CHN,CN,0
 2020-01-23,5,0,0,China,Henan,CHN,CN,0
 2020-01-24,4,0,0,China,Henan,CHN,CN,0
@@ -10359,6 +10497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Henan,CHN,CN,0
 2020-06-16,0,0,0,China,Henan,CHN,CN,0
 2020-06-17,0,0,0,China,Henan,CHN,CN,0
+2020-06-18,0,0,0,China,Henan,CHN,CN,0
+2020-06-19,0,0,0,China,Henan,CHN,CN,0
 2020-01-22,0,0,0,China,Hong Kong,CHN,CN,0
 2020-01-23,2,0,0,China,Hong Kong,CHN,CN,0
 2020-01-24,0,0,0,China,Hong Kong,CHN,CN,0
@@ -10507,6 +10647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3,0,0,China,Hong Kong,CHN,CN,0
 2020-06-16,0,0,2,China,Hong Kong,CHN,CN,0
 2020-06-17,8,0,2,China,Hong Kong,CHN,CN,0
+2020-06-18,4,0,1,China,Hong Kong,CHN,CN,0
+2020-06-19,0,0,0,China,Hong Kong,CHN,CN,0
 2020-01-22,444,17,28,China,Hubei,CHN,CN,0
 2020-01-23,444,17,28,China,Hubei,CHN,CN,0
 2020-01-24,105,7,3,China,Hubei,CHN,CN,0
@@ -10655,6 +10797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Hubei,CHN,CN,0
 2020-06-16,0,0,0,China,Hubei,CHN,CN,0
 2020-06-17,0,0,0,China,Hubei,CHN,CN,0
+2020-06-18,0,0,0,China,Hubei,CHN,CN,0
+2020-06-19,0,0,0,China,Hubei,CHN,CN,0
 2020-01-22,4,0,0,China,Hunan,CHN,CN,0
 2020-01-23,9,0,0,China,Hunan,CHN,CN,0
 2020-01-24,15,0,0,China,Hunan,CHN,CN,0
@@ -10803,6 +10947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Hunan,CHN,CN,0
 2020-06-16,0,0,0,China,Hunan,CHN,CN,0
 2020-06-17,0,0,0,China,Hunan,CHN,CN,0
+2020-06-18,0,0,0,China,Hunan,CHN,CN,0
+2020-06-19,0,0,0,China,Hunan,CHN,CN,0
 2020-01-22,0,0,0,China,Inner Mongolia,CHN,CN,0
 2020-01-23,0,0,0,China,Inner Mongolia,CHN,CN,0
 2020-01-24,1,0,0,China,Inner Mongolia,CHN,CN,0
@@ -10951,6 +11097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,2,China,Inner Mongolia,CHN,CN,0
 2020-06-16,0,0,0,China,Inner Mongolia,CHN,CN,0
 2020-06-17,0,0,0,China,Inner Mongolia,CHN,CN,0
+2020-06-18,0,0,0,China,Inner Mongolia,CHN,CN,0
+2020-06-19,0,0,0,China,Inner Mongolia,CHN,CN,0
 2020-01-22,1,0,0,China,Jiangsu,CHN,CN,0
 2020-01-23,5,0,0,China,Jiangsu,CHN,CN,0
 2020-01-24,4,0,0,China,Jiangsu,CHN,CN,0
@@ -11099,6 +11247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Jiangsu,CHN,CN,0
 2020-06-16,0,0,0,China,Jiangsu,CHN,CN,0
 2020-06-17,0,0,0,China,Jiangsu,CHN,CN,0
+2020-06-18,0,0,0,China,Jiangsu,CHN,CN,0
+2020-06-19,0,0,0,China,Jiangsu,CHN,CN,0
 2020-01-22,2,0,0,China,Jiangxi,CHN,CN,0
 2020-01-23,7,0,0,China,Jiangxi,CHN,CN,0
 2020-01-24,11,0,0,China,Jiangxi,CHN,CN,0
@@ -11247,6 +11397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Jiangxi,CHN,CN,0
 2020-06-16,0,0,0,China,Jiangxi,CHN,CN,0
 2020-06-17,0,0,0,China,Jiangxi,CHN,CN,0
+2020-06-18,0,0,0,China,Jiangxi,CHN,CN,0
+2020-06-19,0,0,0,China,Jiangxi,CHN,CN,0
 2020-01-22,0,0,0,China,Jilin,CHN,CN,0
 2020-01-23,1,0,0,China,Jilin,CHN,CN,0
 2020-01-24,2,0,0,China,Jilin,CHN,CN,0
@@ -11395,6 +11547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Jilin,CHN,CN,0
 2020-06-16,0,0,0,China,Jilin,CHN,CN,0
 2020-06-17,0,0,0,China,Jilin,CHN,CN,0
+2020-06-18,0,0,0,China,Jilin,CHN,CN,0
+2020-06-19,0,0,0,China,Jilin,CHN,CN,0
 2020-01-22,2,0,0,China,Liaoning,CHN,CN,0
 2020-01-23,3,0,0,China,Liaoning,CHN,CN,0
 2020-01-24,1,0,0,China,Liaoning,CHN,CN,0
@@ -11543,6 +11697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,China,Liaoning,CHN,CN,0
 2020-06-16,0,0,0,China,Liaoning,CHN,CN,0
 2020-06-17,0,0,0,China,Liaoning,CHN,CN,0
+2020-06-18,1,0,0,China,Liaoning,CHN,CN,0
+2020-06-19,0,0,0,China,Liaoning,CHN,CN,0
 2020-01-22,1,0,0,China,Macau,CHN,CN,0
 2020-01-23,2,0,0,China,Macau,CHN,CN,0
 2020-01-24,0,0,0,China,Macau,CHN,CN,0
@@ -11691,6 +11847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Macau,CHN,CN,0
 2020-06-16,0,0,0,China,Macau,CHN,CN,0
 2020-06-17,0,0,0,China,Macau,CHN,CN,0
+2020-06-18,0,0,0,China,Macau,CHN,CN,0
+2020-06-19,0,0,0,China,Macau,CHN,CN,0
 2020-01-22,1,0,0,China,Ningxia,CHN,CN,0
 2020-01-23,1,0,0,China,Ningxia,CHN,CN,0
 2020-01-24,1,0,0,China,Ningxia,CHN,CN,0
@@ -11839,6 +11997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Ningxia,CHN,CN,0
 2020-06-16,0,0,0,China,Ningxia,CHN,CN,0
 2020-06-17,0,0,0,China,Ningxia,CHN,CN,0
+2020-06-18,0,0,0,China,Ningxia,CHN,CN,0
+2020-06-19,0,0,0,China,Ningxia,CHN,CN,0
 2020-01-22,0,0,0,China,Qinghai,CHN,CN,0
 2020-01-23,0,0,0,China,Qinghai,CHN,CN,0
 2020-01-24,0,0,0,China,Qinghai,CHN,CN,0
@@ -11987,6 +12147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Qinghai,CHN,CN,0
 2020-06-16,0,0,0,China,Qinghai,CHN,CN,0
 2020-06-17,0,0,0,China,Qinghai,CHN,CN,0
+2020-06-18,0,0,0,China,Qinghai,CHN,CN,0
+2020-06-19,0,0,0,China,Qinghai,CHN,CN,0
 2020-01-22,0,0,0,China,Shaanxi,CHN,CN,0
 2020-01-23,3,0,0,China,Shaanxi,CHN,CN,0
 2020-01-24,2,0,0,China,Shaanxi,CHN,CN,0
@@ -12135,6 +12297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Shaanxi,CHN,CN,0
 2020-06-16,0,0,0,China,Shaanxi,CHN,CN,0
 2020-06-17,1,0,0,China,Shaanxi,CHN,CN,0
+2020-06-18,0,0,0,China,Shaanxi,CHN,CN,0
+2020-06-19,0,0,0,China,Shaanxi,CHN,CN,0
 2020-01-22,2,0,0,China,Shandong,CHN,CN,0
 2020-01-23,6,0,0,China,Shandong,CHN,CN,0
 2020-01-24,9,0,0,China,Shandong,CHN,CN,0
@@ -12283,6 +12447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,1,China,Shandong,CHN,CN,0
 2020-06-16,0,0,0,China,Shandong,CHN,CN,0
 2020-06-17,0,0,0,China,Shandong,CHN,CN,0
+2020-06-18,0,0,0,China,Shandong,CHN,CN,0
+2020-06-19,0,0,0,China,Shandong,CHN,CN,0
 2020-01-22,9,0,0,China,Shanghai,CHN,CN,0
 2020-01-23,16,0,0,China,Shanghai,CHN,CN,0
 2020-01-24,4,0,1,China,Shanghai,CHN,CN,0
@@ -12431,6 +12597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3,0,0,China,Shanghai,CHN,CN,0
 2020-06-16,0,0,0,China,Shanghai,CHN,CN,0
 2020-06-17,2,0,1,China,Shanghai,CHN,CN,0
+2020-06-18,0,0,0,China,Shanghai,CHN,CN,0
+2020-06-19,0,0,0,China,Shanghai,CHN,CN,0
 2020-01-22,1,0,0,China,Shanxi,CHN,CN,0
 2020-01-23,1,0,0,China,Shanxi,CHN,CN,0
 2020-01-24,0,0,0,China,Shanxi,CHN,CN,0
@@ -12579,6 +12747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Shanxi,CHN,CN,0
 2020-06-16,0,0,0,China,Shanxi,CHN,CN,0
 2020-06-17,0,0,0,China,Shanxi,CHN,CN,0
+2020-06-18,0,0,0,China,Shanxi,CHN,CN,0
+2020-06-19,0,0,0,China,Shanxi,CHN,CN,0
 2020-01-22,5,0,0,China,Sichuan,CHN,CN,0
 2020-01-23,8,0,0,China,Sichuan,CHN,CN,0
 2020-01-24,7,0,0,China,Sichuan,CHN,CN,0
@@ -12727,6 +12897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,1,China,Sichuan,CHN,CN,0
 2020-06-16,1,0,1,China,Sichuan,CHN,CN,0
 2020-06-17,0,0,2,China,Sichuan,CHN,CN,0
+2020-06-18,0,0,2,China,Sichuan,CHN,CN,0
+2020-06-19,0,0,0,China,Sichuan,CHN,CN,0
 2020-01-22,4,0,0,China,Tianjin,CHN,CN,0
 2020-01-23,4,0,0,China,Tianjin,CHN,CN,0
 2020-01-24,4,0,0,China,Tianjin,CHN,CN,0
@@ -12875,6 +13047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Tianjin,CHN,CN,0
 2020-06-16,0,0,0,China,Tianjin,CHN,CN,0
 2020-06-17,1,0,2,China,Tianjin,CHN,CN,0
+2020-06-18,0,0,0,China,Tianjin,CHN,CN,0
+2020-06-19,0,0,0,China,Tianjin,CHN,CN,0
 2020-01-22,0,0,0,China,Tibet,CHN,CN,0
 2020-01-23,0,0,0,China,Tibet,CHN,CN,0
 2020-01-24,0,0,0,China,Tibet,CHN,CN,0
@@ -13023,6 +13197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Tibet,CHN,CN,0
 2020-06-16,0,0,0,China,Tibet,CHN,CN,0
 2020-06-17,0,0,0,China,Tibet,CHN,CN,0
+2020-06-18,0,0,0,China,Tibet,CHN,CN,0
+2020-06-19,0,0,0,China,Tibet,CHN,CN,0
 2020-01-22,0,0,0,China,Xinjiang,CHN,CN,0
 2020-01-23,2,0,0,China,Xinjiang,CHN,CN,0
 2020-01-24,0,0,0,China,Xinjiang,CHN,CN,0
@@ -13171,6 +13347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Xinjiang,CHN,CN,0
 2020-06-16,0,0,0,China,Xinjiang,CHN,CN,0
 2020-06-17,0,0,0,China,Xinjiang,CHN,CN,0
+2020-06-18,0,0,0,China,Xinjiang,CHN,CN,0
+2020-06-19,0,0,0,China,Xinjiang,CHN,CN,0
 2020-01-22,1,0,0,China,Yunnan,CHN,CN,0
 2020-01-23,2,0,0,China,Yunnan,CHN,CN,0
 2020-01-24,3,0,0,China,Yunnan,CHN,CN,0
@@ -13319,6 +13497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Yunnan,CHN,CN,0
 2020-06-16,0,0,0,China,Yunnan,CHN,CN,0
 2020-06-17,0,0,0,China,Yunnan,CHN,CN,0
+2020-06-18,0,0,0,China,Yunnan,CHN,CN,0
+2020-06-19,0,0,0,China,Yunnan,CHN,CN,0
 2020-01-22,10,0,0,China,Zhejiang,CHN,CN,0
 2020-01-23,27,0,0,China,Zhejiang,CHN,CN,0
 2020-01-24,16,0,1,China,Zhejiang,CHN,CN,0
@@ -13467,6 +13647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,China,Zhejiang,CHN,CN,0
 2020-06-16,1,0,0,China,Zhejiang,CHN,CN,0
 2020-06-17,0,0,0,China,Zhejiang,CHN,CN,0
+2020-06-18,0,0,0,China,Zhejiang,CHN,CN,0
+2020-06-19,0,0,0,China,Zhejiang,CHN,CN,0
 2020-01-22,548,17,28,China,all,CHN,CN,0
 2020-01-23,643,18,30,China,all,CHN,CN,0
 2020-01-24,277,8,6,China,all,CHN,CN,0
@@ -13615,6 +13797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,43,0,7,China,all,CHN,CN,0
 2020-06-16,44,0,4,China,all,CHN,CN,0
 2020-06-17,36,0,17,China,all,CHN,CN,0
+2020-06-18,36,0,5,China,all,CHN,CN,0
+2020-06-19,0,0,0,China,all,CHN,CN,0
 2020-01-22,0,0,0,Colombia,all,COL,CO,0
 2020-01-23,0,0,0,Colombia,all,COL,CO,0
 2020-01-24,0,0,0,Colombia,all,COL,CO,0
@@ -13763,6 +13947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4272,138,525,Colombia,all,COL,CO,0
 2020-06-16,43,0,1,Colombia,all,COL,CO,0
 2020-06-17,1872,79,414,Colombia,all,COL,CO,0
+2020-06-18,2119,68,961,Colombia,all,COL,CO,0
+2020-06-19,3185,91,1365,Colombia,all,COL,CO,0
 2020-01-22,0,0,0,Comoros,all,COM,KM,0
 2020-01-23,0,0,0,Comoros,all,COM,KM,0
 2020-01-24,0,0,0,Comoros,all,COM,KM,0
@@ -13911,6 +14097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Comoros,all,COM,KM,0
 2020-06-16,21,1,13,Comoros,all,COM,KM,0
 2020-06-17,0,0,0,Comoros,all,COM,KM,0
+2020-06-18,13,2,2,Comoros,all,COM,KM,0
+2020-06-19,0,0,0,Comoros,all,COM,KM,0
 2020-01-22,0,0,0,Congo (Brazzaville),all,,,0
 2020-01-23,0,0,0,Congo (Brazzaville),all,,,0
 2020-01-24,0,0,0,Congo (Brazzaville),all,,,0
@@ -14059,6 +14247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,155,3,170,Congo (Brazzaville),all,,,0
 2020-06-16,0,0,0,Congo (Brazzaville),all,,,0
 2020-06-17,0,0,0,Congo (Brazzaville),all,,,0
+2020-06-18,0,0,0,Congo (Brazzaville),all,,,0
+2020-06-19,0,0,0,Congo (Brazzaville),all,,,0
 2020-01-22,0,0,0,Congo (Kinshasa),all,,,0
 2020-01-23,0,0,0,Congo (Kinshasa),all,,,0
 2020-01-24,0,0,0,Congo (Kinshasa),all,,,0
@@ -14207,6 +14397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,59,5,13,Congo (Kinshasa),all,,,0
 2020-06-16,137,0,15,Congo (Kinshasa),all,,,0
 2020-06-17,126,3,12,Congo (Kinshasa),all,,,0
+2020-06-18,183,2,45,Congo (Kinshasa),all,,,0
+2020-06-19,194,5,34,Congo (Kinshasa),all,,,0
 2020-01-22,0,0,0,Costa Rica,all,CRI,CR,0
 2020-01-23,0,0,0,Costa Rica,all,CRI,CR,0
 2020-01-24,0,0,0,Costa Rica,all,CRI,CR,0
@@ -14355,6 +14547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,29,0,19,Costa Rica,all,CRI,CR,0
 2020-06-16,52,0,23,Costa Rica,all,CRI,CR,0
 2020-06-17,75,0,105,Costa Rica,all,CRI,CR,0
+2020-06-18,68,0,38,Costa Rica,all,CRI,CR,0
+2020-06-19,119,0,45,Costa Rica,all,CRI,CR,0
 2020-01-22,0,0,0,Cote d'Ivoire,all,,,0
 2020-01-23,0,0,0,Cote d'Ivoire,all,,,0
 2020-01-24,0,0,0,Cote d'Ivoire,all,,,0
@@ -14503,6 +14697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,355,1,85,Cote d'Ivoire,all,,,0
 2020-06-16,240,0,47,Cote d'Ivoire,all,,,0
 2020-06-17,384,2,112,Cote d'Ivoire,all,,,0
+2020-06-18,381,1,114,Cote d'Ivoire,all,,,0
+2020-06-19,430,0,79,Cote d'Ivoire,all,,,0
 2020-01-22,0,0,0,Croatia,all,HRV,HR,0
 2020-01-23,0,0,0,Croatia,all,HRV,HR,0
 2020-01-24,0,0,0,Croatia,all,HRV,HR,0
@@ -14651,6 +14847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,6,Croatia,all,HRV,HR,0
 2020-06-16,1,0,0,Croatia,all,HRV,HR,0
 2020-06-17,3,0,1,Croatia,all,HRV,HR,0
+2020-06-18,11,0,1,Croatia,all,HRV,HR,0
+2020-06-19,11,0,0,Croatia,all,HRV,HR,0
 2020-01-22,0,0,0,Cuba,all,CUB,CU,0
 2020-01-23,0,0,0,Cuba,all,CUB,CU,0
 2020-01-24,0,0,0,Cuba,all,CUB,CU,0
@@ -14799,6 +14997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,14,0,17,Cuba,all,CUB,CU,0
 2020-06-16,11,0,29,Cuba,all,CUB,CU,0
 2020-06-17,7,0,5,Cuba,all,CUB,CU,0
+2020-06-18,15,1,21,Cuba,all,CUB,CU,0
+2020-06-19,10,0,17,Cuba,all,CUB,CU,0
 2020-01-22,0,0,0,Cyprus,all,CYP,CY,0
 2020-01-23,0,0,0,Cyprus,all,CYP,CY,0
 2020-01-24,0,0,0,Cyprus,all,CYP,CY,0
@@ -14947,6 +15147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,0,Cyprus,all,CYP,CY,0
 2020-06-16,0,0,9,Cyprus,all,CYP,CY,0
 2020-06-17,0,0,0,Cyprus,all,CYP,CY,0
+2020-06-18,0,1,2,Cyprus,all,CYP,CY,0
+2020-06-19,0,0,0,Cyprus,all,CYP,CY,0
 2020-01-22,0,0,0,Czechia,all,CZE,CZ,0
 2020-01-23,0,0,0,Czechia,all,CZE,CZ,0
 2020-01-24,0,0,0,Czechia,all,CZE,CZ,0
@@ -15095,6 +15297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,40,1,70,Czechia,all,CZE,CZ,0
 2020-06-16,47,1,62,Czechia,all,CZE,CZ,0
 2020-06-17,51,2,41,Czechia,all,CZE,CZ,0
+2020-06-18,118,1,41,Czechia,all,CZE,CZ,0
+2020-06-19,126,1,33,Czechia,all,CZE,CZ,0
 2020-01-22,0,0,0,Denmark,Faroe Islands,DNK,DK,0
 2020-01-23,0,0,0,Denmark,Faroe Islands,DNK,DK,0
 2020-01-24,0,0,0,Denmark,Faroe Islands,DNK,DK,0
@@ -15243,6 +15447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Denmark,Faroe Islands,DNK,DK,0
 2020-06-16,0,0,0,Denmark,Faroe Islands,DNK,DK,0
 2020-06-17,0,0,0,Denmark,Faroe Islands,DNK,DK,0
+2020-06-18,0,0,0,Denmark,Faroe Islands,DNK,DK,0
+2020-06-19,0,0,0,Denmark,Faroe Islands,DNK,DK,0
 2020-01-22,0,0,0,Denmark,Greenland,DNK,DK,0
 2020-01-23,0,0,0,Denmark,Greenland,DNK,DK,0
 2020-01-24,0,0,0,Denmark,Greenland,DNK,DK,0
@@ -15391,6 +15597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Denmark,Greenland,DNK,DK,0
 2020-06-16,0,0,0,Denmark,Greenland,DNK,DK,0
 2020-06-17,0,0,0,Denmark,Greenland,DNK,DK,0
+2020-06-18,0,0,0,Denmark,Greenland,DNK,DK,0
+2020-06-19,0,0,0,Denmark,Greenland,DNK,DK,0
 2020-01-22,0,0,0,Denmark,all,DNK,DK,0
 2020-01-23,0,0,0,Denmark,all,DNK,DK,0
 2020-01-24,0,0,0,Denmark,all,DNK,DK,0
@@ -15539,6 +15747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,24,1,22,Denmark,all,DNK,DK,0
 2020-06-16,33,0,35,Denmark,all,DNK,DK,0
 2020-06-17,44,0,60,Denmark,all,DNK,DK,0
+2020-06-18,50,2,57,Denmark,all,DNK,DK,0
+2020-06-19,47,0,40,Denmark,all,DNK,DK,0
 2020-01-22,0,0,0,Diamond Princess,all,,,0
 2020-01-23,0,0,0,Diamond Princess,all,,,0
 2020-01-24,0,0,0,Diamond Princess,all,,,0
@@ -15687,6 +15897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Diamond Princess,all,,,0
 2020-06-16,0,0,0,Diamond Princess,all,,,0
 2020-06-17,0,0,0,Diamond Princess,all,,,0
+2020-06-18,0,0,0,Diamond Princess,all,,,0
+2020-06-19,0,0,0,Diamond Princess,all,,,0
 2020-01-22,0,0,0,Djibouti,all,DJI,DJ,0
 2020-01-23,0,0,0,Djibouti,all,DJI,DJ,0
 2020-01-24,0,0,0,Djibouti,all,DJI,DJ,0
@@ -15835,6 +16047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,36,0,233,Djibouti,all,DJI,DJ,0
 2020-06-16,38,0,141,Djibouti,all,DJI,DJ,0
 2020-06-17,6,0,87,Djibouti,all,DJI,DJ,0
+2020-06-18,12,0,116,Djibouti,all,DJI,DJ,0
+2020-06-19,8,2,38,Djibouti,all,DJI,DJ,0
 2020-01-22,0,0,0,Dominica,all,DMA,DM,0
 2020-01-23,0,0,0,Dominica,all,DMA,DM,0
 2020-01-24,0,0,0,Dominica,all,DMA,DM,0
@@ -15983,6 +16197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Dominica,all,DMA,DM,0
 2020-06-16,0,0,0,Dominica,all,DMA,DM,0
 2020-06-17,0,0,0,Dominica,all,DMA,DM,0
+2020-06-18,0,0,2,Dominica,all,DMA,DM,0
+2020-06-19,0,0,0,Dominica,all,DMA,DM,0
 2020-01-22,0,0,0,Dominican Republic,all,DOM,DO,0
 2020-01-23,0,0,0,Dominican Republic,all,DOM,DO,0
 2020-01-24,0,0,0,Dominican Republic,all,DOM,DO,0
@@ -16131,6 +16347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,309,13,705,Dominican Republic,all,DOM,DO,0
 2020-06-16,415,10,108,Dominican Republic,all,DOM,DO,0
 2020-06-17,419,18,83,Dominican Republic,all,DOM,DO,0
+2020-06-18,540,2,77,Dominican Republic,all,DOM,DO,0
+2020-06-19,423,12,312,Dominican Republic,all,DOM,DO,0
 2020-01-22,0,0,0,Ecuador,all,ECU,EC,0
 2020-01-23,0,0,0,Ecuador,all,ECU,EC,0
 2020-01-24,0,0,0,Ecuador,all,ECU,EC,0
@@ -16279,6 +16497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,571,33,285,Ecuador,all,ECU,EC,0
 2020-06-16,621,41,335,Ecuador,all,ECU,EC,0
 2020-06-17,547,37,197,Ecuador,all,ECU,EC,0
+2020-06-18,607,80,242,Ecuador,all,ECU,EC,0
+2020-06-19,634,69,323,Ecuador,all,ECU,EC,0
 2020-01-22,0,0,0,Egypt,all,EGY,EG,0
 2020-01-23,0,0,0,Egypt,all,EGY,EG,0
 2020-01-24,0,0,0,Egypt,all,EGY,EG,0
@@ -16427,6 +16647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1691,97,398,Egypt,all,EGY,EG,0
 2020-06-16,1567,94,401,Egypt,all,EGY,EG,0
 2020-06-17,1363,84,411,Egypt,all,EGY,EG,0
+2020-06-18,1218,88,387,Egypt,all,EGY,EG,0
+2020-06-19,1774,79,400,Egypt,all,EGY,EG,0
 2020-01-22,0,0,0,El Salvador,all,SLV,SV,0
 2020-01-23,0,0,0,El Salvador,all,SLV,SV,0
 2020-01-24,0,0,0,El Salvador,all,SLV,SV,0
@@ -16575,6 +16797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,106,0,80,El Salvador,all,SLV,SV,0
 2020-06-16,115,2,115,El Salvador,all,SLV,SV,0
 2020-06-17,125,3,96,El Salvador,all,SLV,SV,0
+2020-06-18,134,3,98,El Salvador,all,SLV,SV,0
+2020-06-19,129,4,75,El Salvador,all,SLV,SV,0
 2020-01-22,0,0,0,Equatorial Guinea,all,GNQ,GQ,0
 2020-01-23,0,0,0,Equatorial Guinea,all,GNQ,GQ,0
 2020-01-24,0,0,0,Equatorial Guinea,all,GNQ,GQ,0
@@ -16723,6 +16947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Equatorial Guinea,all,GNQ,GQ,0
 2020-06-16,358,20,315,Equatorial Guinea,all,GNQ,GQ,0
 2020-06-17,0,0,0,Equatorial Guinea,all,GNQ,GQ,0
+2020-06-18,0,0,0,Equatorial Guinea,all,GNQ,GQ,0
+2020-06-19,0,0,0,Equatorial Guinea,all,GNQ,GQ,0
 2020-01-22,0,0,0,Eritrea,all,ERI,ER,0
 2020-01-23,0,0,0,Eritrea,all,ERI,ER,0
 2020-01-24,0,0,0,Eritrea,all,ERI,ER,0
@@ -16871,6 +17097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,13,0,0,Eritrea,all,ERI,ER,0
 2020-06-16,12,0,0,Eritrea,all,ERI,ER,0
 2020-06-17,10,0,0,Eritrea,all,ERI,ER,0
+2020-06-18,11,0,0,Eritrea,all,ERI,ER,0
+2020-06-19,0,0,0,Eritrea,all,ERI,ER,0
 2020-01-22,0,0,0,Estonia,all,EST,EE,0
 2020-01-23,0,0,0,Estonia,all,EST,EE,0
 2020-01-24,0,0,0,Estonia,all,EST,EE,0
@@ -17019,6 +17247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,12,Estonia,all,EST,EE,0
 2020-06-16,1,0,11,Estonia,all,EST,EE,0
 2020-06-17,2,0,15,Estonia,all,EST,EE,0
+2020-06-18,0,0,5,Estonia,all,EST,EE,0
+2020-06-19,2,0,7,Estonia,all,EST,EE,0
 2020-01-22,0,0,0,Eswatini,all,SWZ,SZ,0
 2020-01-23,0,0,0,Eswatini,all,SWZ,SZ,0
 2020-01-24,0,0,0,Eswatini,all,SWZ,SZ,0
@@ -17167,6 +17397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,16,0,0,Eswatini,all,SWZ,SZ,0
 2020-06-16,14,0,10,Eswatini,all,SWZ,SZ,0
 2020-06-17,43,0,3,Eswatini,all,SWZ,SZ,0
+2020-06-18,23,0,5,Eswatini,all,SWZ,SZ,0
+2020-06-19,37,0,9,Eswatini,all,SWZ,SZ,0
 2020-01-22,0,0,0,Ethiopia,all,ETH,ET,0
 2020-01-23,0,0,0,Ethiopia,all,ETH,ET,0
 2020-01-24,0,0,0,Ethiopia,all,ETH,ET,0
@@ -17315,6 +17547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,176,3,75,Ethiopia,all,ETH,ET,0
 2020-06-16,109,1,118,Ethiopia,all,ETH,ET,0
 2020-06-17,129,2,111,Ethiopia,all,ETH,ET,0
+2020-06-18,195,2,85,Ethiopia,all,ETH,ET,0
+2020-06-19,116,7,95,Ethiopia,all,ETH,ET,0
 2020-01-22,0,0,0,Fiji,all,FJI,FJ,0
 2020-01-23,0,0,0,Fiji,all,FJI,FJ,0
 2020-01-24,0,0,0,Fiji,all,FJI,FJ,0
@@ -17463,6 +17697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Fiji,all,FJI,FJ,0
 2020-06-16,0,0,0,Fiji,all,FJI,FJ,0
 2020-06-17,0,0,0,Fiji,all,FJI,FJ,0
+2020-06-18,0,0,0,Fiji,all,FJI,FJ,0
+2020-06-19,0,0,0,Fiji,all,FJI,FJ,0
 2020-01-22,0,0,0,Finland,all,FIN,FI,0
 2020-01-23,0,0,0,Finland,all,FIN,FI,0
 2020-01-24,0,0,0,Finland,all,FIN,FI,0
@@ -17611,6 +17847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4,0,0,Finland,all,FIN,FI,0
 2020-06-16,4,0,0,Finland,all,FIN,FI,0
 2020-06-17,5,0,0,Finland,all,FIN,FI,0
+2020-06-18,2,0,0,Finland,all,FIN,FI,0
+2020-06-19,14,0,0,Finland,all,FIN,FI,0
 2020-01-22,0,0,0,France,French Guiana,FRA,FR,0
 2020-01-23,0,0,0,France,French Guiana,FRA,FR,0
 2020-01-24,0,0,0,France,French Guiana,FRA,FR,0
@@ -17759,6 +17997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,71,0,18,France,French Guiana,FRA,FR,0
 2020-06-16,95,2,67,France,French Guiana,FRA,FR,0
 2020-06-17,133,0,44,France,French Guiana,FRA,FR,0
+2020-06-18,204,0,121,France,French Guiana,FRA,FR,0
+2020-06-19,211,0,56,France,French Guiana,FRA,FR,0
 2020-01-22,0,0,0,France,French Polynesia,FRA,FR,0
 2020-01-23,0,0,0,France,French Polynesia,FRA,FR,0
 2020-01-24,0,0,0,France,French Polynesia,FRA,FR,0
@@ -17907,6 +18147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,France,French Polynesia,FRA,FR,0
 2020-06-16,0,0,0,France,French Polynesia,FRA,FR,0
 2020-06-17,0,0,0,France,French Polynesia,FRA,FR,0
+2020-06-18,0,0,0,France,French Polynesia,FRA,FR,0
+2020-06-19,0,0,0,France,French Polynesia,FRA,FR,0
 2020-01-22,0,0,0,France,Guadeloupe,FRA,FR,0
 2020-01-23,0,0,0,France,Guadeloupe,FRA,FR,0
 2020-01-24,0,0,0,France,Guadeloupe,FRA,FR,0
@@ -18055,6 +18297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,France,Guadeloupe,FRA,FR,0
 2020-06-16,0,0,0,France,Guadeloupe,FRA,FR,0
 2020-06-17,0,0,0,France,Guadeloupe,FRA,FR,0
+2020-06-18,0,0,0,France,Guadeloupe,FRA,FR,0
+2020-06-19,3,0,0,France,Guadeloupe,FRA,FR,0
 2020-01-22,0,0,0,France,Martinique,FRA,FR,0
 2020-01-23,0,0,0,France,Martinique,FRA,FR,0
 2020-01-24,0,0,0,France,Martinique,FRA,FR,0
@@ -18203,6 +18447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,France,Martinique,FRA,FR,0
 2020-06-16,0,0,0,France,Martinique,FRA,FR,0
 2020-06-17,0,0,0,France,Martinique,FRA,FR,0
+2020-06-18,19,0,0,France,Martinique,FRA,FR,0
+2020-06-19,15,0,0,France,Martinique,FRA,FR,0
 2020-01-22,0,0,0,France,Mayotte,FRA,FR,0
 2020-01-23,0,0,0,France,Mayotte,FRA,FR,0
 2020-01-24,0,0,0,France,Mayotte,FRA,FR,0
@@ -18351,6 +18597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,12,0,268,France,Mayotte,FRA,FR,0
 2020-06-16,23,0,0,France,Mayotte,FRA,FR,0
 2020-06-17,12,0,8,France,Mayotte,FRA,FR,0
+2020-06-18,38,0,0,France,Mayotte,FRA,FR,0
+2020-06-19,11,0,0,France,Mayotte,FRA,FR,0
 2020-01-22,0,0,0,France,New Caledonia,FRA,FR,0
 2020-01-23,0,0,0,France,New Caledonia,FRA,FR,0
 2020-01-24,0,0,0,France,New Caledonia,FRA,FR,0
@@ -18499,6 +18747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,1,France,New Caledonia,FRA,FR,0
 2020-06-16,0,0,0,France,New Caledonia,FRA,FR,0
 2020-06-17,0,0,0,France,New Caledonia,FRA,FR,0
+2020-06-18,0,0,0,France,New Caledonia,FRA,FR,0
+2020-06-19,0,0,0,France,New Caledonia,FRA,FR,0
 2020-01-22,0,0,0,France,Reunion,FRA,FR,0
 2020-01-23,0,0,0,France,Reunion,FRA,FR,0
 2020-01-24,0,0,0,France,Reunion,FRA,FR,0
@@ -18647,6 +18897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,France,Reunion,FRA,FR,0
 2020-06-16,-1,0,0,France,Reunion,FRA,FR,0
 2020-06-17,2,0,0,France,Reunion,FRA,FR,0
+2020-06-18,5,0,0,France,Reunion,FRA,FR,0
+2020-06-19,2,0,0,France,Reunion,FRA,FR,0
 2020-01-22,0,0,0,France,Saint Barthelemy,FRA,FR,0
 2020-01-23,0,0,0,France,Saint Barthelemy,FRA,FR,0
 2020-01-24,0,0,0,France,Saint Barthelemy,FRA,FR,0
@@ -18795,6 +19047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,France,Saint Barthelemy,FRA,FR,0
 2020-06-16,0,0,0,France,Saint Barthelemy,FRA,FR,0
 2020-06-17,0,0,0,France,Saint Barthelemy,FRA,FR,0
+2020-06-18,0,0,0,France,Saint Barthelemy,FRA,FR,0
+2020-06-19,0,0,0,France,Saint Barthelemy,FRA,FR,0
 2020-01-22,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
 2020-01-23,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
 2020-01-24,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
@@ -18943,6 +19197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
 2020-06-16,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
 2020-06-17,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
+2020-06-18,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
+2020-06-19,0,0,0,France,Saint Pierre and Miquelon,FRA,FR,0
 2020-01-22,0,0,0,France,St Martin,FRA,FR,0
 2020-01-23,0,0,0,France,St Martin,FRA,FR,0
 2020-01-24,0,0,0,France,St Martin,FRA,FR,0
@@ -19091,6 +19347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,France,St Martin,FRA,FR,0
 2020-06-16,0,0,0,France,St Martin,FRA,FR,0
 2020-06-17,0,0,0,France,St Martin,FRA,FR,0
+2020-06-18,0,0,0,France,St Martin,FRA,FR,0
+2020-06-19,0,0,0,France,St Martin,FRA,FR,0
 2020-01-22,0,0,0,France,all,FRA,FR,0
 2020-01-23,0,0,0,France,all,FRA,FR,0
 2020-01-24,2,0,0,France,all,FRA,FR,0
@@ -19239,6 +19497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,68,29,-101,France,all,FRA,FR,0
 2020-06-16,-75,109,224,France,all,FRA,FR,0
 2020-06-17,311,28,280,France,all,FRA,FR,0
+2020-06-18,201,28,99,France,all,FRA,FR,0
+2020-06-19,569,14,174,France,all,FRA,FR,0
 2020-01-22,0,0,0,Gabon,all,GAB,GA,0
 2020-01-23,0,0,0,Gabon,all,GAB,GA,0
 2020-01-24,0,0,0,Gabon,all,GAB,GA,0
@@ -19387,6 +19647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,570,4,310,Gabon,all,GAB,GA,0
 2020-06-16,81,2,98,Gabon,all,GAB,GA,0
 2020-06-17,115,1,73,Gabon,all,GAB,GA,0
+2020-06-18,111,2,152,Gabon,all,GAB,GA,0
+2020-06-19,88,2,93,Gabon,all,GAB,GA,0
 2020-01-22,0,0,0,Gambia,all,GMB,GM,0
 2020-01-23,0,0,0,Gambia,all,GMB,GM,0
 2020-01-24,0,0,0,Gambia,all,GMB,GM,0
@@ -19535,6 +19797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,0,Gambia,all,GMB,GM,0
 2020-06-16,4,0,0,Gambia,all,GMB,GM,0
 2020-06-17,0,0,0,Gambia,all,GMB,GM,0
+2020-06-18,2,0,0,Gambia,all,GMB,GM,0
+2020-06-19,0,0,0,Gambia,all,GMB,GM,0
 2020-01-22,0,0,0,Georgia,all,GEO,GE,0
 2020-01-23,0,0,0,Georgia,all,GEO,GE,0
 2020-01-24,0,0,0,Georgia,all,GEO,GE,0
@@ -19683,6 +19947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,15,0,1,Georgia,all,GEO,GE,0
 2020-06-16,0,0,20,Georgia,all,GEO,GE,0
 2020-06-17,9,0,7,Georgia,all,GEO,GE,0
+2020-06-18,5,0,8,Georgia,all,GEO,GE,0
+2020-06-19,3,0,2,Georgia,all,GEO,GE,0
 2020-01-22,0,0,0,Germany,all,DEU,DE,0
 2020-01-23,0,0,0,Germany,all,DEU,DE,0
 2020-01-24,0,0,0,Germany,all,DEU,DE,0
@@ -19831,6 +20097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,164,6,603,Germany,all,DEU,DE,0
 2020-06-16,570,13,150,Germany,all,DEU,DE,0
 2020-06-17,352,31,757,Germany,all,DEU,DE,0
+2020-06-18,1213,24,248,Germany,all,DEU,DE,0
+2020-06-19,482,12,125,Germany,all,DEU,DE,0
 2020-01-22,0,0,0,Ghana,all,GHA,GH,0
 2020-01-23,0,0,0,Ghana,all,GHA,GH,0
 2020-01-24,0,0,0,Ghana,all,GHA,GH,0
@@ -19979,6 +20247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Ghana,all,GHA,GH,0
 2020-06-16,229,4,68,Ghana,all,GHA,GH,0
 2020-06-17,397,8,84,Ghana,all,GHA,GH,0
+2020-06-18,339,0,58,Ghana,all,GHA,GH,0
+2020-06-19,274,4,80,Ghana,all,GHA,GH,0
 2020-01-22,0,0,0,Greece,all,GRC,GR,0
 2020-01-23,0,0,0,Greece,all,GRC,GR,0
 2020-01-24,0,0,0,Greece,all,GRC,GR,0
@@ -20127,6 +20397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,13,1,0,Greece,all,GRC,GR,0
 2020-06-16,14,1,0,Greece,all,GRC,GR,0
 2020-06-17,55,2,0,Greece,all,GRC,GR,0
+2020-06-18,24,1,0,Greece,all,GRC,GR,0
+2020-06-19,10,1,0,Greece,all,GRC,GR,0
 2020-01-22,0,0,0,Grenada,all,GRD,GD,0
 2020-01-23,0,0,0,Grenada,all,GRD,GD,0
 2020-01-24,0,0,0,Grenada,all,GRD,GD,0
@@ -20275,6 +20547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Grenada,all,GRD,GD,0
 2020-06-16,0,0,0,Grenada,all,GRD,GD,0
 2020-06-17,0,0,0,Grenada,all,GRD,GD,0
+2020-06-18,0,0,1,Grenada,all,GRD,GD,0
+2020-06-19,0,0,0,Grenada,all,GRD,GD,0
 2020-01-22,0,0,0,Guatemala,all,GTM,GT,0
 2020-01-23,0,0,0,Guatemala,all,GTM,GT,0
 2020-01-24,0,0,0,Guatemala,all,GTM,GT,0
@@ -20423,6 +20697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,427,15,80,Guatemala,all,GTM,GT,0
 2020-06-16,434,19,130,Guatemala,all,GTM,GT,0
 2020-06-17,545,14,104,Guatemala,all,GTM,GT,0
+2020-06-18,617,17,90,Guatemala,all,GTM,GT,0
+2020-06-19,641,34,129,Guatemala,all,GTM,GT,0
 2020-01-22,0,0,0,Guinea,all,GIN,GN,0
 2020-01-23,0,0,0,Guinea,all,GIN,GN,0
 2020-01-24,0,0,0,Guinea,all,GIN,GN,0
@@ -20571,6 +20847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,40,1,25,Guinea,all,GIN,GN,0
 2020-06-16,67,0,68,Guinea,all,GIN,GN,0
 2020-06-17,29,0,37,Guinea,all,GIN,GN,0
+2020-06-18,173,0,103,Guinea,all,GIN,GN,0
+2020-06-19,63,1,55,Guinea,all,GIN,GN,0
 2020-01-22,0,0,0,Guinea-Bissau,all,GNB,GW,0
 2020-01-23,0,0,0,Guinea-Bissau,all,GNB,GW,0
 2020-01-24,0,0,0,Guinea-Bissau,all,GNB,GW,0
@@ -20719,6 +20997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,32,0,0,Guinea-Bissau,all,GNB,GW,0
 2020-06-16,0,0,0,Guinea-Bissau,all,GNB,GW,0
 2020-06-17,0,0,0,Guinea-Bissau,all,GNB,GW,0
+2020-06-18,0,0,0,Guinea-Bissau,all,GNB,GW,0
+2020-06-19,49,2,0,Guinea-Bissau,all,GNB,GW,0
 2020-01-22,0,0,0,Guyana,all,GUY,GY,0
 2020-01-23,0,0,0,Guyana,all,GUY,GY,0
 2020-01-24,0,0,0,Guyana,all,GUY,GY,0
@@ -20867,6 +21147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Guyana,all,GUY,GY,0
 2020-06-16,12,0,0,Guyana,all,GUY,GY,0
 2020-06-17,0,0,3,Guyana,all,GUY,GY,0
+2020-06-18,12,0,0,Guyana,all,GUY,GY,0
+2020-06-19,0,0,0,Guyana,all,GUY,GY,0
 2020-01-22,0,0,0,Haiti,all,HTI,HT,0
 2020-01-23,0,0,0,Haiti,all,HTI,HT,0
 2020-01-24,0,0,0,Haiti,all,HTI,HT,0
@@ -21015,6 +21297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,276,6,0,Haiti,all,HTI,HT,0
 2020-06-16,106,4,0,Haiti,all,HTI,HT,0
 2020-06-17,141,2,0,Haiti,all,HTI,HT,0
+2020-06-18,228,2,0,Haiti,all,HTI,HT,0
+2020-06-19,64,3,0,Haiti,all,HTI,HT,0
 2020-01-22,0,0,0,Holy See,all,,,0
 2020-01-23,0,0,0,Holy See,all,,,0
 2020-01-24,0,0,0,Holy See,all,,,0
@@ -21163,6 +21447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Holy See,all,,,0
 2020-06-16,0,0,0,Holy See,all,,,0
 2020-06-17,0,0,0,Holy See,all,,,0
+2020-06-18,0,0,0,Holy See,all,,,0
+2020-06-19,0,0,0,Holy See,all,,,0
 2020-01-22,0,0,0,Honduras,all,HND,HN,0
 2020-01-23,0,0,0,Honduras,all,HND,HN,0
 2020-01-24,0,0,0,Honduras,all,HND,HN,0
@@ -21311,6 +21597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,320,10,58,Honduras,all,HND,HN,0
 2020-06-16,478,8,50,Honduras,all,HND,HN,0
 2020-06-17,643,6,41,Honduras,all,HND,HN,0
+2020-06-18,440,7,63,Honduras,all,HND,HN,0
+2020-06-19,519,6,35,Honduras,all,HND,HN,0
 2020-01-22,0,0,0,Hungary,all,HUN,HU,0
 2020-01-23,0,0,0,Hungary,all,HUN,HU,0
 2020-01-24,0,0,0,Hungary,all,HUN,HU,0
@@ -21459,6 +21747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,7,1,3,Hungary,all,HUN,HU,0
 2020-06-16,1,2,31,Hungary,all,HUN,HU,0
 2020-06-17,1,2,31,Hungary,all,HUN,HU,0
+2020-06-18,1,1,17,Hungary,all,HUN,HU,0
+2020-06-19,2,0,17,Hungary,all,HUN,HU,0
 2020-01-22,0,0,0,Iceland,all,ISL,IS,0
 2020-01-23,0,0,0,Iceland,all,ISL,IS,0
 2020-01-24,0,0,0,Iceland,all,ISL,IS,0
@@ -21607,6 +21897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Iceland,all,ISL,IS,0
 2020-06-16,2,0,0,Iceland,all,ISL,IS,0
 2020-06-17,3,0,1,Iceland,all,ISL,IS,0
+2020-06-18,1,0,4,Iceland,all,ISL,IS,0
+2020-06-19,3,0,0,Iceland,all,ISL,IS,0
 2020-01-22,0,0,0,India,all,IND,IN,0
 2020-01-23,0,0,0,India,all,IND,IN,0
 2020-01-24,0,0,0,India,all,IND,IN,0
@@ -21755,6 +22047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,10667,380,10215,India,all,IND,IN,0
 2020-06-16,10974,2003,6922,India,all,IND,IN,0
 2020-06-17,12881,334,7390,India,all,IND,IN,0
+2020-06-18,13586,336,10386,India,all,IND,IN,0
+2020-06-19,14516,375,9120,India,all,IND,IN,0
 2020-01-22,0,0,0,Indonesia,all,IDN,ID,0
 2020-01-23,0,0,0,Indonesia,all,IDN,ID,0
 2020-01-24,0,0,0,Indonesia,all,IDN,ID,0
@@ -21903,6 +22197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1017,64,592,Indonesia,all,IDN,ID,0
 2020-06-16,1106,33,580,Indonesia,all,IDN,ID,0
 2020-06-17,1031,45,540,Indonesia,all,IDN,ID,0
+2020-06-18,1331,63,555,Indonesia,all,IDN,ID,0
+2020-06-19,1041,34,551,Indonesia,all,IDN,ID,0
 2020-01-22,0,0,0,Iran,all,,,0
 2020-01-23,0,0,0,Iran,all,,,0
 2020-01-24,0,0,0,Iran,all,,,0
@@ -22051,6 +22347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2449,113,1916,Iran,all,,,0
 2020-06-16,2563,115,2085,Iran,all,,,0
 2020-06-17,2612,120,2137,Iran,all,,,0
+2020-06-18,2596,87,2179,Iran,all,,,0
+2020-06-19,2615,120,2201,Iran,all,,,0
 2020-01-22,0,0,0,Iraq,all,IRQ,IQ,0
 2020-01-23,0,0,0,Iraq,all,IRQ,IQ,0
 2020-01-24,0,0,0,Iraq,all,IRQ,IQ,0
@@ -22199,6 +22497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1106,45,1150,Iraq,all,IRQ,IQ,0
 2020-06-16,1385,60,591,Iraq,all,IRQ,IQ,0
 2020-06-17,1554,61,908,Iraq,all,IRQ,IQ,0
+2020-06-18,1463,83,563,Iraq,all,IRQ,IQ,0
+2020-06-19,1635,69,872,Iraq,all,IRQ,IQ,0
 2020-01-22,0,0,0,Ireland,all,IRL,IE,0
 2020-01-23,0,0,0,Ireland,all,IRL,IE,0
 2020-01-24,0,0,0,Ireland,all,IRL,IE,0
@@ -22347,6 +22647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,18,0,0,Ireland,all,IRL,IE,0
 2020-06-16,13,3,0,Ireland,all,IRL,IE,0
 2020-06-17,7,1,0,Ireland,all,IRL,IE,0
+2020-06-18,14,4,0,Ireland,all,IRL,IE,0
+2020-06-19,13,0,0,Ireland,all,IRL,IE,0
 2020-01-22,0,0,0,Israel,all,ISR,IL,0
 2020-01-23,0,0,0,Israel,all,ISR,IL,0
 2020-01-24,0,0,0,Israel,all,ISR,IL,0
@@ -22495,6 +22797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,182,2,40,Israel,all,ISR,IL,0
 2020-06-16,258,0,34,Israel,all,ISR,IL,0
 2020-06-17,288,1,10,Israel,all,ISR,IL,0
+2020-06-18,253,0,59,Israel,all,ISR,IL,0
+2020-06-19,303,1,68,Israel,all,ISR,IL,0
 2020-01-22,0,0,0,Italy,all,ITA,IT,0
 2020-01-23,0,0,0,Italy,all,ITA,IT,0
 2020-01-24,0,0,0,Italy,all,ITA,IT,0
@@ -22643,6 +22947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,301,26,640,Italy,all,ITA,IT,0
 2020-06-16,210,34,1516,Italy,all,ITA,IT,0
 2020-06-17,328,43,929,Italy,all,ITA,IT,0
+2020-06-18,331,66,1089,Italy,all,ITA,IT,0
+2020-06-19,-148,47,1363,Italy,all,ITA,IT,0
 2020-01-22,0,0,0,Jamaica,all,JAM,JM,0
 2020-01-23,0,0,0,Jamaica,all,JAM,JM,0
 2020-01-24,0,0,0,Jamaica,all,JAM,JM,0
@@ -22791,6 +23097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4,0,10,Jamaica,all,JAM,JM,0
 2020-06-16,0,0,19,Jamaica,all,JAM,JM,0
 2020-06-17,5,0,2,Jamaica,all,JAM,JM,0
+2020-06-18,12,0,7,Jamaica,all,JAM,JM,0
+2020-06-19,14,0,0,Jamaica,all,JAM,JM,0
 2020-01-22,2,0,0,Japan,all,JPN,JP,0
 2020-01-23,2,0,0,Japan,all,JPN,JP,0
 2020-01-24,0,0,0,Japan,all,JPN,JP,0
@@ -22939,6 +23247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,70,2,53,Japan,all,JPN,JP,0
 2020-06-16,45,5,85,Japan,all,JPN,JP,0
 2020-06-17,46,1,101,Japan,all,JPN,JP,0
+2020-06-18,58,0,0,Japan,all,JPN,JP,0
+2020-06-19,70,16,91,Japan,all,JPN,JP,0
 2020-01-22,0,0,0,Jordan,all,JOR,JO,0
 2020-01-23,0,0,0,Jordan,all,JOR,JO,0
 2020-01-24,0,0,0,Jordan,all,JOR,JO,0
@@ -23087,6 +23397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,18,0,10,Jordan,all,JOR,JO,0
 2020-06-16,2,0,1,Jordan,all,JOR,JO,0
 2020-06-17,6,0,0,Jordan,all,JOR,JO,0
+2020-06-18,14,0,4,Jordan,all,JOR,JO,0
+2020-06-19,7,0,11,Jordan,all,JOR,JO,0
 2020-01-22,0,0,0,Kazakhstan,all,KAZ,KZ,0
 2020-01-23,0,0,0,Kazakhstan,all,KAZ,KZ,0
 2020-01-24,0,0,0,Kazakhstan,all,KAZ,KZ,0
@@ -23235,6 +23547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,696,4,200,Kazakhstan,all,KAZ,KZ,0
 2020-06-16,350,7,259,Kazakhstan,all,KAZ,KZ,0
 2020-06-17,335,9,273,Kazakhstan,all,KAZ,KZ,0
+2020-06-18,0,3,145,Kazakhstan,all,KAZ,KZ,0
+2020-06-19,902,13,346,Kazakhstan,all,KAZ,KZ,0
 2020-01-22,0,0,0,Kenya,all,KEN,KE,0
 2020-01-23,0,0,0,Kenya,all,KEN,KE,0
 2020-01-24,0,0,0,Kenya,all,KEN,KE,0
@@ -23383,6 +23697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,133,1,33,Kenya,all,KEN,KE,0
 2020-06-16,133,1,42,Kenya,all,KEN,KE,0
 2020-06-17,184,2,25,Kenya,all,KEN,KE,0
+2020-06-18,213,10,106,Kenya,all,KEN,KE,0
+2020-06-19,117,2,91,Kenya,all,KEN,KE,0
 2020-01-22,1,0,0,South Korea,all,KOR,KR,0
 2020-01-23,1,0,0,South Korea,all,KOR,KR,0
 2020-01-24,1,0,0,South Korea,all,KOR,KR,0
@@ -23531,6 +23847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,34,1,30,South Korea,all,KOR,KR,0
 2020-06-16,43,1,14,South Korea,all,KOR,KR,0
 2020-06-17,59,1,26,South Korea,all,KOR,KR,0
+2020-06-18,49,0,35,South Korea,all,KOR,KR,0
+2020-06-19,67,0,21,South Korea,all,KOR,KR,0
 2020-01-22,0,0,0,Kosovo,all,,,0
 2020-01-23,0,0,0,Kosovo,all,,,0
 2020-01-24,0,0,0,Kosovo,all,,,0
@@ -23679,6 +23997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,49,1,25,Kosovo,all,,,0
 2020-06-16,0,0,0,Kosovo,all,,,0
 2020-06-17,0,0,0,Kosovo,all,,,0
+2020-06-18,0,0,0,Kosovo,all,,,0
+2020-06-19,0,0,0,Kosovo,all,,,0
 2020-01-22,0,0,0,Kuwait,all,KWT,KW,0
 2020-01-23,0,0,0,Kuwait,all,KWT,KW,0
 2020-01-24,0,0,0,Kuwait,all,KWT,KW,0
@@ -23827,6 +24147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,511,2,772,Kuwait,all,KWT,KW,0
 2020-06-16,527,5,675,Kuwait,all,KWT,KW,0
 2020-06-17,575,3,690,Kuwait,all,KWT,KW,0
+2020-06-18,541,2,616,Kuwait,all,KWT,KW,0
+2020-06-19,604,5,678,Kuwait,all,KWT,KW,0
 2020-01-22,0,0,0,Kyrgyzstan,all,KGZ,KG,0
 2020-01-23,0,0,0,Kyrgyzstan,all,KGZ,KG,0
 2020-01-24,0,0,0,Kyrgyzstan,all,KGZ,KG,0
@@ -23975,6 +24297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,187,1,56,Kyrgyzstan,all,KGZ,KG,0
 2020-06-16,90,2,55,Kyrgyzstan,all,KGZ,KG,0
 2020-06-17,95,1,31,Kyrgyzstan,all,KGZ,KG,0
+2020-06-18,0,0,0,Kyrgyzstan,all,KGZ,KG,0
+2020-06-19,132,1,28,Kyrgyzstan,all,KGZ,KG,0
 2020-01-22,0,0,0,Laos,all,,,0
 2020-01-23,0,0,0,Laos,all,,,0
 2020-01-24,0,0,0,Laos,all,,,0
@@ -24123,6 +24447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Laos,all,,,0
 2020-06-16,0,0,0,Laos,all,,,0
 2020-06-17,0,0,0,Laos,all,,,0
+2020-06-18,0,0,0,Laos,all,,,0
+2020-06-19,0,0,0,Laos,all,,,0
 2020-01-22,0,0,0,Latvia,all,LVA,LV,0
 2020-01-23,0,0,0,Latvia,all,LVA,LV,0
 2020-01-24,0,0,0,Latvia,all,LVA,LV,0
@@ -24271,6 +24597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Latvia,all,LVA,LV,0
 2020-06-16,1,0,30,Latvia,all,LVA,LV,0
 2020-06-17,6,2,0,Latvia,all,LVA,LV,0
+2020-06-18,4,0,28,Latvia,all,LVA,LV,0
+2020-06-19,2,0,0,Latvia,all,LVA,LV,0
 2020-01-22,0,0,0,Lebanon,all,LBN,LB,0
 2020-01-23,0,0,0,Lebanon,all,LBN,LB,0
 2020-01-24,0,0,0,Lebanon,all,LBN,LB,0
@@ -24419,6 +24747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,18,0,7,Lebanon,all,LBN,LB,0
 2020-06-16,9,0,14,Lebanon,all,LBN,LB,0
 2020-06-17,16,0,18,Lebanon,all,LBN,LB,0
+2020-06-18,6,0,37,Lebanon,all,LBN,LB,0
+2020-06-19,15,0,16,Lebanon,all,LBN,LB,0
 2020-01-22,0,0,0,Lesotho,all,LSO,LS,0
 2020-01-23,0,0,0,Lesotho,all,LSO,LS,0
 2020-01-24,0,0,0,Lesotho,all,LSO,LS,0
@@ -24567,6 +24897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Lesotho,all,LSO,LS,0
 2020-06-16,0,0,0,Lesotho,all,LSO,LS,0
 2020-06-17,0,0,0,Lesotho,all,LSO,LS,0
+2020-06-18,0,0,0,Lesotho,all,LSO,LS,0
+2020-06-19,0,0,0,Lesotho,all,LSO,LS,0
 2020-01-22,0,0,0,Liberia,all,LBR,LR,0
 2020-01-23,0,0,0,Liberia,all,LBR,LR,0
 2020-01-24,0,0,0,Liberia,all,LBR,LR,0
@@ -24715,6 +25047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,40,1,2,Liberia,all,LBR,LR,0
 2020-06-16,11,0,1,Liberia,all,LBR,LR,0
 2020-06-17,7,0,18,Liberia,all,LBR,LR,0
+2020-06-18,26,0,10,Liberia,all,LBR,LR,0
+2020-06-19,39,0,0,Liberia,all,LBR,LR,0
 2020-01-22,0,0,0,Libya,all,LBY,LY,0
 2020-01-23,0,0,0,Libya,all,LBY,LY,0
 2020-01-24,0,0,0,Libya,all,LBY,LY,0
@@ -24863,6 +25197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,13,0,7,Libya,all,LBY,LY,0
 2020-06-16,17,0,6,Libya,all,LBY,LY,0
 2020-06-17,16,0,2,Libya,all,LBY,LY,0
+2020-06-18,10,0,3,Libya,all,LBY,LY,0
+2020-06-19,10,0,2,Libya,all,LBY,LY,0
 2020-01-22,0,0,0,Liechtenstein,all,LIE,LI,0
 2020-01-23,0,0,0,Liechtenstein,all,LIE,LI,0
 2020-01-24,0,0,0,Liechtenstein,all,LIE,LI,0
@@ -25011,6 +25347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Liechtenstein,all,LIE,LI,0
 2020-06-16,0,0,0,Liechtenstein,all,LIE,LI,0
 2020-06-17,0,0,0,Liechtenstein,all,LIE,LI,0
+2020-06-18,0,0,0,Liechtenstein,all,LIE,LI,0
+2020-06-19,0,0,0,Liechtenstein,all,LIE,LI,0
 2020-01-22,0,0,0,Lithuania,all,LTU,LT,0
 2020-01-23,0,0,0,Lithuania,all,LTU,LT,0
 2020-01-24,0,0,0,Lithuania,all,LTU,LT,0
@@ -25159,6 +25497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,5,1,2,Lithuania,all,LTU,LT,0
 2020-06-16,3,0,12,Lithuania,all,LTU,LT,0
 2020-06-17,2,0,6,Lithuania,all,LTU,LT,0
+2020-06-18,6,0,2,Lithuania,all,LTU,LT,0
+2020-06-19,8,0,13,Lithuania,all,LTU,LT,0
 2020-01-22,0,0,0,Luxembourg,all,LUX,LU,0
 2020-01-23,0,0,0,Luxembourg,all,LUX,LU,0
 2020-01-24,0,0,0,Luxembourg,all,LUX,LU,0
@@ -25307,6 +25647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,2,Luxembourg,all,LUX,LU,0
 2020-06-16,3,0,2,Luxembourg,all,LUX,LU,0
 2020-06-17,10,0,2,Luxembourg,all,LUX,LU,0
+2020-06-18,6,0,5,Luxembourg,all,LUX,LU,0
+2020-06-19,8,0,4,Luxembourg,all,LUX,LU,0
 2020-01-22,0,0,0,MS Zaandam,all,,,0
 2020-01-23,0,0,0,MS Zaandam,all,,,0
 2020-01-24,0,0,0,MS Zaandam,all,,,0
@@ -25455,6 +25797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,MS Zaandam,all,,,0
 2020-06-16,0,0,0,MS Zaandam,all,,,0
 2020-06-17,0,0,0,MS Zaandam,all,,,0
+2020-06-18,0,0,0,MS Zaandam,all,,,0
+2020-06-19,0,0,0,MS Zaandam,all,,,0
 2020-01-22,0,0,0,Madagascar,all,MDG,MG,0
 2020-01-23,0,0,0,Madagascar,all,MDG,MG,0
 2020-01-24,0,0,0,Madagascar,all,MDG,MG,0
@@ -25603,6 +25947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,18,0,17,Madagascar,all,MDG,MG,0
 2020-06-16,27,2,33,Madagascar,all,MDG,MG,0
 2020-06-17,61,0,33,Madagascar,all,MDG,MG,0
+2020-06-18,25,1,13,Madagascar,all,MDG,MG,0
+2020-06-19,40,0,35,Madagascar,all,MDG,MG,0
 2020-01-22,0,0,0,Malawi,all,MWI,MW,0
 2020-01-23,0,0,0,Malawi,all,MWI,MW,0
 2020-01-24,0,0,0,Malawi,all,MWI,MW,0
@@ -25751,6 +26097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,8,0,0,Malawi,all,MWI,MW,0
 2020-06-16,9,0,4,Malawi,all,MWI,MW,0
 2020-06-17,8,0,0,Malawi,all,MWI,MW,0
+2020-06-18,20,2,1,Malawi,all,MWI,MW,0
+2020-06-19,28,0,17,Malawi,all,MWI,MW,0
 2020-01-22,0,0,0,Malaysia,all,MYS,MY,0
 2020-01-23,0,0,0,Malaysia,all,MYS,MY,0
 2020-01-24,0,0,0,Malaysia,all,MYS,MY,0
@@ -25899,6 +26247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,41,0,54,Malaysia,all,MYS,MY,0
 2020-06-16,11,0,333,Malaysia,all,MYS,MY,0
 2020-06-17,10,0,140,Malaysia,all,MYS,MY,0
+2020-06-18,14,0,127,Malaysia,all,MYS,MY,0
+2020-06-19,6,0,70,Malaysia,all,MYS,MY,0
 2020-01-22,0,0,0,Maldives,all,MDV,MV,0
 2020-01-23,0,0,0,Maldives,all,MDV,MV,0
 2020-01-24,0,0,0,Maldives,all,MDV,MV,0
@@ -26047,6 +26397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,30,0,229,Maldives,all,MDV,MV,0
 2020-06-16,29,0,130,Maldives,all,MDV,MV,0
 2020-06-17,26,0,7,Maldives,all,MDV,MV,0
+2020-06-18,17,0,0,Maldives,all,MDV,MV,0
+2020-06-19,13,0,92,Maldives,all,MDV,MV,0
 2020-01-22,0,0,0,Mali,all,MLI,ML,0
 2020-01-23,0,0,0,Mali,all,MLI,ML,0
 2020-01-24,0,0,0,Mali,all,MLI,ML,0
@@ -26195,6 +26547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,51,0,37,Mali,all,MLI,ML,0
 2020-06-16,25,0,20,Mali,all,MLI,ML,0
 2020-06-17,5,3,23,Mali,all,MLI,ML,0
+2020-06-18,16,0,24,Mali,all,MLI,ML,0
+2020-06-19,17,1,25,Mali,all,MLI,ML,0
 2020-01-22,0,0,0,Malta,all,MLT,MT,0
 2020-01-23,0,0,0,Malta,all,MLT,MT,0
 2020-01-24,0,0,0,Malta,all,MLT,MT,0
@@ -26343,6 +26697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,Malta,all,MLT,MT,0
 2020-06-16,6,0,5,Malta,all,MLT,MT,0
 2020-06-17,6,0,2,Malta,all,MLT,MT,0
+2020-06-18,1,0,0,Malta,all,MLT,MT,0
+2020-06-19,0,0,3,Malta,all,MLT,MT,0
 2020-01-22,0,0,0,Mauritania,all,MRT,MR,0
 2020-01-23,0,0,0,Mauritania,all,MRT,MR,0
 2020-01-24,0,0,0,Mauritania,all,MRT,MR,0
@@ -26491,6 +26847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,104,4,28,Mauritania,all,MRT,MR,0
 2020-06-16,170,2,13,Mauritania,all,MRT,MR,0
 2020-06-17,166,2,54,Mauritania,all,MRT,MR,0
+2020-06-18,201,2,123,Mauritania,all,MRT,MR,0
+2020-06-19,197,5,103,Mauritania,all,MRT,MR,0
 2020-01-22,0,0,0,Mauritius,all,MUS,MU,0
 2020-01-23,0,0,0,Mauritius,all,MUS,MU,0
 2020-01-24,0,0,0,Mauritius,all,MUS,MU,0
@@ -26639,6 +26997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Mauritius,all,MUS,MU,0
 2020-06-16,0,0,0,Mauritius,all,MUS,MU,0
 2020-06-17,0,0,0,Mauritius,all,MUS,MU,0
+2020-06-18,0,0,0,Mauritius,all,MUS,MU,0
+2020-06-19,0,0,0,Mauritius,all,MUS,MU,0
 2020-01-22,0,0,0,Mexico,all,MEX,MX,0
 2020-01-23,0,0,0,Mexico,all,MEX,MX,0
 2020-01-24,0,0,0,Mexico,all,MEX,MX,0
@@ -26787,6 +27147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3427,439,4994,Mexico,all,MEX,MX,0
 2020-06-16,4599,730,3102,Mexico,all,MEX,MX,0
 2020-06-17,4930,770,3110,Mexico,all,MEX,MX,0
+2020-06-18,5662,667,3676,Mexico,all,MEX,MX,0
+2020-06-19,5030,647,4258,Mexico,all,MEX,MX,0
 2020-01-22,0,0,0,Moldova,all,,,0
 2020-01-23,0,0,0,Moldova,all,,,0
 2020-01-24,0,0,0,Moldova,all,,,0
@@ -26935,6 +27297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,139,5,171,Moldova,all,,,0
 2020-06-16,375,12,107,Moldova,all,,,0
 2020-06-17,478,10,176,Moldova,all,,,0
+2020-06-18,374,11,175,Moldova,all,,,0
+2020-06-19,450,6,273,Moldova,all,,,0
 2020-01-22,0,0,0,Monaco,all,MCO,MC,0
 2020-01-23,0,0,0,Monaco,all,MCO,MC,0
 2020-01-24,0,0,0,Monaco,all,MCO,MC,0
@@ -27083,6 +27447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Monaco,all,MCO,MC,0
 2020-06-16,0,0,1,Monaco,all,MCO,MC,0
 2020-06-17,0,0,0,Monaco,all,MCO,MC,0
+2020-06-18,0,0,0,Monaco,all,MCO,MC,0
+2020-06-19,0,0,0,Monaco,all,MCO,MC,0
 2020-01-22,0,0,0,Mongolia,all,MNG,MN,0
 2020-01-23,0,0,0,Mongolia,all,MNG,MN,0
 2020-01-24,0,0,0,Mongolia,all,MNG,MN,0
@@ -27231,6 +27597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,11,Mongolia,all,MNG,MN,0
 2020-06-16,0,0,2,Mongolia,all,MNG,MN,0
 2020-06-17,4,0,16,Mongolia,all,MNG,MN,0
+2020-06-18,3,0,5,Mongolia,all,MNG,MN,0
+2020-06-19,0,0,7,Mongolia,all,MNG,MN,0
 2020-01-22,0,0,0,Montenegro,all,MNE,ME,0
 2020-01-23,0,0,0,Montenegro,all,MNE,ME,0
 2020-01-24,0,0,0,Montenegro,all,MNE,ME,0
@@ -27379,6 +27747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,Montenegro,all,MNE,ME,0
 2020-06-16,0,0,0,Montenegro,all,MNE,ME,0
 2020-06-17,7,0,0,Montenegro,all,MNE,ME,0
+2020-06-18,4,0,0,Montenegro,all,MNE,ME,0
+2020-06-19,18,0,0,Montenegro,all,MNE,ME,0
 2020-01-22,0,0,0,Morocco,all,MAR,MA,0
 2020-01-23,0,0,0,Morocco,all,MAR,MA,0
 2020-01-24,0,0,0,Morocco,all,MAR,MA,0
@@ -27527,6 +27897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,92,0,63,Morocco,all,MAR,MA,0
 2020-06-16,46,0,109,Morocco,all,MAR,MA,0
 2020-06-17,66,1,56,Morocco,all,MAR,MA,0
+2020-06-18,77,0,48,Morocco,all,MAR,MA,0
+2020-06-19,539,0,76,Morocco,all,MAR,MA,0
 2020-01-22,0,0,0,Mozambique,all,MOZ,MZ,0
 2020-01-23,0,0,0,Mozambique,all,MOZ,MZ,0
 2020-01-24,0,0,0,Mozambique,all,MOZ,MZ,0
@@ -27675,6 +28047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,26,0,6,Mozambique,all,MOZ,MZ,0
 2020-06-16,29,1,3,Mozambique,all,MOZ,MZ,0
 2020-06-17,13,0,0,Mozambique,all,MOZ,MZ,0
+2020-06-18,11,0,15,Mozambique,all,MOZ,MZ,0
+2020-06-19,6,0,2,Mozambique,all,MOZ,MZ,0
 2020-01-22,0,0,0,Namibia,all,NAM,NA,0
 2020-01-23,0,0,0,Namibia,all,NAM,NA,0
 2020-01-24,0,0,0,Namibia,all,NAM,NA,0
@@ -27823,6 +28197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Namibia,all,NAM,NA,0
 2020-06-16,2,0,1,Namibia,all,NAM,NA,0
 2020-06-17,2,0,1,Namibia,all,NAM,NA,0
+2020-06-18,3,0,0,Namibia,all,NAM,NA,0
+2020-06-19,6,0,0,Namibia,all,NAM,NA,0
 2020-01-22,0,0,0,Nepal,all,NPL,NP,0
 2020-01-23,0,0,0,Nepal,all,NPL,NP,0
 2020-01-24,0,0,0,Nepal,all,NPL,NP,0
@@ -27971,6 +28347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,451,0,67,Nepal,all,NPL,NP,0
 2020-06-16,380,0,117,Nepal,all,NPL,NP,0
 2020-06-17,586,1,9,Nepal,all,NPL,NP,0
+2020-06-18,671,2,19,Nepal,all,NPL,NP,0
+2020-06-19,426,0,216,Nepal,all,NPL,NP,0
 2020-01-22,0,0,0,Netherlands,Aruba,NLD,NL,0
 2020-01-23,0,0,0,Netherlands,Aruba,NLD,NL,0
 2020-01-24,0,0,0,Netherlands,Aruba,NLD,NL,0
@@ -28119,6 +28497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Netherlands,Aruba,NLD,NL,0
 2020-06-16,0,0,0,Netherlands,Aruba,NLD,NL,0
 2020-06-17,0,0,0,Netherlands,Aruba,NLD,NL,0
+2020-06-18,0,0,0,Netherlands,Aruba,NLD,NL,0
+2020-06-19,0,0,0,Netherlands,Aruba,NLD,NL,0
 2020-01-22,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
 2020-01-23,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
 2020-01-24,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
@@ -28267,6 +28647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
 2020-06-16,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
 2020-06-17,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
+2020-06-18,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
+2020-06-19,0,0,0,Netherlands,"Bonaire, Sint Eustatius and Saba",NLD,NL,0
 2020-01-22,0,0,0,Netherlands,Curacao,NLD,NL,0
 2020-01-23,0,0,0,Netherlands,Curacao,NLD,NL,0
 2020-01-24,0,0,0,Netherlands,Curacao,NLD,NL,0
@@ -28415,6 +28797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,4,Netherlands,Curacao,NLD,NL,0
 2020-06-16,1,0,0,Netherlands,Curacao,NLD,NL,0
 2020-06-17,0,0,0,Netherlands,Curacao,NLD,NL,0
+2020-06-18,0,0,0,Netherlands,Curacao,NLD,NL,0
+2020-06-19,0,0,0,Netherlands,Curacao,NLD,NL,0
 2020-01-22,0,0,0,Netherlands,Sint Maarten,NLD,NL,0
 2020-01-23,0,0,0,Netherlands,Sint Maarten,NLD,NL,0
 2020-01-24,0,0,0,Netherlands,Sint Maarten,NLD,NL,0
@@ -28563,6 +28947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,1,Netherlands,Sint Maarten,NLD,NL,0
 2020-06-16,0,0,0,Netherlands,Sint Maarten,NLD,NL,0
 2020-06-17,0,0,0,Netherlands,Sint Maarten,NLD,NL,0
+2020-06-18,0,0,0,Netherlands,Sint Maarten,NLD,NL,0
+2020-06-19,0,0,0,Netherlands,Sint Maarten,NLD,NL,0
 2020-01-22,0,0,0,Netherlands,all,NLD,NL,0
 2020-01-23,0,0,0,Netherlands,all,NLD,NL,0
 2020-01-24,0,0,0,Netherlands,all,NLD,NL,0
@@ -28711,6 +29097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,165,6,0,Netherlands,all,NLD,NL,0
 2020-06-16,139,5,0,Netherlands,all,NLD,NL,0
 2020-06-17,117,4,0,Netherlands,all,NLD,NL,0
+2020-06-18,115,4,0,Netherlands,all,NLD,NL,0
+2020-06-19,107,3,0,Netherlands,all,NLD,NL,0
 2020-01-22,0,0,0,New Zealand,all,NZL,NZ,0
 2020-01-23,0,0,0,New Zealand,all,NZL,NZ,0
 2020-01-24,0,0,0,New Zealand,all,NZL,NZ,0
@@ -28859,6 +29247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,0,New Zealand,all,NZL,NZ,0
 2020-06-16,0,0,0,New Zealand,all,NZL,NZ,0
 2020-06-17,1,0,0,New Zealand,all,NZL,NZ,0
+2020-06-18,0,0,0,New Zealand,all,NZL,NZ,0
+2020-06-19,2,0,0,New Zealand,all,NZL,NZ,0
 2020-01-22,0,0,0,Nicaragua,all,NIC,NI,0
 2020-01-23,0,0,0,Nicaragua,all,NIC,NI,0
 2020-01-24,0,0,0,Nicaragua,all,NIC,NI,0
@@ -29007,6 +29397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Nicaragua,all,NIC,NI,0
 2020-06-16,359,9,285,Nicaragua,all,NIC,NI,0
 2020-06-17,0,0,0,Nicaragua,all,NIC,NI,0
+2020-06-18,0,0,0,Nicaragua,all,NIC,NI,0
+2020-06-19,0,0,0,Nicaragua,all,NIC,NI,0
 2020-01-22,0,0,0,Niger,all,NER,NE,0
 2020-01-23,0,0,0,Niger,all,NER,NE,0
 2020-01-24,0,0,0,Niger,all,NER,NE,0
@@ -29155,6 +29547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Niger,all,NER,NE,0
 2020-06-16,36,0,0,Niger,all,NER,NE,0
 2020-06-17,4,1,8,Niger,all,NER,NE,0
+2020-06-18,0,0,8,Niger,all,NER,NE,0
+2020-06-19,0,0,0,Niger,all,NER,NE,0
 2020-01-22,0,0,0,Nigeria,all,NGA,NG,0
 2020-01-23,0,0,0,Nigeria,all,NGA,NG,0
 2020-01-24,0,0,0,Nigeria,all,NGA,NG,0
@@ -29303,6 +29697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,573,4,129,Nigeria,all,NGA,NG,0
 2020-06-16,490,31,274,Nigeria,all,NGA,NG,0
 2020-06-17,587,14,344,Nigeria,all,NGA,NG,0
+2020-06-18,745,6,340,Nigeria,all,NGA,NG,0
+2020-06-19,667,12,274,Nigeria,all,NGA,NG,0
 2020-01-22,0,0,0,North Macedonia,all,MKD,MK,0
 2020-01-23,0,0,0,North Macedonia,all,MKD,MK,0
 2020-01-24,0,0,0,North Macedonia,all,MKD,MK,0
@@ -29451,6 +29847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,100,5,13,North Macedonia,all,MKD,MK,0
 2020-06-16,142,8,34,North Macedonia,all,MKD,MK,0
 2020-06-17,183,9,46,North Macedonia,all,MKD,MK,0
+2020-06-18,182,6,33,North Macedonia,all,MKD,MK,0
+2020-06-19,156,6,27,North Macedonia,all,MKD,MK,0
 2020-01-22,0,0,0,Norway,all,NOR,NO,0
 2020-01-23,0,0,0,Norway,all,NOR,NO,0
 2020-01-24,0,0,0,Norway,all,NOR,NO,0
@@ -29599,6 +29997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,16,0,0,Norway,all,NOR,NO,0
 2020-06-16,13,0,0,Norway,all,NOR,NO,0
 2020-06-17,32,1,0,Norway,all,NOR,NO,0
+2020-06-18,16,1,0,Norway,all,NOR,NO,0
+2020-06-19,18,0,0,Norway,all,NOR,NO,0
 2020-01-22,0,0,0,Oman,all,OMN,OM,0
 2020-01-23,0,0,0,Oman,all,OMN,OM,0
 2020-01-24,0,0,0,Oman,all,OMN,OM,0
@@ -29747,6 +30147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1043,4,1079,Oman,all,OMN,OM,0
 2020-06-16,745,6,1556,Oman,all,OMN,OM,0
 2020-06-17,810,2,708,Oman,all,OMN,OM,0
+2020-06-18,739,3,1467,Oman,all,OMN,OM,0
+2020-06-19,852,6,710,Oman,all,OMN,OM,0
 2020-01-22,0,0,0,Pakistan,all,PAK,PK,0
 2020-01-23,0,0,0,Pakistan,all,PAK,PK,0
 2020-01-24,0,0,0,Pakistan,all,PAK,PK,0
@@ -29895,6 +30297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4443,110,2669,Pakistan,all,PAK,PK,0
 2020-06-16,5839,136,2047,Pakistan,all,PAK,PK,0
 2020-06-17,5358,118,778,Pakistan,all,PAK,PK,0
+2020-06-18,4944,136,2168,Pakistan,all,PAK,PK,0
+2020-06-19,6604,153,2121,Pakistan,all,PAK,PK,0
 2020-01-22,0,0,0,Panama,all,PAN,PA,0
 2020-01-23,0,0,0,Panama,all,PAN,PA,0
 2020-01-24,0,0,0,Panama,all,PAN,PA,0
@@ -30043,6 +30447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4,11,0,Panama,all,PAN,PA,0
 2020-06-16,540,9,8,Panama,all,PAN,PA,0
 2020-06-17,635,13,0,Panama,all,PAN,PA,0
+2020-06-18,754,5,8,Panama,all,PAN,PA,0
+2020-06-19,923,10,577,Panama,all,PAN,PA,0
 2020-01-22,0,0,0,Papua New Guinea,all,PNG,PG,0
 2020-01-23,0,0,0,Papua New Guinea,all,PNG,PG,0
 2020-01-24,0,0,0,Papua New Guinea,all,PNG,PG,0
@@ -30191,6 +30597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Papua New Guinea,all,PNG,PG,0
 2020-06-16,0,0,0,Papua New Guinea,all,PNG,PG,0
 2020-06-17,0,0,0,Papua New Guinea,all,PNG,PG,0
+2020-06-18,0,0,0,Papua New Guinea,all,PNG,PG,0
+2020-06-19,0,0,0,Papua New Guinea,all,PNG,PG,0
 2020-01-22,0,0,0,Paraguay,all,PRY,PY,0
 2020-01-23,0,0,0,Paraguay,all,PRY,PY,0
 2020-01-24,0,0,0,Paraguay,all,PRY,PY,0
@@ -30339,6 +30747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,7,1,23,Paraguay,all,PRY,PY,0
 2020-06-16,7,1,26,Paraguay,all,PRY,PY,0
 2020-06-17,5,0,12,Paraguay,all,PRY,PY,0
+2020-06-18,22,0,6,Paraguay,all,PRY,PY,0
+2020-06-19,6,0,24,Paraguay,all,PRY,PY,0
 2020-01-22,0,0,0,Peru,all,PER,PE,0
 2020-01-23,0,0,0,Peru,all,PER,PE,0
 2020-01-24,0,0,0,Peru,all,PER,PE,0
@@ -30487,6 +30897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3256,172,3830,Peru,all,PER,PE,0
 2020-06-16,4164,196,5796,Peru,all,PER,PE,0
 2020-06-17,3752,201,3417,Peru,all,PER,PE,0
+2020-06-18,3480,204,2568,Peru,all,PER,PE,0
+2020-06-19,0,0,0,Peru,all,PER,PE,0
 2020-01-22,0,0,0,Philippines,all,PHL,PH,0
 2020-01-23,0,0,0,Philippines,all,PHL,PH,0
 2020-01-24,0,0,0,Philippines,all,PHL,PH,0
@@ -30635,6 +31047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,490,10,298,Philippines,all,PHL,PH,0
 2020-06-16,361,5,300,Philippines,all,PHL,PH,0
 2020-06-17,457,5,268,Philippines,all,PHL,PH,0
+2020-06-18,561,8,270,Philippines,all,PHL,PH,0
+2020-06-19,660,14,288,Philippines,all,PHL,PH,0
 2020-01-22,0,0,0,Poland,all,POL,PL,0
 2020-01-23,0,0,0,Poland,all,POL,PL,0
 2020-01-24,0,0,0,Poland,all,POL,PL,0
@@ -30783,6 +31197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,396,9,157,Poland,all,POL,PL,0
 2020-06-16,407,16,271,Poland,all,POL,PL,0
 2020-06-17,506,14,267,Poland,all,POL,PL,0
+2020-06-18,314,30,396,Poland,all,POL,PL,0
+2020-06-19,301,18,381,Poland,all,POL,PL,0
 2020-01-22,0,0,0,Portugal,all,PRT,PT,0
 2020-01-23,0,0,0,Portugal,all,PRT,PT,0
 2020-01-24,0,0,0,Portugal,all,PRT,PT,0
@@ -30931,6 +31347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,346,3,183,Portugal,all,PRT,PT,0
 2020-06-16,300,2,360,Portugal,all,PRT,PT,0
 2020-06-17,336,1,368,Portugal,all,PRT,PT,0
+2020-06-18,417,1,430,Portugal,all,PRT,PT,0
+2020-06-19,375,3,467,Portugal,all,PRT,PT,0
 2020-01-22,0,0,0,Qatar,all,QAT,QA,0
 2020-01-23,0,0,0,Qatar,all,QAT,QA,0
 2020-01-24,0,0,0,Qatar,all,QAT,QA,0
@@ -31079,6 +31497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1274,3,1783,Qatar,all,QAT,QA,0
 2020-06-16,1201,4,1780,Qatar,all,QAT,QA,0
 2020-06-17,1097,2,1711,Qatar,all,QAT,QA,0
+2020-06-18,1267,4,1470,Qatar,all,QAT,QA,0
+2020-06-19,1021,7,1767,Qatar,all,QAT,QA,0
 2020-01-22,0,0,0,Romania,all,ROU,RO,0
 2020-01-23,0,0,0,Romania,all,ROU,RO,0
 2020-01-24,0,0,0,Romania,all,ROU,RO,0
@@ -31227,6 +31647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,166,17,98,Romania,all,ROU,RO,0
 2020-06-16,250,10,254,Romania,all,ROU,RO,0
 2020-06-17,345,14,46,Romania,all,ROU,RO,0
+2020-06-18,320,22,191,Romania,all,ROU,RO,0
+2020-06-19,320,11,247,Romania,all,ROU,RO,0
 2020-01-22,0,0,0,Russia,all,,,0
 2020-01-23,0,0,0,Russia,all,,,0
 2020-01-24,0,0,0,Russia,all,,,0
@@ -31375,6 +31797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,8217,143,4485,Russia,all,,,0
 2020-06-16,8241,193,9759,Russia,all,,,0
 2020-06-17,7824,194,10020,Russia,all,,,0
+2020-06-18,7772,182,9609,Russia,all,,,0
+2020-06-19,7971,181,10442,Russia,all,,,0
 2020-01-22,0,0,0,Rwanda,all,RWA,RW,0
 2020-01-23,0,0,0,Rwanda,all,RWA,RW,0
 2020-01-24,0,0,0,Rwanda,all,RWA,RW,0
@@ -31523,6 +31947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,30,0,6,Rwanda,all,RWA,RW,0
 2020-06-16,24,0,0,Rwanda,all,RWA,RW,0
 2020-06-17,3,0,9,Rwanda,all,RWA,RW,0
+2020-06-18,7,0,3,Rwanda,all,RWA,RW,0
+2020-06-19,15,0,1,Rwanda,all,RWA,RW,0
 2020-01-22,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
 2020-01-23,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
 2020-01-24,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
@@ -31671,6 +32097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
 2020-06-16,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
 2020-06-17,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
+2020-06-18,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
+2020-06-19,0,0,0,Saint Kitts and Nevis,all,KNA,KN,0
 2020-01-22,0,0,0,Saint Lucia,all,LCA,LC,0
 2020-01-23,0,0,0,Saint Lucia,all,LCA,LC,0
 2020-01-24,0,0,0,Saint Lucia,all,LCA,LC,0
@@ -31819,6 +32247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Saint Lucia,all,LCA,LC,0
 2020-06-16,0,0,0,Saint Lucia,all,LCA,LC,0
 2020-06-17,0,0,0,Saint Lucia,all,LCA,LC,0
+2020-06-18,0,0,0,Saint Lucia,all,LCA,LC,0
+2020-06-19,0,0,0,Saint Lucia,all,LCA,LC,0
 2020-01-22,0,0,0,Saint Vincent and the Grenadines,all,VCT,VC,0
 2020-01-23,0,0,0,Saint Vincent and the Grenadines,all,VCT,VC,0
 2020-01-24,0,0,0,Saint Vincent and the Grenadines,all,VCT,VC,0
@@ -31967,6 +32397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Saint Vincent and the Grenadines,all,VCT,VC,0
 2020-06-16,2,0,0,Saint Vincent and the Grenadines,all,VCT,VC,0
 2020-06-17,0,0,0,Saint Vincent and the Grenadines,all,VCT,VC,0
+2020-06-18,0,0,1,Saint Vincent and the Grenadines,all,VCT,VC,0
+2020-06-19,0,0,0,Saint Vincent and the Grenadines,all,VCT,VC,0
 2020-01-22,0,0,0,San Marino,all,SMR,SM,0
 2020-01-23,0,0,0,San Marino,all,SMR,SM,0
 2020-01-24,0,0,0,San Marino,all,SMR,SM,0
@@ -32115,6 +32547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,55,San Marino,all,SMR,SM,0
 2020-06-16,0,0,15,San Marino,all,SMR,SM,0
 2020-06-17,2,0,1,San Marino,all,SMR,SM,0
+2020-06-18,0,0,18,San Marino,all,SMR,SM,0
+2020-06-19,0,0,1,San Marino,all,SMR,SM,0
 2020-01-22,0,0,0,Sao Tome and Principe,all,STP,ST,0
 2020-01-23,0,0,0,Sao Tome and Principe,all,STP,ST,0
 2020-01-24,0,0,0,Sao Tome and Principe,all,STP,ST,0
@@ -32263,6 +32697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,Sao Tome and Principe,all,STP,ST,0
 2020-06-16,9,0,5,Sao Tome and Principe,all,STP,ST,0
 2020-06-17,12,0,6,Sao Tome and Principe,all,STP,ST,0
+2020-06-18,5,0,3,Sao Tome and Principe,all,STP,ST,0
+2020-06-19,5,0,8,Sao Tome and Principe,all,STP,ST,0
 2020-01-22,0,0,0,Saudi Arabia,all,SAU,SA,0
 2020-01-23,0,0,0,Saudi Arabia,all,SAU,SA,0
 2020-01-24,0,0,0,Saudi Arabia,all,SAU,SA,0
@@ -32411,6 +32847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4507,39,3170,Saudi Arabia,all,SAU,SA,0
 2020-06-16,4267,41,1650,Saudi Arabia,all,SAU,SA,0
 2020-06-17,4919,39,2122,Saudi Arabia,all,SAU,SA,0
+2020-06-18,4757,48,2253,Saudi Arabia,all,SAU,SA,0
+2020-06-19,4301,45,1849,Saudi Arabia,all,SAU,SA,0
 2020-01-22,0,0,0,Senegal,all,SEN,SN,0
 2020-01-23,0,0,0,Senegal,all,SEN,SN,0
 2020-01-24,0,0,0,Senegal,all,SEN,SN,0
@@ -32559,6 +32997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,83,4,80,Senegal,all,SEN,SN,0
 2020-06-16,74,6,101,Senegal,all,SEN,SN,0
 2020-06-17,122,3,81,Senegal,all,SEN,SN,0
+2020-06-18,106,3,110,Senegal,all,SEN,SN,0
+2020-06-19,164,3,72,Senegal,all,SEN,SN,0
 2020-01-22,0,0,0,Serbia,all,SRB,RS,0
 2020-01-23,0,0,0,Serbia,all,SRB,RS,0
 2020-01-24,0,0,0,Serbia,all,SRB,RS,0
@@ -32707,6 +33147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,57,1,50,Serbia,all,SRB,RS,0
 2020-06-16,59,1,63,Serbia,all,SRB,RS,0
 2020-06-17,96,1,73,Serbia,all,SRB,RS,0
+2020-06-18,94,1,72,Serbia,all,SRB,RS,0
+2020-06-19,93,1,53,Serbia,all,SRB,RS,0
 2020-01-22,0,0,0,Seychelles,all,SYC,SC,0
 2020-01-23,0,0,0,Seychelles,all,SYC,SC,0
 2020-01-24,0,0,0,Seychelles,all,SYC,SC,0
@@ -32855,6 +33297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Seychelles,all,SYC,SC,0
 2020-06-16,0,0,0,Seychelles,all,SYC,SC,0
 2020-06-17,0,0,0,Seychelles,all,SYC,SC,0
+2020-06-18,0,0,0,Seychelles,all,SYC,SC,0
+2020-06-19,0,0,0,Seychelles,all,SYC,SC,0
 2020-01-22,0,0,0,Sierra Leone,all,SLE,SL,0
 2020-01-23,0,0,0,Sierra Leone,all,SLE,SL,0
 2020-01-24,0,0,0,Sierra Leone,all,SLE,SL,0
@@ -33003,6 +33447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,7,0,3,Sierra Leone,all,SLE,SL,0
 2020-06-16,49,0,3,Sierra Leone,all,SLE,SL,0
 2020-06-17,24,0,21,Sierra Leone,all,SLE,SL,0
+2020-06-18,23,0,3,Sierra Leone,all,SLE,SL,0
+2020-06-19,26,2,22,Sierra Leone,all,SLE,SL,0
 2020-01-22,0,0,0,Singapore,all,SGP,SG,0
 2020-01-23,1,0,0,Singapore,all,SGP,SG,0
 2020-01-24,2,0,0,Singapore,all,SGP,SG,0
@@ -33151,6 +33597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,214,0,777,Singapore,all,SGP,SG,0
 2020-06-16,151,0,797,Singapore,all,SGP,SG,0
 2020-06-17,247,0,775,Singapore,all,SGP,SG,0
+2020-06-18,257,0,774,Singapore,all,SGP,SG,0
+2020-06-19,142,0,747,Singapore,all,SGP,SG,0
 2020-01-22,0,0,0,Slovakia,all,SVK,SK,0
 2020-01-23,0,0,0,Slovakia,all,SVK,SK,0
 2020-01-24,0,0,0,Slovakia,all,SVK,SK,0
@@ -33299,6 +33747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4,0,0,Slovakia,all,SVK,SK,0
 2020-06-16,0,0,16,Slovakia,all,SVK,SK,0
 2020-06-17,9,0,11,Slovakia,all,SVK,SK,0
+2020-06-18,1,0,6,Slovakia,all,SVK,SK,0
+2020-06-19,14,0,4,Slovakia,all,SVK,SK,0
 2020-01-22,0,0,0,Slovenia,all,SVN,SI,0
 2020-01-23,0,0,0,Slovenia,all,SVN,SI,0
 2020-01-24,0,0,0,Slovenia,all,SVN,SI,0
@@ -33447,6 +33897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,0,Slovenia,all,SVN,SI,0
 2020-06-16,3,0,0,Slovenia,all,SVN,SI,0
 2020-06-17,4,0,0,Slovenia,all,SVN,SI,0
+2020-06-18,8,0,0,Slovenia,all,SVN,SI,0
+2020-06-19,2,0,0,Slovenia,all,SVN,SI,0
 2020-01-22,0,0,0,Somalia,all,SOM,SO,0
 2020-01-23,0,0,0,Somalia,all,SOM,SO,0
 2020-01-24,0,0,0,Somalia,all,SOM,SO,0
@@ -33595,6 +34047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,24,0,45,Somalia,all,SOM,SO,0
 2020-06-16,16,0,27,Somalia,all,SOM,SO,0
 2020-06-17,38,0,36,Somalia,all,SOM,SO,0
+2020-06-18,23,0,39,Somalia,all,SOM,SO,0
+2020-06-19,0,0,0,Somalia,all,SOM,SO,0
 2020-01-22,0,0,0,South Africa,all,ZAF,ZA,0
 2020-01-23,0,0,0,South Africa,all,ZAF,ZA,0
 2020-01-24,0,0,0,South Africa,all,ZAF,ZA,0
@@ -33743,6 +34197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3495,88,1336,South Africa,all,ZAF,ZA,0
 2020-06-16,2801,57,2196,South Africa,all,ZAF,ZA,0
 2020-06-17,4078,49,2268,South Africa,all,ZAF,ZA,0
+2020-06-18,3478,63,589,South Africa,all,ZAF,ZA,0
+2020-06-19,3825,94,2905,South Africa,all,ZAF,ZA,0
 2020-01-22,0,0,0,South Sudan,all,SSD,SS,0
 2020-01-23,0,0,0,South Sudan,all,SSD,SS,0
 2020-01-24,0,0,0,South Sudan,all,SSD,SS,0
@@ -33891,6 +34347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,South Sudan,all,SSD,SS,0
 2020-06-16,83,3,9,South Sudan,all,SSD,SS,0
 2020-06-17,37,1,31,South Sudan,all,SSD,SS,0
+2020-06-18,17,1,28,South Sudan,all,SSD,SS,0
+2020-06-19,34,2,5,South Sudan,all,SSD,SS,0
 2020-01-22,0,0,0,Spain,all,ESP,ES,0
 2020-01-23,0,0,0,Spain,all,ESP,ES,0
 2020-01-24,0,0,0,Spain,all,ESP,ES,0
@@ -34039,6 +34497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,181,0,0,Spain,all,ESP,ES,0
 2020-06-16,219,0,0,Spain,all,ESP,ES,0
 2020-06-17,355,0,0,Spain,all,ESP,ES,0
+2020-06-18,585,0,0,Spain,all,ESP,ES,0
+2020-06-19,307,1179,0,Spain,all,ESP,ES,0
 2020-01-22,0,0,0,Sri Lanka,all,LKA,LK,0
 2020-01-23,0,0,0,Sri Lanka,all,LKA,LK,0
 2020-01-24,0,0,0,Sri Lanka,all,LKA,LK,0
@@ -34187,6 +34647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,16,0,55,Sri Lanka,all,LKA,LK,0
 2020-06-16,10,0,29,Sri Lanka,all,LKA,LK,0
 2020-06-17,9,0,26,Sri Lanka,all,LKA,LK,0
+2020-06-18,23,0,24,Sri Lanka,all,LKA,LK,0
+2020-06-19,3,0,25,Sri Lanka,all,LKA,LK,0
 2020-01-22,0,0,0,Sudan,all,SDN,SD,0
 2020-01-23,0,0,0,Sudan,all,SDN,SD,0
 2020-01-24,0,0,0,Sudan,all,SDN,SD,0
@@ -34335,6 +34797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,215,9,110,Sudan,all,SDN,SD,0
 2020-06-16,305,9,100,Sudan,all,SDN,SD,0
 2020-06-17,280,10,146,Sudan,all,SDN,SD,0
+2020-06-18,0,0,0,Sudan,all,SDN,SD,0
+2020-06-19,296,19,120,Sudan,all,SDN,SD,0
 2020-01-22,0,0,0,Suriname,all,SUR,SR,0
 2020-01-23,0,0,0,Suriname,all,SUR,SR,0
 2020-01-24,0,0,0,Suriname,all,SUR,SR,0
@@ -34483,6 +34947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,21,2,39,Suriname,all,SUR,SR,0
 2020-06-16,7,1,0,Suriname,all,SUR,SR,0
 2020-06-17,25,0,0,Suriname,all,SUR,SR,0
+2020-06-18,16,1,26,Suriname,all,SUR,SR,0
+2020-06-19,16,1,0,Suriname,all,SUR,SR,0
 2020-01-22,0,0,0,Sweden,all,SWE,SE,0
 2020-01-23,0,0,0,Sweden,all,SWE,SE,0
 2020-01-24,0,0,0,Sweden,all,SWE,SE,0
@@ -34631,6 +35097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,769,17,0,Sweden,all,SWE,SE,0
 2020-06-16,940,48,0,Sweden,all,SWE,SE,0
 2020-06-17,1239,102,0,Sweden,all,SWE,SE,0
+2020-06-18,1481,12,0,Sweden,all,SWE,SE,0
+2020-06-19,0,0,0,Sweden,all,SWE,SE,0
 2020-01-22,0,0,0,Switzerland,all,CHE,CH,0
 2020-01-23,0,0,0,Switzerland,all,CHE,CH,0
 2020-01-24,0,0,0,Switzerland,all,CHE,CH,0
@@ -34779,6 +35247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,14,1,100,Switzerland,all,CHE,CH,0
 2020-06-16,23,15,0,Switzerland,all,CHE,CH,0
 2020-06-17,33,2,0,Switzerland,all,CHE,CH,0
+2020-06-18,13,0,0,Switzerland,all,CHE,CH,0
+2020-06-19,35,0,0,Switzerland,all,CHE,CH,0
 2020-01-22,0,0,0,Syria,all,,,0
 2020-01-23,0,0,0,Syria,all,,,0
 2020-01-24,0,0,0,Syria,all,,,0
@@ -34927,6 +35397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,4,Syria,all,,,0
 2020-06-16,0,0,0,Syria,all,,,0
 2020-06-17,1,1,0,Syria,all,,,0
+2020-06-18,9,0,0,Syria,all,,,0
+2020-06-19,0,0,0,Syria,all,,,0
 2020-01-22,1,0,0,Taiwan,all,TWN,TW,0
 2020-01-23,1,0,0,Taiwan,all,TWN,TW,0
 2020-01-24,2,0,0,Taiwan,all,TWN,TW,0
@@ -35075,6 +35547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,2,Taiwan,all,TWN,TW,0
 2020-06-16,0,0,0,Taiwan,all,TWN,TW,0
 2020-06-17,0,0,1,Taiwan,all,TWN,TW,0
+2020-06-18,1,0,0,Taiwan,all,TWN,TW,0
+2020-06-19,0,0,0,Taiwan,all,TWN,TW,0
 2020-01-22,0,0,0,Tajikistan,all,TJK,TJ,0
 2020-01-23,0,0,0,Tajikistan,all,TJK,TJ,0
 2020-01-24,0,0,0,Tajikistan,all,TJK,TJ,0
@@ -35223,6 +35697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,62,0,94,Tajikistan,all,TJK,TJ,0
 2020-06-16,63,0,121,Tajikistan,all,TJK,TJ,0
 2020-06-17,61,1,76,Tajikistan,all,TJK,TJ,0
+2020-06-18,58,0,62,Tajikistan,all,TJK,TJ,0
+2020-06-19,59,0,68,Tajikistan,all,TJK,TJ,0
 2020-01-22,0,0,0,Tanzania,all,,,0
 2020-01-23,0,0,0,Tanzania,all,,,0
 2020-01-24,0,0,0,Tanzania,all,,,0
@@ -35371,6 +35847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Tanzania,all,,,0
 2020-06-16,0,0,0,Tanzania,all,,,0
 2020-06-17,0,0,0,Tanzania,all,,,0
+2020-06-18,0,0,0,Tanzania,all,,,0
+2020-06-19,0,0,0,Tanzania,all,,,0
 2020-01-22,2,0,0,Thailand,all,THA,TH,0
 2020-01-23,3,0,0,Thailand,all,THA,TH,0
 2020-01-24,2,0,0,Thailand,all,THA,TH,0
@@ -35519,6 +35997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Thailand,all,THA,TH,0
 2020-06-16,0,0,6,Thailand,all,THA,TH,0
 2020-06-17,0,0,3,Thailand,all,THA,TH,0
+2020-06-18,6,0,1,Thailand,all,THA,TH,0
+2020-06-19,5,0,11,Thailand,all,THA,TH,0
 2020-01-22,0,0,0,Timor-Leste,all,TLS,TL,0
 2020-01-23,0,0,0,Timor-Leste,all,TLS,TL,0
 2020-01-24,0,0,0,Timor-Leste,all,TLS,TL,0
@@ -35667,6 +36147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Timor-Leste,all,TLS,TL,0
 2020-06-16,0,0,0,Timor-Leste,all,TLS,TL,0
 2020-06-17,0,0,0,Timor-Leste,all,TLS,TL,0
+2020-06-18,0,0,0,Timor-Leste,all,TLS,TL,0
+2020-06-19,0,0,0,Timor-Leste,all,TLS,TL,0
 2020-01-22,0,0,0,Togo,all,TGO,TG,0
 2020-01-23,0,0,0,Togo,all,TGO,TG,0
 2020-01-24,0,0,0,Togo,all,TGO,TG,0
@@ -35815,6 +36297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1,0,8,Togo,all,TGO,TG,0
 2020-06-16,6,0,45,Togo,all,TGO,TG,0
 2020-06-17,7,0,9,Togo,all,TGO,TG,0
+2020-06-18,3,0,0,Togo,all,TGO,TG,0
+2020-06-19,8,0,8,Togo,all,TGO,TG,0
 2020-01-22,0,0,0,Trinidad and Tobago,all,TTO,TT,0
 2020-01-23,0,0,0,Trinidad and Tobago,all,TTO,TT,0
 2020-01-24,0,0,0,Trinidad and Tobago,all,TTO,TT,0
@@ -35963,6 +36447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Trinidad and Tobago,all,TTO,TT,0
 2020-06-16,0,0,0,Trinidad and Tobago,all,TTO,TT,0
 2020-06-17,0,0,0,Trinidad and Tobago,all,TTO,TT,0
+2020-06-18,0,0,0,Trinidad and Tobago,all,TTO,TT,0
+2020-06-19,0,0,0,Trinidad and Tobago,all,TTO,TT,0
 2020-01-22,0,0,0,Tunisia,all,TUN,TN,0
 2020-01-23,0,0,0,Tunisia,all,TUN,TN,0
 2020-01-24,0,0,0,Tunisia,all,TUN,TN,0
@@ -36111,6 +36597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,14,0,1,Tunisia,all,TUN,TN,0
 2020-06-16,15,0,3,Tunisia,all,TUN,TN,0
 2020-06-17,3,1,2,Tunisia,all,TUN,TN,0
+2020-06-18,4,0,2,Tunisia,all,TUN,TN,0
+2020-06-19,14,0,8,Tunisia,all,TUN,TN,0
 2020-01-22,0,0,0,Turkey,all,TUR,TR,0
 2020-01-23,0,0,0,Turkey,all,TUR,TR,0
 2020-01-24,0,0,0,Turkey,all,TUR,TR,0
@@ -36259,6 +36747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,1592,18,947,Turkey,all,TUR,TR,0
 2020-06-16,1467,17,1015,Turkey,all,TUR,TR,0
 2020-06-17,1429,19,1261,Turkey,all,TUR,TR,0
+2020-06-18,1304,21,1382,Turkey,all,TUR,TR,0
+2020-06-19,1214,23,1494,Turkey,all,TUR,TR,0
 2020-01-22,1,0,0,United States,all,USA,US,0
 2020-01-23,1,0,0,United States,all,USA,US,0
 2020-01-24,1,0,0,United States,all,USA,US,0
@@ -36407,6 +36897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,19968,395,14518,United States,all,USA,US,0
 2020-06-16,23705,836,7169,United States,all,USA,US,0
 2020-06-17,25559,754,8688,United States,all,USA,US,0
+2020-06-18,27762,717,6924,United States,all,USA,US,0
+2020-06-19,29909,678,7600,United States,all,USA,US,0
 2020-01-22,0,0,0,Uganda,all,UGA,UG,0
 2020-01-23,0,0,0,Uganda,all,UGA,UG,0
 2020-01-24,0,0,0,Uganda,all,UGA,UG,0
@@ -36555,6 +37047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,9,0,59,Uganda,all,UGA,UG,0
 2020-06-16,19,0,52,Uganda,all,UGA,UG,0
 2020-06-17,8,0,69,Uganda,all,UGA,UG,0
+2020-06-18,9,0,66,Uganda,all,UGA,UG,0
+2020-06-19,14,0,6,Uganda,all,UGA,UG,0
 2020-01-22,0,0,0,Ukraine,all,UKR,UA,0
 2020-01-23,0,0,0,Ukraine,all,UKR,UA,0
 2020-01-24,0,0,0,Ukraine,all,UKR,UA,0
@@ -36703,6 +37197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,685,12,175,Ukraine,all,UKR,UA,0
 2020-06-16,673,11,283,Ukraine,all,UKR,UA,0
 2020-06-17,777,31,431,Ukraine,all,UKR,UA,0
+2020-06-18,847,23,516,Ukraine,all,UKR,UA,0
+2020-06-19,922,19,587,Ukraine,all,UKR,UA,0
 2020-01-22,0,0,0,United Arab Emirates,all,ARE,AE,0
 2020-01-23,0,0,0,United Arab Emirates,all,ARE,AE,0
 2020-01-24,0,0,0,United Arab Emirates,all,ARE,AE,0
@@ -36851,6 +37347,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,342,2,667,United Arab Emirates,all,ARE,AE,0
 2020-06-16,346,2,732,United Arab Emirates,all,ARE,AE,0
 2020-06-17,382,2,676,United Arab Emirates,all,ARE,AE,0
+2020-06-18,388,3,704,United Arab Emirates,all,ARE,AE,0
+2020-06-19,393,2,755,United Arab Emirates,all,ARE,AE,0
 2020-01-22,0,0,0,United Kingdom,Anguilla,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Anguilla,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Anguilla,GBR,GB,0
@@ -36999,6 +37497,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,United Kingdom,Anguilla,GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,Anguilla,GBR,GB,0
 2020-06-17,0,0,0,United Kingdom,Anguilla,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Anguilla,GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,Anguilla,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Bermuda,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Bermuda,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Bermuda,GBR,GB,0
@@ -37147,6 +37647,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,2,0,0,United Kingdom,Bermuda,GBR,GB,0
 2020-06-16,0,0,1,United Kingdom,Bermuda,GBR,GB,0
 2020-06-17,0,0,0,United Kingdom,Bermuda,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Bermuda,GBR,GB,0
+2020-06-19,2,0,4,United Kingdom,Bermuda,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
@@ -37295,6 +37797,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
 2020-06-17,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,British Virgin Islands,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Cayman Islands,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Cayman Islands,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Cayman Islands,GBR,GB,0
@@ -37443,6 +37947,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,United Kingdom,Cayman Islands,GBR,GB,0
 2020-06-16,6,0,8,United Kingdom,Cayman Islands,GBR,GB,0
 2020-06-17,0,0,9,United Kingdom,Cayman Islands,GBR,GB,0
+2020-06-18,0,0,9,United Kingdom,Cayman Islands,GBR,GB,0
+2020-06-19,2,0,2,United Kingdom,Cayman Islands,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Channel Islands,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Channel Islands,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Channel Islands,GBR,GB,0
@@ -37591,6 +38097,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,3,0,0,United Kingdom,Channel Islands,GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,Channel Islands,GBR,GB,0
 2020-06-17,2,0,0,United Kingdom,Channel Islands,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Channel Islands,GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,Channel Islands,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
@@ -37739,6 +38247,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
 2020-06-17,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,Falkland Islands (Malvinas),GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Gibraltar,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Gibraltar,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Gibraltar,GBR,GB,0
@@ -37887,6 +38397,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,1,United Kingdom,Gibraltar,GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,Gibraltar,GBR,GB,0
 2020-06-17,0,0,2,United Kingdom,Gibraltar,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Gibraltar,GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,Gibraltar,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
@@ -38035,6 +38547,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
 2020-06-17,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,Isle of Man,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Montserrat,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Montserrat,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Montserrat,GBR,GB,0
@@ -38183,6 +38697,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,United Kingdom,Montserrat,GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,Montserrat,GBR,GB,0
 2020-06-17,0,0,0,United Kingdom,Montserrat,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Montserrat,GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,Montserrat,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
@@ -38331,6 +38847,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
 2020-06-16,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
 2020-06-17,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
+2020-06-18,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
+2020-06-19,0,0,0,United Kingdom,Turks and Caicos Islands,GBR,GB,0
 2020-01-22,0,0,0,United Kingdom,all,GBR,GB,0
 2020-01-23,0,0,0,United Kingdom,all,GBR,GB,0
 2020-01-24,0,0,0,United Kingdom,all,GBR,GB,0
@@ -38479,6 +38997,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,968,38,0,United Kingdom,all,GBR,GB,0
 2020-06-16,1279,233,0,United Kingdom,all,GBR,GB,0
 2020-06-17,1115,184,0,United Kingdom,all,GBR,GB,0
+2020-06-18,1218,135,0,United Kingdom,all,GBR,GB,0
+2020-06-19,1346,173,0,United Kingdom,all,GBR,GB,0
 2020-01-22,0,0,0,Uruguay,all,URY,UY,0
 2020-01-23,0,0,0,Uruguay,all,URY,UY,0
 2020-01-24,0,0,0,Uruguay,all,URY,UY,0
@@ -38627,6 +39147,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,4,Uruguay,all,URY,UY,0
 2020-06-16,1,1,9,Uruguay,all,URY,UY,0
 2020-06-17,0,0,9,Uruguay,all,URY,UY,0
+2020-06-18,1,0,4,Uruguay,all,URY,UY,0
+2020-06-19,3,0,0,Uruguay,all,URY,UY,0
 2020-01-22,0,0,0,Uzbekistan,all,UZB,UZ,0
 2020-01-23,0,0,0,Uzbekistan,all,UZB,UZ,0
 2020-01-24,0,0,0,Uzbekistan,all,UZB,UZ,0
@@ -38775,6 +39297,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,183,0,76,Uzbekistan,all,UZB,UZ,0
 2020-06-16,230,0,77,Uzbekistan,all,UZB,UZ,0
 2020-06-17,189,0,35,Uzbekistan,all,UZB,UZ,0
+2020-06-18,85,0,35,Uzbekistan,all,UZB,UZ,0
+2020-06-19,179,0,107,Uzbekistan,all,UZB,UZ,0
 2020-01-22,0,0,0,Venezuela,all,,,0
 2020-01-23,0,0,0,Venezuela,all,,,0
 2020-01-24,0,0,0,Venezuela,all,,,0
@@ -38923,6 +39447,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,84,1,0,Venezuela,all,,,0
 2020-06-16,88,1,0,Venezuela,all,,,0
 2020-06-17,236,1,0,Venezuela,all,,,0
+2020-06-18,97,0,0,Venezuela,all,,,0
+2020-06-19,108,2,0,Venezuela,all,,,0
 2020-01-22,0,0,0,Vietnam,all,,,0
 2020-01-23,2,0,0,Vietnam,all,,,0
 2020-01-24,0,0,0,Vietnam,all,,,0
@@ -39071,6 +39597,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Vietnam,all,,,0
 2020-06-16,0,0,2,Vietnam,all,,,0
 2020-06-17,1,0,0,Vietnam,all,,,0
+2020-06-18,7,0,0,Vietnam,all,,,0
+2020-06-19,7,0,1,Vietnam,all,,,0
 2020-01-22,0,0,0,West Bank and Gaza,all,,,0
 2020-01-23,0,0,0,West Bank and Gaza,all,,,0
 2020-01-24,0,0,0,West Bank and Gaza,all,,,0
@@ -39219,6 +39747,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,13,0,0,West Bank and Gaza,all,,,0
 2020-06-16,9,0,0,West Bank and Gaza,all,,,0
 2020-06-17,41,0,0,West Bank and Gaza,all,,,0
+2020-06-18,45,0,0,West Bank and Gaza,all,,,0
+2020-06-19,75,0,22,West Bank and Gaza,all,,,0
 2020-01-22,0,0,0,Western Sahara,all,ESH,EH,0
 2020-01-23,0,0,0,Western Sahara,all,ESH,EH,0
 2020-01-24,0,0,0,Western Sahara,all,ESH,EH,0
@@ -39367,6 +39897,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,0,0,0,Western Sahara,all,ESH,EH,0
 2020-06-16,0,0,0,Western Sahara,all,ESH,EH,0
 2020-06-17,0,0,0,Western Sahara,all,ESH,EH,0
+2020-06-18,0,0,0,Western Sahara,all,ESH,EH,0
+2020-06-19,0,0,0,Western Sahara,all,ESH,EH,0
 2020-01-22,0,0,0,Yemen,all,YEM,YE,0
 2020-01-23,0,0,0,Yemen,all,YEM,YE,0
 2020-01-24,0,0,0,Yemen,all,YEM,YE,0
@@ -39515,6 +40047,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,116,44,26,Yemen,all,YEM,YE,0
 2020-06-16,41,6,12,Yemen,all,YEM,YE,0
 2020-06-17,17,30,180,Yemen,all,YEM,YE,0
+2020-06-18,7,4,2,Yemen,all,YEM,YE,0
+2020-06-19,10,3,15,Yemen,all,YEM,YE,0
 2020-01-22,0,0,0,Zambia,all,ZMB,ZM,0
 2020-01-23,0,0,0,Zambia,all,ZMB,ZM,0
 2020-01-24,0,0,0,Zambia,all,ZMB,ZM,0
@@ -39663,6 +40197,8 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,24,0,20,Zambia,all,ZMB,ZM,0
 2020-06-16,23,0,0,Zambia,all,ZMB,ZM,0
 2020-06-17,7,0,0,Zambia,all,ZMB,ZM,0
+2020-06-18,4,0,2,Zambia,all,ZMB,ZM,0
+2020-06-19,14,0,50,Zambia,all,ZMB,ZM,0
 2020-01-22,0,0,0,Zimbabwe,all,ZWE,ZW,0
 2020-01-23,0,0,0,Zimbabwe,all,ZWE,ZW,0
 2020-01-24,0,0,0,Zimbabwe,all,ZWE,ZW,0
@@ -39811,3 +40347,5 @@ date,cases,deaths,recoveries,country,region,country_code_3,country_code_2,popula
 2020-06-15,4,0,0,Zimbabwe,all,ZWE,ZW,0
 2020-06-16,4,0,8,Zimbabwe,all,ZWE,ZW,0
 2020-06-17,10,0,1,Zimbabwe,all,ZWE,ZW,0
+2020-06-18,62,0,0,Zimbabwe,all,ZWE,ZW,0
+2020-06-19,16,0,0,Zimbabwe,all,ZWE,ZW,0
