@@ -61,6 +61,7 @@ def bin_data(dates, values, binsize='month'):
     centres = bins[:-1] + width * DAY / 2
     binned_values, unused = np.histogram(dates, bins=bins, weights=values) 
     binned_values = binned_values / width
+    print(width)
     return centres, width, binned_values
      
 
@@ -150,7 +151,7 @@ def plot_vital(past, present,
         keep = np.argwhere(dates >= np.datetime64('2020-04-01'))[:,0]
         fact = binwidths[keep] * POPULATION[2020]
         begin = dates[keep][0] - binwidths[keep][0] * DAY / 2
-        begin = begin.item().strftime('%d %b') 
+        begin = begin.item().strftime('%d\\ %b') 
         excess = np.sum((mortality[keep] - mean[keep]) * fact)
         errinf = np.sum((maxi[keep] - mean[keep]) * fact)
         errsup = np.sum((mean[keep] - mini[keep]) * fact)
