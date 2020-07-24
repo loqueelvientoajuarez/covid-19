@@ -39,7 +39,7 @@ def display_trend(ax, dates, values, threshold=10):
     a, b, *unused = linregress(x, y)
     x = np.arange(dates[0], NOW, HOUR)   
     y = 2**(b + a * (x-x[0]) / DAY)
-    ax.plot(x, y, 'k--')
+    ax.plot(x, y, 'k--', zorder=2)
     if abs(a) >= 1/60:
         return f" {'×' if a>0 else '/'}2 en {1/abs(a):.2g} días"
     else:
@@ -56,7 +56,6 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
                         if r['Poblacion'] is not np.ma.masked)
     maxperm = max(1000 * r[-2] / r['Poblacion'] for r in tab_t
                         if r['Poblacion'] is not np.ma.masked)
-    print(maxcases, maxperm)
     # plot data
     fig = plt.figure(1 + page, figsize=(8.5,11))    
     fig.clf()
@@ -73,14 +72,15 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
         if poblacion is np.ma.masked:
             continue
         ax = axes[k // ncols][k % ncols]
+        print(comuna, dates_t[-1], cases_t[-1])
         # no x
+        ax.set_xlim(dates_s[0], TOMORROW)
         ax.set_xticks([])
         # set the absolute yscale
         y2max = 1.2 * maxperm
         ymax = maxperm * poblacion / 1000
         ymin = 0.2
         y2min = 1000 * ymin / poblacion
-        print(comuna, ymax, y2max, ymax)
         ax.set_ylim(0, ymax)
         ax.set_yscale('symlog', linthreshy=ymin)
         yt = np.array([1, 10, 100, 1000, 10000])
@@ -104,9 +104,9 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
         text_a += display_trend(ax, dates_a[-4:], cases_a[-4:], threshold=10)
         # plot data
         ax.plot(dates_t, cases_t, 'o', mfc=(.5,.5,.5), mec=(.3,.3,.3), ms=3,
-            label=text_t)
+            label=text_t, zorder=1)
         ax.plot(dates_a, cases_a, 'o', mfc=(.5,.5,.9), mec=(.3,.3,.9), ms=3,
-            label=text_a)
+            label=text_a, zorder=1)
         ax.legend(fontsize=9, loc=3, fancybox=False, labelspacing=.3,
             handletextpad=0, handlelength=1.2, frameon=False)
         ax.text(0.03, 0.97, comuna, 
@@ -122,7 +122,6 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
         ax.set_xticks(xlabels)
         xl = [str(d)[-2:] + "/" + str(d)[-5:-3] for d in xlabels]
         ax.set_xticklabels(xl, rotation=75, ha='right')
-        ax.set_xlim(dates_s[0], TOMORROW)
         
     fig.tight_layout(pad=2)
     fig.subplots_adjust(hspace=0)
