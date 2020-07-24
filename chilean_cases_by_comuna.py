@@ -40,10 +40,8 @@ def display_trend(ax, dates, values, threshold=10):
     x = np.arange(dates[0], NOW, HOUR)   
     y = 2**(b + a * (x-x[0]) / DAY)
     ax.plot(x, y, 'k--')
-    if  a >= 1/30:
-        return ' ×2 en {:.2g} días'.format(1 / a)
-    elif a <= -1/30:
-        return ' /2 en {:.2g} días'.format(-1 / a)
+    if abs(a) >= 1/60:
+        return f" {'×' if a>0 else '/'}2 en {1/abs(a):.2g} días"
     else:
         return ' ≃ estable'
 
@@ -54,58 +52,80 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
     dates_s = [np.datetime64(d) for d in tab_s.colnames[5:]]
     xlabels = np.arange(dates_s[0], TOMORROW)[::14]
     naxes = nrows * ncols
-    maxcases = max(tab_t.columns[-2])
+    maxcases = max(r[-2] for r in tab_t
+                        if r['Poblacion'] is not np.ma.masked)
+    maxperm = max(1000 * r[-2] / r['Poblacion'] for r in tab_t
+                        if r['Poblacion'] is not np.ma.masked)
+    print(maxcases, maxperm)
     # plot data
     fig = plt.figure(1 + page, figsize=(8.5,11))    
     fig.clf()
-    axes = fig.subplots(nrows, ncols, sharex=True, sharey=True)
-    for i, (row_t, row_a, row_s) in enumerate(zip(
+    axes = fig.subplots(nrows, ncols, sharex=False, sharey=False)
+    k = 0
+    for (row_t, row_a, row_s) in zip(
             tab_t[page*naxes:(page+1)*naxes],
             tab_a[page*naxes:(page+1)*naxes],
-            tab_s[page*naxes:(page+1)*naxes])):
-        ax = axes[i // ncols][i % ncols]
-        comuna = row_t['Comuna']
+            tab_s[page*naxes:(page+1)*naxes]):
         cases_t = list(row_t)[5:-1]
         cases_a = list(row_a)[5:]
-        #cases_s = np.cumsum(list(row_s)[5:])
-        pl = {False: '', True: 's'}
-        text_t = '{0} caso{1} (total)'.format(cases_t[-1], pl[cases_t[-1]>1])
+        poblacion = row_t['Poblacion']
+        comuna = row_t['Comuna']
+        if poblacion is np.ma.masked:
+            continue
+        ax = axes[k // ncols][k % ncols]
+        # no x
+        ax.set_xticks([])
+        # set the absolute yscale
+        y2max = 1.2 * maxperm
+        ymax = maxperm * poblacion / 1000
+        ymin = 0.2
+        y2min = 1000 * ymin / poblacion
+        print(comuna, ymax, y2max, ymax)
+        ax.set_ylim(0, ymax)
+        ax.set_yscale('symlog', linthreshy=ymin)
+        yt = np.array([1, 10, 100, 1000, 10000])
+        yt = yt[(ymin <= yt)*(yt <= ymax)]
+        ax.set_yticks(yt)
+        ax.set_yticklabels([str(y) for y in yt])
+        # set the % yscale
+        ax2 = ax.twinx()
+        ax2.set_ylim(0, y2max)
+        ax2.set_yscale('symlog', linthreshy=y2min)
+        yt = np.array([.01, .1, 1, 10, 100])
+        yt = yt[(y2min <= yt)*(yt <= y2max)]
+        ax2.set_yticks(yt)
+        ax2.set_yticklabels([f"{y:.4g}‰" for y in yt])
+        # plot trends
+        ct, ca = cases_t[-1], cases_a[-1]
+        pt, pa = ct > 1, ca > 1
+        text_t = f"{ct} caso{'s' if pt else ''} total{'es' if pt else ''}"
         text_t += display_trend(ax, dates_t[-4:], cases_t[-4:], threshold=10)
-        text_a = '{0} caso{1} activo{1}'.format(cases_a[-1], pl[cases_a[-1]>1])
+        text_a = f"{ca} caso{'s' if pa else ''} activo{'s' if pa else ''}" 
         text_a += display_trend(ax, dates_a[-4:], cases_a[-4:], threshold=10)
-        #text_s = 'by date of symptoms'
-        ax.plot(dates_t, cases_t, 'o', mfc=(.5,.5,.5), mec=(.3,.3,.3), ms=4,
+        # plot data
+        ax.plot(dates_t, cases_t, 'o', mfc=(.5,.5,.5), mec=(.3,.3,.3), ms=3,
             label=text_t)
-        #ax.plot(dates_s, cases_s, 's', mfc=(.2,.2,.2), mec=(.0,.0,.0), ms=3,
-        #    label=text_s)
-        ax.plot(dates_a, cases_a, 'o', mfc=(.5,.5,.9), mec=(.3,.3,.9), ms=4,
+        ax.plot(dates_a, cases_a, 'o', mfc=(.5,.5,.9), mec=(.3,.3,.9), ms=3,
             label=text_a)
         ax.legend(fontsize=9, loc=3, fancybox=False, labelspacing=.3,
             handletextpad=0, handlelength=1.2, frameon=False)
         ax.text(0.03, 0.97, comuna, 
                 va='top', transform=ax.transAxes, fontsize=10)
-        #ax.text(0.03, 0.05, text_s, transform=ax.transAxes,
-        #            fontsize=8, color=(.0,.0,.0))
-        #ax.text(0.03, 0.13, text_t, transform=ax.transAxes, 
-        #                    fontsize=8, color=(.3,.3,.3))
-        #ax.text(0.03, 0.21, text_a, transform=ax.transAxes, 
-        #            fontsize=8, color=(.3,.3,.7))
-    # axes decoration
-    for c in range(ncols):
-        ax = axes[nrows - 1][c]
+        k += 1
+    for j in range(k, naxes):
+        print('void graph', j)
+        ax = axes[j // ncols][j % ncols]
+        ax.axis('off')
+    for j in range(k-2, k):
+        # set the dates
+        ax = axes[j // ncols][j % ncols]
         ax.set_xticks(xlabels)
         xl = [str(d)[-2:] + "/" + str(d)[-5:-3] for d in xlabels]
         ax.set_xticklabels(xl, rotation=75, ha='right')
         ax.set_xlim(dates_s[0], TOMORROW)
-    for r in range(nrows):
-        ax = axes[r][0]
-        ax.set_yscale('symlog', linthreshy=.2)
-        ax.set_yticks([1, 10, 100, 1000, 10000])
-        ax.set_yticklabels(["1", "10", "100", "1000", "10000"])
-        ax.set_ylim(0, 1.2 * maxcases)
-    # plot trend
+        
     fig.tight_layout(pad=2)
-    fig.subplots_adjust(hspace=0, wspace=0)
+    fig.subplots_adjust(hspace=0)
     return fig
 
 def plot_region(region, filename=None, trend=False, overwrite=False, date=None):
