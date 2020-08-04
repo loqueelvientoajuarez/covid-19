@@ -98,9 +98,9 @@ def plot_page(tabs, nrows=7, ncols=4, page=0, trend=False):
         # plot trends
         ct, ca = cases_t[-1], cases_a[-1]
         pt, pa = ct > 1, ca > 1
-        text_t = f"{ct} caso{'s' if pt else ''} total{'es' if pt else ''}"
+        text_t = f"{ct:.0f} caso{'s' if pt else ''} total{'es' if pt else ''}"
         text_t += display_trend(ax, dates_t[-4:], cases_t[-4:], threshold=10)
-        text_a = f"{ca} caso{'s' if pa else ''} activo{'s' if pa else ''}" 
+        text_a = f"{ca:.0f} caso{'s' if pa else ''} activo{'s' if pa else ''}" 
         text_a += display_trend(ax, dates_a[-4:], cases_a[-4:], threshold=10)
         # plot data
         ax.plot(dates_t, cases_t, 'o', mfc=(.5,.5,.5), mec=(.3,.3,.3), ms=3,
