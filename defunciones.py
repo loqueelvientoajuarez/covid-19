@@ -33,9 +33,10 @@ THISYEAR = int(str(np.datetime64('now'))[0:4])
 def bin_data(dates, values, binsize='month'):
     year = dates[0].item().year
     firstday = '01-01'
-    lastday = str(max(dates))[5:10]
     if year < THISYEAR:
         lastday = '12-31'
+    else:
+        lastday = str(np.unique(dates)[-5])[5:10]
     lastmonth = int(lastday[3:])
     first = np.datetime64('{}-{}'.format(year, firstday)) - HALFDAY
     last = np.datetime64('{}-{}'.format(year, lastday)) + HALFDAY
@@ -132,7 +133,7 @@ def plot_vital(past, present,
         label='extremos 2010-2019')
     year = dates[0].item().year
     plotdates = transpose_date(dates)
-    ax.plot(plotdates, mortality * 365/1000, 'r-', lw=3, label=str(year))
+    ax.plot(plotdates, mortality * 365/1000, 'ro-', lw=3, label=str(year))
     ax.xaxis.set_major_formatter(DateFormatter('%d/%m'))
     ax.xaxis.set_major_locator(MonthLocator(bymonthday=15))
     ax.legend(loc='lower left')
