@@ -151,7 +151,7 @@ def retrieve_chilean_vitals(year, vital='deaths', date=None, overwrite=False):
     else:
         name = 'Nacimientos'
     if date is None:
-        date = str(datetime64('now') - timedelta64(12, 'h'))
+        date = str(datetime64('now') - timedelta64(10, 'h'))
     yearnow = int(date[0:4])
     today = date[5:10]
     site = 'https://raw.githubusercontent.com'

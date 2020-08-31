@@ -36,7 +36,7 @@ def bin_data(dates, values, binsize='month'):
     if year < THISYEAR:
         lastday = '12-31'
     else:
-        lastday = str(np.unique(dates)[-4])[5:10]
+        lastday = str(np.unique(dates)[-2])[5:10]
     lastmonth = int(lastday[3:])
     first = np.datetime64('{}-{}'.format(year, firstday)) - HALFDAY
     last = np.datetime64('{}-{}'.format(year, lastday)) + HALFDAY
